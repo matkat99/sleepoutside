@@ -71,6 +71,17 @@ header {
 .highlight {
   color: var(--tertiary-color);
 }
+
+button {
+  padding: 0.5em 2em;
+  background-color: var(--secondary-color);
+  color: white;
+  margin: auto;
+  display: block;
+  border: 0;
+  font-size: var(--large-font);
+}
+
 .cart {
   padding: 0.8em 0;
   position: relative;
@@ -110,6 +121,10 @@ header {
   list-style-type: none;
   padding: 0;
 }
+.product-list a {
+  text-decoration: none;
+  color: var(--dark-grey);
+}
 .product-card {
   flex: 1 1 45%;
   margin: 0.25em;
@@ -131,6 +146,15 @@ header {
   font-size: 1em;
 }
 
+.product-detail {
+  padding: 1em;
+  max-width: 500px;
+  margin: auto;
+}
+
+.product-detail img {
+  width: 100%;
+}
 @media screen and (min-width: 500px) {
   body {
     max-width: 1080px;

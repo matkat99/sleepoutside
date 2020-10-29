@@ -1,0 +1,1033 @@
+{
+  "sections": {
+    "Products": [
+      {
+        "matched_terms": ["sleeping", "bag"],
+        "data": {
+          "id": "ALM0091",
+          "url": "/alps-mountaineering-crescent-lake-sleeping-bag-20-degree-synthetic",
+          "group_ids": ["bc-synthetic-sleeping-bags"],
+          "brandName": "ALPS Mountaineering",
+          "image_url": "https://content.backcountry.com/images/items/medium/ALM/ALM0091/KIW.jpg",
+          "productAge": 3529,
+          "deactivated": false,
+          "hasFreeGift": false,
+          "reviewCount": 32,
+          "isExclusive": false,
+          "reviewRating": 4,
+          "storeCredits": 0,
+          "activationDate": "2011-02-08 07:00:00",
+          "isGearheadPick": false,
+          "color": "Kiwi/Green",
+          "onSale": true,
+          "isRetail": true,
+          "salePrice": 67.49,
+          "listPrice": 89.99,
+          "stockLevel": 83,
+          "isCloseout": false,
+          "colorFamily": "green",
+          "isPastSeason": false,
+          "variation_id": "ALM0091-KIW-LON",
+          "backorderLevel": 0,
+          "allowBackorder": false,
+          "discountPercent": 25,
+          "availabilityStatus": "InStock"
+        },
+        "value": "Crescent Lake Sleeping Bag: 20F Synthetic",
+        "is_slotted": false,
+        "variations": [
+          {
+            "data": {
+              "color": "Kiwi/Green",
+              "onSale": true,
+              "isRetail": true,
+              "salePrice": 67.49,
+              "listPrice": 89.99,
+              "image_url": "https://content.backcountry.com/images/items/medium/ALM/ALM0091/KIW.jpg",
+              "stockLevel": 83,
+              "isCloseout": false,
+              "deactivated": false,
+              "colorFamily": "green",
+              "isPastSeason": false,
+              "variation_id": "ALM0091-KIW-LON",
+              "backorderLevel": 0,
+              "allowBackorder": false,
+              "discountPercent": 25,
+              "availabilityStatus": "InStock"
+            },
+            "value": "Crescent Lake Sleeping Bag: 20F Synthetic"
+          },
+          {
+            "data": {
+              "color": "Kiwi/Green",
+              "onSale": true,
+              "isRetail": true,
+              "salePrice": 67.49,
+              "listPrice": 89.99,
+              "image_url": "https://content.backcountry.com/images/items/medium/ALM/ALM0091/KIW.jpg",
+              "stockLevel": 120,
+              "isCloseout": false,
+              "deactivated": false,
+              "colorFamily": "green",
+              "isPastSeason": false,
+              "variation_id": "ALM0091-KIW-WID",
+              "backorderLevel": 0,
+              "allowBackorder": false,
+              "discountPercent": 25,
+              "availabilityStatus": "InStock"
+            },
+            "value": "Crescent Lake Sleeping Bag: 20F Synthetic"
+          }
+        ]
+      },
+      {
+        "matched_terms": ["sleeping", "bag"],
+        "data": {
+          "id": "ALM3096",
+          "url": "/alps-mountaineering-blue-springs-sleeping-bag-35-degree-synthetic",
+          "group_ids": ["bc-synthetic-sleeping-bags"],
+          "brandName": "ALPS Mountaineering",
+          "image_url": "https://content.backcountry.com/images/items/medium/ALM/ALM3096/BLU.jpg",
+          "productAge": 2791,
+          "deactivated": false,
+          "hasFreeGift": false,
+          "reviewCount": 23,
+          "isExclusive": false,
+          "reviewRating": 4.5,
+          "storeCredits": 0,
+          "activationDate": "2013-02-15 07:00:00",
+          "isGearheadPick": false,
+          "color": "Blue Springs",
+          "onSale": true,
+          "isRetail": true,
+          "salePrice": 71.99,
+          "listPrice": 89.99,
+          "stockLevel": 48,
+          "isCloseout": false,
+          "colorFamily": "blue",
+          "isPastSeason": false,
+          "variation_id": "ALM3096-BLU-LON",
+          "backorderLevel": 0,
+          "allowBackorder": false,
+          "discountPercent": 20,
+          "availabilityStatus": "InStock"
+        },
+        "value": "Blue Springs Sleeping Bag: 35F Synthetic",
+        "is_slotted": false,
+        "variations": [
+          {
+            "data": {
+              "color": "Blue Springs",
+              "onSale": true,
+              "isRetail": true,
+              "salePrice": 71.99,
+              "listPrice": 89.99,
+              "image_url": "https://content.backcountry.com/images/items/medium/ALM/ALM3096/BLU.jpg",
+              "stockLevel": 48,
+              "isCloseout": false,
+              "deactivated": false,
+              "colorFamily": "blue",
+              "isPastSeason": false,
+              "variation_id": "ALM3096-BLU-LON",
+              "backorderLevel": 0,
+              "allowBackorder": false,
+              "discountPercent": 20,
+              "availabilityStatus": "InStock"
+            },
+            "value": "Blue Springs Sleeping Bag: 35F Synthetic"
+          },
+          {
+            "data": {
+              "color": "Blue Springs",
+              "onSale": true,
+              "isRetail": true,
+              "salePrice": 63.99,
+              "listPrice": 79.99,
+              "image_url": "https://content.backcountry.com/images/items/medium/ALM/ALM3096/BLU.jpg",
+              "stockLevel": 12,
+              "isCloseout": false,
+              "deactivated": false,
+              "colorFamily": "blue",
+              "isPastSeason": false,
+              "variation_id": "ALM3096-BLU-REG",
+              "backorderLevel": 0,
+              "allowBackorder": false,
+              "discountPercent": 20,
+              "availabilityStatus": "InStock"
+            },
+            "value": "Blue Springs Sleeping Bag: 35F Synthetic"
+          }
+        ]
+      },
+      {
+        "matched_terms": ["sleeping", "bag"],
+        "data": {
+          "id": "KEL007R",
+          "url": "/kelty-callisto-30-sleeping-bag-30-degree-synthetic-womens",
+          "group_ids": ["bc-synthetic-sleeping-bags"],
+          "brandName": "Kelty",
+          "image_url": "https://content.backcountry.com/images/items/medium/KEL/KEL007R/MAL.jpg",
+          "productAge": 1331,
+          "deactivated": false,
+          "hasFreeGift": false,
+          "reviewCount": 1,
+          "isExclusive": false,
+          "reviewRating": 4,
+          "storeCredits": 0,
+          "activationDate": "2017-02-14 07:00:00",
+          "isGearheadPick": false,
+          "color": "Malachite",
+          "onSale": false,
+          "isRetail": true,
+          "salePrice": 59.95,
+          "listPrice": 59.95,
+          "stockLevel": 51,
+          "isCloseout": false,
+          "colorFamily": "green",
+          "isPastSeason": false,
+          "variation_id": "KEL007R-MAL-REGZIP",
+          "backorderLevel": 0,
+          "allowBackorder": false,
+          "discountPercent": 0,
+          "availabilityStatus": "InStock"
+        },
+        "value": "Callisto 30 Sleeping Bag: 30F Synthetic - Women's",
+        "is_slotted": false,
+        "variations": [
+          {
+            "data": {
+              "color": "Malachite",
+              "onSale": false,
+              "isRetail": true,
+              "salePrice": 59.95,
+              "listPrice": 59.95,
+              "image_url": "https://content.backcountry.com/images/items/medium/KEL/KEL007R/MAL.jpg",
+              "stockLevel": 51,
+              "isCloseout": false,
+              "deactivated": false,
+              "colorFamily": "green",
+              "isPastSeason": false,
+              "variation_id": "KEL007R-MAL-REGZIP",
+              "backorderLevel": 0,
+              "allowBackorder": false,
+              "discountPercent": 0,
+              "availabilityStatus": "InStock"
+            },
+            "value": "Callisto 30 Sleeping Bag: 30F Synthetic - Women's"
+          }
+        ]
+      },
+      {
+        "matched_terms": ["sleeping", "bag"],
+        "data": {
+          "id": "ALM0092",
+          "url": "/alps-mountaineering-crescent-lake-sleeping-bag-0-degree-synthetic",
+          "group_ids": ["bc-synthetic-sleeping-bags"],
+          "brandName": "ALPS Mountaineering",
+          "image_url": "https://content.backcountry.com/images/items/medium/ALM/ALM0092/KIW.jpg",
+          "productAge": 3529,
+          "deactivated": false,
+          "hasFreeGift": false,
+          "reviewCount": 45,
+          "isExclusive": false,
+          "reviewRating": 4,
+          "storeCredits": 0,
+          "activationDate": "2011-02-08 07:00:00",
+          "isGearheadPick": false,
+          "color": "Kiwi/Green",
+          "onSale": true,
+          "isRetail": true,
+          "salePrice": 74.99,
+          "listPrice": 99.99,
+          "stockLevel": 92,
+          "isCloseout": false,
+          "colorFamily": "green",
+          "isPastSeason": false,
+          "variation_id": "ALM0092-KIW-WID",
+          "backorderLevel": 0,
+          "allowBackorder": false,
+          "discountPercent": 25,
+          "availabilityStatus": "InStock"
+        },
+        "value": "Crescent Lake Sleeping Bag: 0F Synthetic",
+        "is_slotted": false,
+        "variations": [
+          {
+            "data": {
+              "color": "Kiwi/Green",
+              "onSale": true,
+              "isRetail": true,
+              "salePrice": 74.99,
+              "listPrice": 99.99,
+              "image_url": "https://content.backcountry.com/images/items/medium/ALM/ALM0092/KIW.jpg",
+              "stockLevel": 92,
+              "isCloseout": false,
+              "deactivated": false,
+              "colorFamily": "green",
+              "isPastSeason": false,
+              "variation_id": "ALM0092-KIW-WID",
+              "backorderLevel": 0,
+              "allowBackorder": false,
+              "discountPercent": 25,
+              "availabilityStatus": "InStock"
+            },
+            "value": "Crescent Lake Sleeping Bag: 0F Synthetic"
+          },
+          {
+            "data": {
+              "color": "Kiwi/Green",
+              "onSale": true,
+              "isRetail": true,
+              "salePrice": 74.99,
+              "listPrice": 99.99,
+              "image_url": "https://content.backcountry.com/images/items/medium/ALM/ALM0092/KIW.jpg",
+              "stockLevel": 88,
+              "isCloseout": false,
+              "deactivated": false,
+              "colorFamily": "green",
+              "isPastSeason": false,
+              "variation_id": "ALM0092-KIW-LON",
+              "backorderLevel": 0,
+              "allowBackorder": false,
+              "discountPercent": 25,
+              "availabilityStatus": "InStock"
+            },
+            "value": "Crescent Lake Sleeping Bag: 0F Synthetic"
+          }
+        ]
+      },
+      {
+        "matched_terms": ["sleeping", "bag"],
+        "data": {
+          "id": "KEL007Q",
+          "url": "/kelty-callisto-30-sleeping-bag-30-degree-synthetic",
+          "group_ids": ["bc-synthetic-sleeping-bags"],
+          "brandName": "Kelty",
+          "image_url": "https://content.backcountry.com/images/items/medium/KEL/KEL007Q/STA.jpg",
+          "productAge": 1457,
+          "deactivated": false,
+          "hasFreeGift": false,
+          "reviewCount": 4,
+          "isExclusive": false,
+          "reviewRating": 5,
+          "storeCredits": 0,
+          "activationDate": "2016-10-11 06:00:00",
+          "isGearheadPick": false,
+          "color": "Stargazer",
+          "onSale": false,
+          "isRetail": true,
+          "salePrice": 64.95,
+          "listPrice": 64.95,
+          "stockLevel": 13,
+          "isCloseout": false,
+          "colorFamily": "blue",
+          "isPastSeason": false,
+          "variation_id": "KEL007Q-STA-LONZIP",
+          "backorderLevel": 0,
+          "allowBackorder": false,
+          "discountPercent": 0,
+          "availabilityStatus": "InStock"
+        },
+        "value": "Callisto 30 Sleeping Bag: 30F Synthetic",
+        "is_slotted": false,
+        "variations": [
+          {
+            "data": {
+              "color": "Stargazer",
+              "onSale": false,
+              "isRetail": true,
+              "salePrice": 64.95,
+              "listPrice": 64.95,
+              "image_url": "https://content.backcountry.com/images/items/medium/KEL/KEL007Q/STA.jpg",
+              "stockLevel": 13,
+              "isCloseout": false,
+              "deactivated": false,
+              "colorFamily": "blue",
+              "isPastSeason": false,
+              "variation_id": "KEL007Q-STA-LONZIP",
+              "backorderLevel": 0,
+              "allowBackorder": false,
+              "discountPercent": 0,
+              "availabilityStatus": "InStock"
+            },
+            "value": "Callisto 30 Sleeping Bag: 30F Synthetic"
+          }
+        ]
+      },
+      {
+        "matched_terms": ["sleeping", "bag"],
+        "data": {
+          "id": "KELO07V",
+          "url": "/kelty-cosmic-sleeping-bag-20-degree-synthetic",
+          "group_ids": ["bc-synthetic-sleeping-bags"],
+          "brandName": "Kelty",
+          "image_url": "https://content.backcountry.com/images/items/medium/KEL/KELO07V/TAPBLUSMO.jpg",
+          "productAge": 259,
+          "deactivated": false,
+          "hasFreeGift": false,
+          "reviewCount": 0,
+          "isExclusive": false,
+          "reviewRating": 0,
+          "storeCredits": 0,
+          "activationDate": "2020-01-22 07:00:00",
+          "isGearheadPick": false,
+          "color": "Tapestry Blue/Smoke",
+          "onSale": false,
+          "isRetail": true,
+          "salePrice": 99.95,
+          "listPrice": 99.95,
+          "stockLevel": 110,
+          "isCloseout": false,
+          "colorFamily": "blue",
+          "isPastSeason": false,
+          "variation_id": "KELO07V-TAPBLUSMO-REG",
+          "backorderLevel": 0,
+          "allowBackorder": false,
+          "discountPercent": 0,
+          "availabilityStatus": "InStock"
+        },
+        "value": "Cosmic Sleeping Bag: 20F Synthetic",
+        "is_slotted": false,
+        "variations": [
+          {
+            "data": {
+              "color": "Tapestry Blue/Smoke",
+              "onSale": false,
+              "isRetail": true,
+              "salePrice": 99.95,
+              "listPrice": 99.95,
+              "image_url": "https://content.backcountry.com/images/items/medium/KEL/KELO07V/TAPBLUSMO.jpg",
+              "stockLevel": 110,
+              "isCloseout": false,
+              "deactivated": false,
+              "colorFamily": "blue",
+              "isPastSeason": false,
+              "variation_id": "KELO07V-TAPBLUSMO-REG",
+              "backorderLevel": 0,
+              "allowBackorder": false,
+              "discountPercent": 0,
+              "availabilityStatus": "InStock"
+            },
+            "value": "Cosmic Sleeping Bag: 20F Synthetic"
+          },
+          {
+            "data": {
+              "color": "Tapestry Blue/Smoke",
+              "onSale": false,
+              "isRetail": true,
+              "salePrice": 109.95,
+              "listPrice": 109.95,
+              "image_url": "https://content.backcountry.com/images/items/medium/KEL/KELO07V/TAPBLUSMO.jpg",
+              "stockLevel": 55,
+              "isCloseout": false,
+              "deactivated": false,
+              "colorFamily": "blue",
+              "isPastSeason": false,
+              "variation_id": "KELO07V-TAPBLUSMO-LON",
+              "backorderLevel": 0,
+              "allowBackorder": false,
+              "discountPercent": 0,
+              "availabilityStatus": "InStock"
+            },
+            "value": "Cosmic Sleeping Bag: 20F Synthetic"
+          }
+        ]
+      },
+      {
+        "matched_terms": ["sleeping", "bag"],
+        "data": {
+          "id": "MHWZ997",
+          "url": "/mountain-hardwear-bozeman-0-sleeping-bag-0f-synthetic",
+          "group_ids": ["bc-synthetic-sleeping-bags"],
+          "brandName": "Mountain Hardwear",
+          "image_url": "https://content.backcountry.com/images/items/medium/MHW/MHWZ997/WASTUR.jpg",
+          "productAge": 225,
+          "deactivated": false,
+          "hasFreeGift": false,
+          "reviewCount": 0,
+          "isExclusive": false,
+          "reviewRating": 0,
+          "storeCredits": 0,
+          "activationDate": "2020-02-25 07:00:00",
+          "isGearheadPick": false,
+          "color": "Washed Turq",
+          "onSale": false,
+          "isRetail": true,
+          "salePrice": 149.95,
+          "listPrice": 149.95,
+          "stockLevel": 10,
+          "isCloseout": false,
+          "colorFamily": "blue",
+          "isPastSeason": false,
+          "variation_id": "MHWZ997-WASTUR-LONLEFZIP",
+          "backorderLevel": 0,
+          "allowBackorder": false,
+          "discountPercent": 0,
+          "availabilityStatus": "InStock"
+        },
+        "value": "Bozeman 0 Sleeping Bag: 0F Synthetic",
+        "is_slotted": false,
+        "variations": [
+          {
+            "data": {
+              "color": "Washed Turq",
+              "onSale": false,
+              "isRetail": true,
+              "salePrice": 149.95,
+              "listPrice": 149.95,
+              "image_url": "https://content.backcountry.com/images/items/medium/MHW/MHWZ997/WASTUR.jpg",
+              "stockLevel": 10,
+              "isCloseout": false,
+              "deactivated": false,
+              "colorFamily": "blue",
+              "isPastSeason": false,
+              "variation_id": "MHWZ997-WASTUR-LONLEFZIP",
+              "backorderLevel": 0,
+              "allowBackorder": false,
+              "discountPercent": 0,
+              "availabilityStatus": "InStock"
+            },
+            "value": "Bozeman 0 Sleeping Bag: 0F Synthetic"
+          },
+          {
+            "data": {
+              "color": "Washed Turq",
+              "onSale": false,
+              "isRetail": true,
+              "salePrice": 139.95,
+              "listPrice": 139.95,
+              "image_url": "https://content.backcountry.com/images/items/medium/MHW/MHWZ997/WASTUR.jpg",
+              "stockLevel": 16,
+              "isCloseout": false,
+              "deactivated": false,
+              "colorFamily": "blue",
+              "isPastSeason": false,
+              "variation_id": "MHWZ997-WASTUR-REGLEFZIP",
+              "backorderLevel": 0,
+              "allowBackorder": false,
+              "discountPercent": 0,
+              "availabilityStatus": "InStock"
+            },
+            "value": "Bozeman 0 Sleeping Bag: 0F Synthetic"
+          },
+          {
+            "data": {
+              "color": "Washed Turq",
+              "onSale": false,
+              "isRetail": true,
+              "salePrice": 139.95,
+              "listPrice": 139.95,
+              "image_url": "https://content.backcountry.com/images/items/medium/MHW/MHWZ997/WASTUR.jpg",
+              "stockLevel": 2,
+              "isCloseout": false,
+              "deactivated": false,
+              "colorFamily": "blue",
+              "isPastSeason": false,
+              "variation_id": "MHWZ997-WASTUR-REGRIGZIP",
+              "backorderLevel": 0,
+              "allowBackorder": false,
+              "discountPercent": 0,
+              "availabilityStatus": "InStock"
+            },
+            "value": "Bozeman 0 Sleeping Bag: 0F Synthetic"
+          }
+        ]
+      },
+      {
+        "matched_terms": ["sleeping", "bag"],
+        "data": {
+          "id": "MAR013Q",
+          "url": "/marmot-trestles-15-sleeping-bag-15-degree-synthetic-womens",
+          "group_ids": ["bc-synthetic-sleeping-bags"],
+          "brandName": "Marmot",
+          "image_url": "https://content.backcountry.com/images/items/medium/MAR/MAR013Q/FREBLUBL.jpg",
+          "productAge": 1331,
+          "deactivated": false,
+          "hasFreeGift": false,
+          "reviewCount": 10,
+          "isExclusive": false,
+          "reviewRating": 4.5,
+          "storeCredits": 0,
+          "activationDate": "2017-02-14 07:00:00",
+          "isGearheadPick": false,
+          "color": "French Blue/Harbor Blue",
+          "onSale": false,
+          "isRetail": true,
+          "salePrice": 125.95,
+          "listPrice": 125.95,
+          "stockLevel": 5,
+          "isCloseout": false,
+          "colorFamily": "blue",
+          "isPastSeason": false,
+          "variation_id": "MAR013Q-FREBLUBL-LONZIPA",
+          "backorderLevel": 0,
+          "allowBackorder": false,
+          "discountPercent": 0,
+          "availabilityStatus": "InStock"
+        },
+        "value": "Trestles 15 Sleeping Bag: 15F Synthetic - Women's",
+        "is_slotted": false,
+        "variations": [
+          {
+            "data": {
+              "color": "French Blue/Harbor Blue",
+              "onSale": false,
+              "isRetail": true,
+              "salePrice": 125.95,
+              "listPrice": 125.95,
+              "image_url": "https://content.backcountry.com/images/items/medium/MAR/MAR013Q/FREBLUBL.jpg",
+              "stockLevel": 5,
+              "isCloseout": false,
+              "deactivated": false,
+              "colorFamily": "blue",
+              "isPastSeason": false,
+              "variation_id": "MAR013Q-FREBLUBL-LONZIPA",
+              "backorderLevel": 0,
+              "allowBackorder": false,
+              "discountPercent": 0,
+              "availabilityStatus": "InStock"
+            },
+            "value": "Trestles 15 Sleeping Bag: 15F Synthetic - Women's"
+          },
+          {
+            "data": {
+              "color": "French Blue/Harbor Blue",
+              "onSale": false,
+              "isRetail": true,
+              "salePrice": 125.95,
+              "listPrice": 125.95,
+              "image_url": "https://content.backcountry.com/images/items/medium/MAR/MAR013Q/FREBLUBL.jpg",
+              "stockLevel": 16,
+              "isCloseout": false,
+              "deactivated": false,
+              "colorFamily": "blue",
+              "isPastSeason": false,
+              "variation_id": "MAR013Q-FREBLUBL-LONZIP",
+              "backorderLevel": 0,
+              "allowBackorder": false,
+              "discountPercent": 0,
+              "availabilityStatus": "InStock"
+            },
+            "value": "Trestles 15 Sleeping Bag: 15F Synthetic - Women's"
+          },
+          {
+            "data": {
+              "color": "French Blue/Harbor Blue",
+              "onSale": false,
+              "isRetail": true,
+              "salePrice": 116.95,
+              "listPrice": 116.95,
+              "image_url": "https://content.backcountry.com/images/items/medium/MAR/MAR013Q/FREBLUBL.jpg",
+              "stockLevel": 37,
+              "isCloseout": false,
+              "deactivated": false,
+              "colorFamily": "blue",
+              "isPastSeason": false,
+              "variation_id": "MAR013Q-FREBLUBL-REGZIP",
+              "backorderLevel": 0,
+              "allowBackorder": false,
+              "discountPercent": 0,
+              "availabilityStatus": "InStock"
+            },
+            "value": "Trestles 15 Sleeping Bag: 15F Synthetic - Women's"
+          },
+          {
+            "data": {
+              "color": "French Blue/Harbor Blue",
+              "onSale": false,
+              "isRetail": true,
+              "salePrice": 116.95,
+              "listPrice": 116.95,
+              "image_url": "https://content.backcountry.com/images/items/medium/MAR/MAR013Q/FREBLUBL.jpg",
+              "stockLevel": 8,
+              "isCloseout": false,
+              "deactivated": false,
+              "colorFamily": "blue",
+              "isPastSeason": false,
+              "variation_id": "MAR013Q-FREBLUBL-REGZIPA",
+              "backorderLevel": 0,
+              "allowBackorder": false,
+              "discountPercent": 0,
+              "availabilityStatus": "InStock"
+            },
+            "value": "Trestles 15 Sleeping Bag: 15F Synthetic - Women's"
+          }
+        ]
+      }
+    ],
+    "Search Suggestions": [
+      {
+        "matched_terms": ["sleeping", "bag"],
+        "data": {
+          "id": "sleeping bag",
+          "groups": [
+            {
+              "group_id": "bc-synthetic-sleeping-bags",
+              "display_name": "Synthetic Sleeping Bags",
+              "path": "/catb10001/bc-hike-camp/bc-sleeping/bc-sleeping-bags",
+              "path_list": [
+                {
+                  "id": "catb10001",
+                  "display_name": "rootNode"
+                },
+                {
+                  "id": "bc-hike-camp",
+                  "display_name": "Hike & Camp"
+                },
+                {
+                  "id": "bc-sleeping",
+                  "display_name": "Sleeping"
+                },
+                {
+                  "id": "bc-sleeping-bags",
+                  "display_name": "Sleeping Bags"
+                }
+              ]
+            }
+          ]
+        },
+        "value": "sleeping bag",
+        "is_slotted": false
+      },
+      {
+        "matched_terms": ["sleeping", "bag"],
+        "data": {
+          "id": "sleeping bag liner",
+          "groups": [
+            {
+              "group_id": "bc-sleeping-bag-liners",
+              "display_name": "Sleeping Bag Liners",
+              "path": "/catb10001/bc-hike-camp/bc-sleeping",
+              "path_list": [
+                {
+                  "id": "catb10001",
+                  "display_name": "rootNode"
+                },
+                {
+                  "id": "bc-hike-camp",
+                  "display_name": "Hike & Camp"
+                },
+                {
+                  "id": "bc-sleeping",
+                  "display_name": "Sleeping"
+                }
+              ]
+            }
+          ]
+        },
+        "value": "sleeping bag liner",
+        "is_slotted": false
+      },
+      {
+        "matched_terms": ["sleeping", "bag"],
+        "data": {
+          "id": "down sleeping bag",
+          "groups": [
+            {
+              "group_id": "bc-down-sleeping-bags",
+              "display_name": "Down Sleeping Bags",
+              "path": "/catb10001/bc-hike-camp/bc-sleeping/bc-sleeping-bags",
+              "path_list": [
+                {
+                  "id": "catb10001",
+                  "display_name": "rootNode"
+                },
+                {
+                  "id": "bc-hike-camp",
+                  "display_name": "Hike & Camp"
+                },
+                {
+                  "id": "bc-sleeping",
+                  "display_name": "Sleeping"
+                },
+                {
+                  "id": "bc-sleeping-bags",
+                  "display_name": "Sleeping Bags"
+                }
+              ]
+            }
+          ]
+        },
+        "value": "down sleeping bag",
+        "is_slotted": false
+      },
+      {
+        "matched_terms": ["sleeping", "bag"],
+        "data": {
+          "id": "nemo sleeping bags",
+          "groups": [
+            {
+              "group_id": "bc-synthetic-sleeping-bags",
+              "display_name": "Synthetic Sleeping Bags",
+              "path": "/catb10001/bc-hike-camp/bc-sleeping/bc-sleeping-bags",
+              "path_list": [
+                {
+                  "id": "catb10001",
+                  "display_name": "rootNode"
+                },
+                {
+                  "id": "bc-hike-camp",
+                  "display_name": "Hike & Camp"
+                },
+                {
+                  "id": "bc-sleeping",
+                  "display_name": "Sleeping"
+                },
+                {
+                  "id": "bc-sleeping-bags",
+                  "display_name": "Sleeping Bags"
+                }
+              ]
+            },
+            {
+              "group_id": "bc-down-sleeping-bags",
+              "display_name": "Down Sleeping Bags",
+              "path": "/catb10001/bc-hike-camp/bc-sleeping/bc-sleeping-bags",
+              "path_list": [
+                {
+                  "id": "catb10001",
+                  "display_name": "rootNode"
+                },
+                {
+                  "id": "bc-hike-camp",
+                  "display_name": "Hike & Camp"
+                },
+                {
+                  "id": "bc-sleeping",
+                  "display_name": "Sleeping"
+                },
+                {
+                  "id": "bc-sleeping-bags",
+                  "display_name": "Sleeping Bags"
+                }
+              ]
+            }
+          ]
+        },
+        "value": "nemo sleeping bags",
+        "is_slotted": false
+      },
+      {
+        "matched_terms": ["sleeping", "bag"],
+        "data": {
+          "id": "kelty sleeping bag",
+          "groups": [
+            {
+              "group_id": "bc-synthetic-sleeping-bags",
+              "display_name": "Synthetic Sleeping Bags",
+              "path": "/catb10001/bc-hike-camp/bc-sleeping/bc-sleeping-bags",
+              "path_list": [
+                {
+                  "id": "catb10001",
+                  "display_name": "rootNode"
+                },
+                {
+                  "id": "bc-hike-camp",
+                  "display_name": "Hike & Camp"
+                },
+                {
+                  "id": "bc-sleeping",
+                  "display_name": "Sleeping"
+                },
+                {
+                  "id": "bc-sleeping-bags",
+                  "display_name": "Sleeping Bags"
+                }
+              ]
+            }
+          ]
+        },
+        "value": "kelty sleeping bag",
+        "is_slotted": false
+      },
+      {
+        "matched_terms": ["sleeping", "bag"],
+        "data": {
+          "id": "nemo sleeping bag",
+          "groups": [
+            {
+              "group_id": "bc-synthetic-sleeping-bags",
+              "display_name": "Synthetic Sleeping Bags",
+              "path": "/catb10001/bc-hike-camp/bc-sleeping/bc-sleeping-bags",
+              "path_list": [
+                {
+                  "id": "catb10001",
+                  "display_name": "rootNode"
+                },
+                {
+                  "id": "bc-hike-camp",
+                  "display_name": "Hike & Camp"
+                },
+                {
+                  "id": "bc-sleeping",
+                  "display_name": "Sleeping"
+                },
+                {
+                  "id": "bc-sleeping-bags",
+                  "display_name": "Sleeping Bags"
+                }
+              ]
+            },
+            {
+              "group_id": "bc-down-sleeping-bags",
+              "display_name": "Down Sleeping Bags",
+              "path": "/catb10001/bc-hike-camp/bc-sleeping/bc-sleeping-bags",
+              "path_list": [
+                {
+                  "id": "catb10001",
+                  "display_name": "rootNode"
+                },
+                {
+                  "id": "bc-hike-camp",
+                  "display_name": "Hike & Camp"
+                },
+                {
+                  "id": "bc-sleeping",
+                  "display_name": "Sleeping"
+                },
+                {
+                  "id": "bc-sleeping-bags",
+                  "display_name": "Sleeping Bags"
+                }
+              ]
+            }
+          ]
+        },
+        "value": "nemo sleeping bag",
+        "is_slotted": false
+      },
+      {
+        "matched_terms": ["sleeping", "bag"],
+        "data": {
+          "id": "marmot sleeping bag",
+          "groups": [
+            {
+              "group_id": "bc-synthetic-sleeping-bags",
+              "display_name": "Synthetic Sleeping Bags",
+              "path": "/catb10001/bc-hike-camp/bc-sleeping/bc-sleeping-bags",
+              "path_list": [
+                {
+                  "id": "catb10001",
+                  "display_name": "rootNode"
+                },
+                {
+                  "id": "bc-hike-camp",
+                  "display_name": "Hike & Camp"
+                },
+                {
+                  "id": "bc-sleeping",
+                  "display_name": "Sleeping"
+                },
+                {
+                  "id": "bc-sleeping-bags",
+                  "display_name": "Sleeping Bags"
+                }
+              ]
+            },
+            {
+              "group_id": "bc-down-sleeping-bags",
+              "display_name": "Down Sleeping Bags",
+              "path": "/catb10001/bc-hike-camp/bc-sleeping/bc-sleeping-bags",
+              "path_list": [
+                {
+                  "id": "catb10001",
+                  "display_name": "rootNode"
+                },
+                {
+                  "id": "bc-hike-camp",
+                  "display_name": "Hike & Camp"
+                },
+                {
+                  "id": "bc-sleeping",
+                  "display_name": "Sleeping"
+                },
+                {
+                  "id": "bc-sleeping-bags",
+                  "display_name": "Sleeping Bags"
+                }
+              ]
+            }
+          ]
+        },
+        "value": "marmot sleeping bag",
+        "is_slotted": false
+      },
+      {
+        "matched_terms": ["sleeping", "bag"],
+        "data": {
+          "id": "double sleeping bag",
+          "groups": [
+            {
+              "group_id": "bc-synthetic-sleeping-bags",
+              "display_name": "Synthetic Sleeping Bags",
+              "path": "/catb10001/bc-hike-camp/bc-sleeping/bc-sleeping-bags",
+              "path_list": [
+                {
+                  "id": "catb10001",
+                  "display_name": "rootNode"
+                },
+                {
+                  "id": "bc-hike-camp",
+                  "display_name": "Hike & Camp"
+                },
+                {
+                  "id": "bc-sleeping",
+                  "display_name": "Sleeping"
+                },
+                {
+                  "id": "bc-sleeping-bags",
+                  "display_name": "Sleeping Bags"
+                }
+              ]
+            },
+            {
+              "group_id": "bc-down-sleeping-bags",
+              "display_name": "Down Sleeping Bags",
+              "path": "/catb10001/bc-hike-camp/bc-sleeping/bc-sleeping-bags",
+              "path_list": [
+                {
+                  "id": "catb10001",
+                  "display_name": "rootNode"
+                },
+                {
+                  "id": "bc-hike-camp",
+                  "display_name": "Hike & Camp"
+                },
+                {
+                  "id": "bc-sleeping",
+                  "display_name": "Sleeping"
+                },
+                {
+                  "id": "bc-sleeping-bags",
+                  "display_name": "Sleeping Bags"
+                }
+              ]
+            }
+          ]
+        },
+        "value": "double sleeping bag",
+        "is_slotted": false
+      }
+    ]
+  },
+  "result_id": "2e4340c6-f4c4-4600-94af-a92e2a73a286",
+  "request": {
+    "num_results": 16,
+    "term": "sleeping bag",
+    "features": {
+      "query_items": true,
+      "auto_generated_refined_query_rules": true,
+      "manual_searchandizing": true,
+      "personalization": true,
+      "filter_items": true
+    },
+    "feature_variants": {
+      "query_items": "query_items_ctr_and_l2r",
+      "auto_generated_refined_query_rules": "default_rules",
+      "manual_searchandizing": null,
+      "personalization": "combine_with_n_inherit_from_session_history",
+      "filter_items": "filter_items_ctr"
+    },
+    "searchandized_items": {}
+  }
+}
