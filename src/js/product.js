@@ -7,6 +7,10 @@ function convertToJson(res) {
   }
 }
 
+function setLocalStorage(key, data) {
+  localStorage.setItem(key, JSON.stringify(data));
+}
+
 // get tents data
 function getProductsData() {
   fetch("../json/tents.json")
@@ -23,7 +27,7 @@ function getProductsData() {
 // add to cart button event handler
 function addToCart(e) {
   const product = products.find((item) => item.Id === e.target.dataset.id);
-  localStorage.setItem("so-cart", JSON.stringify(product));
+  setLocalStorage("so-cart", product);
 }
 
 getProductsData();
