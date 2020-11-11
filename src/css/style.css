@@ -94,16 +94,7 @@ button {
   position: relative;
   text-align: center;
 }
-.cart__count {
-  font-size: var(--small-font);
-  width: 1.2em;
-  font-style: normal;
-  position: absolute;
-  top: 8px;
-  right: 0;
-  border-radius: 50%;
-  background-color: var(--primary-color);
-}
+
 .cart svg {
   width: 25px;
 }
