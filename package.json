@@ -5,7 +5,7 @@
   "main": "main.js",
   "scripts": {
     "start": "parcel src/index.html src/cart.html src/product_pages/*.html -d build/",
-    "build": "parcel build src/index.html src/cart.html src/product_pages/*.html",
+    "build": "parcel build src/index.html src/cart.html src/product_pages/*.html -d docs/",
     "lint": "eslint *.js src/**/*.js",
     "format": "prettier --ignore-path ./.gitignore --write \"./**/*.{html,json,js,ts,css}\"",
     "test": "jest"
