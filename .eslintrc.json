@@ -24,10 +24,12 @@
         "props": false
       }
     ],
-    "no-console": 0,
-    "import": 0,
+    "no-console": 1,
+    "no-import-assign": 0,
     "func-names": 0,
-    "space-before-function-paren": 0,
+    "space-unary-ops": 2,
+    "space-in-parens": "error",
+    "space-infix-ops": "error",
     "comma-dangle": 0,
     "max-len": 0,
     "import/extensions": 0,
