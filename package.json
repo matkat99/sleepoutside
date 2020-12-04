@@ -11,7 +11,7 @@
     "test": "jest",
     "babel": "babel src -d dist"
   },
-  "author": "",
+  "author": "Shane Thompson",
   "license": "ISC",
   "devDependencies": {
     "@babel/cli": "^7.12.8",
