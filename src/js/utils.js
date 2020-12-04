@@ -4,11 +4,11 @@ export function qs(selector) {
 }
 
 // retrieve data from localstorage
-export function getFromLS(key) {
+export function getLocalStorage(key) {
   return JSON.parse(localStorage.getItem(key));
 }
 // save data to local storage
-export function saveToLS(key, data) {
+export function setLocalStorage(key, data) {
   localStorage.setItem(key, JSON.stringify(data));
 }
 // set a listener for both touchend and click

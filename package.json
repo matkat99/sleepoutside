@@ -4,13 +4,11 @@
   "description": "Boilerplate for WDD 330 SleepOutside project",
   "main": "main.js",
   "scripts": {
-    "start": "parcel src/*.html src/**/*.html -d build/",
-    "build": "parcel build src/*.html src/**/*.html -d dist/ --public-url /sleepoutside/dist/",
+    "start": "snowpack dev",
+    "build": "snowpack build",
     "lint": "eslint *.js src/**/*.js",
     "format": "prettier --ignore-path ./.gitignore --write \"./**/*.{html,json,js,ts,css}\"",
     "test": "jest",
-    "snow": "snowpack dev",
-    "snow:build": "snowpack build",
     "babel": "babel src -d dist"
   },
   "author": "",
