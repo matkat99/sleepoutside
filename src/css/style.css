@@ -41,6 +41,7 @@ header {
 }
 .logo img {
   width: 60px;
+  height: 60px;
 }
 .logo a {
   text-decoration: none;
@@ -69,6 +70,7 @@ header {
 }
 .logo--square img {
   width: 90px;
+  height: 90px;
   margin-top: -1.3em;
 }
 .logo--square > div {
