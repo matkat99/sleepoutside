@@ -1,34 +1,22 @@
 module.exports = {
-  mount: {
-    /* ... */
-  },
-  plugins: [
-    [
-      "@snowpack/plugin-run-script",
-      {
-        cmd: "eslint 'src/**/*.{js,jsx,ts,tsx}'",
-        // Optional: Use npm package "watch" to run on every file change
-        //watch: 'watch "$1" src'
-      },
-    ],
-    ["@snowpack/plugin-babel"],
+  'plugins': [
+    // ['@snowpack/plugin-sass' ],
   ],
-  install: [
-    /* ... */
-  ],
-  installOptions: {
-    /* ... */
-  },
-  devOptions: {
-    /* ... */
-  },
-  buildOptions: {
-    /* ... */
-  },
-  proxy: {
-    /* ... */
-  },
-  alias: {
-    /* ... */
-  },
-};
+  'mount': {
+         
+    'src': '/'
+   },
+   'buildOptions': {
+     'out': 'build',
+      'baseUrl': '/sleepoutside/build/',
+      'clean': true
+   },
+   'experiments': {
+    'optimize': {
+      // 'bundle': true,
+      'minify': true,
+      'target': 'es2015'
+    }
+  }
+
+}
