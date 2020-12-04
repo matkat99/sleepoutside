@@ -1,9 +1,10 @@
 [
   {
     "Id": "880RR",
+    "IsActive": true,
     "NameWithoutBrand": "Ajax Tent - 3-Person, 3-Season",
     "Name": "Marmot Ajax Tent - 3-Person, 3-Season",
-    "Image": "images/tents/marmot-ajax-tent-3-person-3-season-in-pale-pumpkin-terracotta~p~880rr_01~320.jpg",
+    "Image": "../images/tents/marmot-ajax-tent-3-person-3-season-in-pale-pumpkin-terracotta~p~880rr_01~320.jpg",
 
     "SizesAvailable": {},
     "Colors": [
@@ -14,7 +15,7 @@
         "ColorPreviewImageSrc": "https://i.stpost.com/marmot-ajax-tent-3-person-3-season-in-pale-pumpkin-terracotta~p~880rr_01~160.jpg"
       }
     ],
-    "DescriptionHtmlSimple": "<strong>Excess</strong>. Get out and enjoy nature with Marmot&#39;s Ajax tent, featuring a smart design with durable, waterproof construction and two doors for easy access.",
+    "DescriptionHtmlSimple": "Get out and enjoy nature with Marmot&#39;s Ajax tent, featuring a smart design with durable, waterproof construction and two doors for easy access.",
     "SuggestedRetailPrice": 300.0,
     "Brand": {
       "Id": "1308",
@@ -26,6 +27,7 @@
   },
   {
     "Id": "985RF",
+    "IsActive": true,
     "NameWithoutBrand": "Talus Tent - 4-Person, 3-Season",
     "Name": "The North Face Talus Tent - 4-Person, 3-Season",
     "Image": "images/tents/the-north-face-talus-tent-4-person-3-season-in-golden-oak-saffron-yellow~p~985rf_01~320.jpg",
@@ -51,6 +53,7 @@
   },
   {
     "Id": "989CG",
+    "IsActive": false,
     "NameWithoutBrand": "Talus Tent - 3-Person, 3-Season",
     "Name": "The North Face Talus Tent - 3-Person, 3-Season",
     "Image": "images/tents/the-north-face-talus-tent-3-person-3-season-in-golden-oak-saffron-yellow~p~989cg_01~320.jpg",
@@ -76,6 +79,7 @@
   },
   {
     "Id": "985PR",
+    "IsActive": true,
     "NameWithoutBrand": "Alpine Guide Tent - 3-Person, 4-Season",
     "Name": "The North Face Alpine Guide Tent - 3-Person, 4-Season",
     "Image": "images/tents/the-north-face-alpine-guide-tent-3-person-4-season-in-canary-yellow-high-rise-grey~p~985pr_01~320.jpg",
@@ -101,6 +105,7 @@
   },
   {
     "Id": "880RT",
+    "IsActive": false,
     "NameWithoutBrand": "Ajax Tent - 2-Person, 3-Season",
     "Name": "Marmot Ajax Tent - 2-Person, 3-Season",
     "Image": "images/tents/marmot-ajax-tent-2-person-3-season-in-pale-pumpkin-terracotta~p~880rt_01~320.jpg",
@@ -127,6 +132,7 @@
 
   {
     "Id": "344YJ",
+    "IsActive": true,
     "NameWithoutBrand": "Rimrock Tent - 2-Person, 3-Season",
     "Name": "Cedar Ridge Rimrock Tent - 2-Person, 3-Season",
     "IsFamousBrand": false,
