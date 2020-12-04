@@ -2,7 +2,7 @@
 
 ## Description
 
-Use this as a starting point to complete the WDD 330 team activity: the SleepOutside web application. It scaffolds out a simple web app with parcel support to bundle up our assets.
+Use this as a starting point to complete the WDD 330 team activity: the SleepOutside web application. It scaffolds out a simple web app with snowpack support to bundle up our assets.
 
 ## Prerequisites
 
