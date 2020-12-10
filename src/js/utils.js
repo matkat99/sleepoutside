@@ -25,3 +25,12 @@ export function getParam(param) {
   const urlParams = new URLSearchParams(queryString);
   return urlParams.get(param);
 }
+
+export function renderListWithTemplate(templateId, parent, list, callback) {
+  const template = document.getElementById(templateId);
+  list.forEach(item => {
+    const clone = template.content.cloneNode(true);
+    callback(clone, item);
+    parent.appendChild(clone);
+  })
+}
