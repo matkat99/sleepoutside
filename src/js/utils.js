@@ -26,8 +26,8 @@ export function getParam(param) {
   return urlParams.get(param);
 }
 
-export function renderListWithTemplate(templateId, parent, list, callback) {
-  const template = document.getElementById(templateId);
+export function renderListWithTemplate(template, parent, list, callback) {
+  
   list.forEach(item => {
     const clone = template.content.cloneNode(true);
     callback(clone, item);

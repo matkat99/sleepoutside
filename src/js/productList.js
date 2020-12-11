@@ -24,8 +24,11 @@ export default class ProductList {
     return template;
   }
   renderList(list) {
+    // make sure the list is empty
     this.listElement.innerHTML = '';
-    renderListWithTemplate('product-card-template', this.listElement, list, this.prepareTemplate);
+    //get the template
+    const template = document.getElementById('product-card-template');
+    renderListWithTemplate(template, this.listElement, list, this.prepareTemplate);
     
   }
   // original method before moving the template logic to utils.js
