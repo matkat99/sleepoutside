@@ -27,10 +27,9 @@ export function getParam(param) {
 }
 
 export function renderListWithTemplate(template, parent, list, callback) {
-  
   list.forEach(item => {
     const clone = template.content.cloneNode(true);
-    callback(clone, item);
-    parent.appendChild(clone);
+    const templateWithData = callback(clone, item);
+    parent.appendChild(templateWithData);
   })
 }
