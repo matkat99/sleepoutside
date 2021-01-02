@@ -9,7 +9,8 @@ module.exports = {
    'buildOptions': {
      'out': 'build',
       'baseUrl': '/sleepoutside/build/',
-      'clean': true
+      'clean': true,
+      'htmlFragments': true
    },
    'experiments': {
     'optimize': {
