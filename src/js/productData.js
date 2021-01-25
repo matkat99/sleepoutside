@@ -1,5 +1,6 @@
-const baseURL = 'http://157.201.228.93:2992/'
-function convertToJson(res) {
+// const baseURL = 'http://157.201.228.93:2992/';
+const baseURL = 'http://127.0.0.1:3000/';
+async function convertToJson(res) {
   if (res.ok) {
     return res.json();
   } else {
@@ -25,5 +26,15 @@ export default class ProductData  {
     // the API allows us to pull products directly from it by ID...so we can change this method as well to take advantage of that.
     return await fetch(baseURL + `product/${id}`).then(convertToJson)
       .then((data) => data.Result);
+  }
+  async checkout(payload) {
+    const options = {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(payload)
+    }
+      return await fetch(baseURL + 'checkout/', options).then(convertToJson);
   }
 }
