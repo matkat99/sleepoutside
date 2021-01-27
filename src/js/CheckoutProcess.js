@@ -43,7 +43,7 @@ export default class CheckoutProcess {
     this.calculateItemSummary()
   }
   calculateItemSummary(){
-    const summaryElement = document.querySelector(this.outputSelector + ' #cart-total');
+    const summaryElement = document.querySelector(this.outputSelector + ' #cartTotal');
     const itemNumElement = document.querySelector(this.outputSelector + ' #num-items');
     itemNumElement.innerText = this.list.length;
     // calculate the total of all the items in the cart
@@ -61,7 +61,7 @@ export default class CheckoutProcess {
   displayOrderTotals() {
     const shipping = document.querySelector(this.outputSelector + ' #shipping');
     const tax = document.querySelector(this.outputSelector + ' #tax');
-    const orderTotal = document.querySelector(this.outputSelector + ' #order-total');
+    const orderTotal = document.querySelector(this.outputSelector + ' #orderTotal');
     shipping.innerText = '$' + this.shipping;
     tax.innerText = '$' + this.tax;
     orderTotal.innerText = '$' + this.orderTotal;
@@ -71,6 +71,7 @@ export default class CheckoutProcess {
 
     const json = formDataToJSON(formElement);
     // add totals, and item details
+    json.orderDate = new Date();
     json.orderTotal = this.orderTotal;
     json.tax = this.tax;
     json.shipping = this.shipping;
