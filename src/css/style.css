@@ -30,6 +30,9 @@ header {
   justify-content: space-between;
   padding: 0 10px;
 }
+main {
+  padding: 0.5em;
+}
 .logo {
   line-height: 60px;
   width: 245px;
@@ -306,4 +309,17 @@ footer {
 .checkout-summary input {
   width: 25%;
   font-size: 1em;
+}
+
+/* alert styles */
+.alert {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5em;
+  background-color: var(--primary-color);
+  border: 1px solid darkorange;
+}
+.alert > p {
+  margin: 0;
 }
