@@ -323,3 +323,32 @@ footer {
 .alert > p {
   margin: 0;
 }
+
+/* login styles */
+.login-form {
+  display: flex;
+  flex-wrap: wrap;
+
+  max-width: 450px;
+  margin: 0 auto;
+}
+.login-form > p {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+/* orders styles */
+#orders {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 500px;
+}
+#orders th {
+  background-color: var(--tertiary-color);
+}
+.order-body td {
+  text-align: center;
+}
+.order-body tr:nth-child(even) {
+  background-color: var(--light-grey);
+}

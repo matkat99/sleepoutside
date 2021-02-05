@@ -35,4 +35,32 @@ export default class ExternalServices  {
     }
       return await fetch(baseURL + 'checkout/', options).then(convertToJson);
   }
+  // make a request to the server for a login token.
+  // requires: { email: 'someemail', password: 'somepassword' }
+  // returns: a valid jwt token if the email and password are valid.
+  async loginRequest(user) {
+    const options = {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(user)
+    }
+    const response = await fetch(baseURL + 'login', options).then(convertToJson);
+    return response.accessToken;
+  }
+  // make a request to the server for the current orders
+  // requires: a valid token
+  // returns: a list of orders
+  async getOrders(token) {
+    const options = {
+      method: 'GET',
+      // the server will reject our request if we don't include the Authorization header with a valid token!
+      headers: {
+        'Authorization': `Bearer ${token}`
+      }
+    }
+    const response = await fetch(baseURL + 'orders', options).then(convertToJson);
+    return response;
+  }
 }

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sleep Outside | Home</title>
+    <link rel="stylesheet" href="css/style.css" />
+
+    <script type="module">
+      // Normally we have been creating a separate js file to hold this. I put it here to show that you can...the next question is should you?
+      // Advantages to putting it here: one less file to request and download.
+      // Disadvantages: it breaks the pattern we have established with our other pages, and the separation of concerns...
+      import { loadHeaderFooter } from "../js/utils.js";
+      import Admin from "../js/Admin.js";
+
+      loadHeaderFooter();
+      const myAdmin = new Admin("main");
+      myAdmin.showLogin();
+    </script>
+  </head>
+  <body>
+    <header class="divider" id="main-header"></header>
+    <main class="divider"></main>
+    <footer id="main-footer"></footer>
+  </body>
+</html>
