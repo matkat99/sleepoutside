@@ -2,15 +2,17 @@ import { setLocalStorage, getLocalStorage, alertMessage, removeAllAlerts } from 
 import ExternalServices from './ExternalServices.js';
 
 const services = new ExternalServices();
+// function to take a form and convert a FormData object into a simple JSON object.
+// note that your form inputs must have a "name" attribute in order to show up in the FormData object.
+// this should really be moved into a utils.js module...
 function formDataToJSON(formElement) {    
-  var formData = new FormData(formElement),
-      convertedJSON = {};
-
-  formData.forEach(function(value, key) { 
-      convertedJSON[key] = value;
-  });
-
-  return convertedJSON;
+  let formData = new FormData(formElement);
+  // Object.fromEntries creates a new object made from an iterable list like an Array or Map
+  // Object.entries takes an object and converts it into an Array that is iterable.
+  const converted = Object.fromEntries(formData.entries());
+  // if we have radios or checkboxes which share the same name we need to do  abit more or we will only get at most one of the checked values
+  // converted.category = formData.getAll('category');
+  return converted;
 }
  
 function packageItems(items) {
