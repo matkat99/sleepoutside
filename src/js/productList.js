@@ -1,4 +1,4 @@
-import { renderListWithTemplate } from './utils.js';
+import { renderListWithTemplate } from "./utils.js";
 
 export default class ProductList {
   constructor(category, dataSource, listElement) {
@@ -13,34 +13,39 @@ export default class ProductList {
     console.log(list);
     this.renderList(list);
     //set the title to the current category
-    document.querySelector('.title').innerHTML = this.category;
+    document.querySelector(".title").innerHTML = this.category;
   }
-  
+
   prepareTemplate(template, product) {
-    
-    template.querySelector('a').href +=  product.Id;
-    template.querySelector('img').src = product.Images.PrimaryMedium;
-    template.querySelector('img').alt += product.Name;
-    template.querySelector('.card__brand').textContent = product.Brand.Name;
-    template.querySelector('.card__name').textContent = product.NameWithoutBrand;
-    template.querySelector('.product-card__price').textContent += product.FinalPrice; 
+    template.querySelector("a").href += product.Id;
+    template.querySelector("img").src = product.Images.PrimaryMedium;
+    template.querySelector("img").alt += product.Name;
+    template.querySelector(".card__brand").textContent = product.Brand.Name;
+    template.querySelector(".card__name").textContent =
+      product.NameWithoutBrand;
+    template.querySelector(".product-card__price").textContent +=
+      product.FinalPrice;
     return template;
   }
   renderList(list) {
     // make sure the list is empty
-    this.listElement.innerHTML = '';
+    this.listElement.innerHTML = "";
     //get the template
-    const template = document.getElementById('product-card-template');
-    renderListWithTemplate(template, this.listElement, list, this.prepareTemplate);
-    
+    const template = document.getElementById("product-card-template");
+    renderListWithTemplate(
+      template,
+      this.listElement,
+      list,
+      this.prepareTemplate
+    );
   }
   // original method before moving the template logic to utils.js
   // renderList(list) {
-    // const template = document.getElementById('product-card-template');
-    // list.forEach(product => {
-    //   const clone = template.content.cloneNode(true);
-    //   const hydratedTemplate = this.prepareTemplate(clone, product);
-    //   this.listElement.appendChild(hydratedTemplate);
-    // })
+  // const template = document.getElementById('product-card-template');
+  // list.forEach(product => {
+  //   const clone = template.content.cloneNode(true);
+  //   const hydratedTemplate = this.prepareTemplate(clone, product);
+  //   this.listElement.appendChild(hydratedTemplate);
+  // })
   // }
 }
