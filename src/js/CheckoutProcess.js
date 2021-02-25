@@ -3,7 +3,7 @@ import ExternalServices from './ExternalServices.js';
 
 const services = new ExternalServices();
 function formDataToJSON(formElement) {
-  var formData = new FormData(formElement),
+  const formData = new FormData(formElement),
     convertedJSON = {};
 
   formData.forEach(function (value, key) {
@@ -74,7 +74,7 @@ export default class CheckoutProcess {
     orderTotal.innerText = '$' + this.orderTotal;
   }
   async checkout() {
-    var formElement = document.forms['checkout'];
+    const formElement = document.forms['checkout'];
 
     const json = formDataToJSON(formElement);
     // add totals, and item details
