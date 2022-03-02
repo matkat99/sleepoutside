@@ -1,0 +1,1 @@
+function r(o){if(o.ok)return o.json();throw new Error("Bad Response")}export default class e{constructor(t){this.category=t,this.path=`../json/${this.category}.json`}getData(){fetch(this.path).then(r).then(t=>t)}findProductById(t){products.find(n=>n.Id===t)}}
