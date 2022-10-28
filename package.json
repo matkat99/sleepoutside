@@ -5,7 +5,7 @@
   "main": "main.js",
   "scripts": {
     "start": "vite",
-    "build": "vite build --emptyOutDir --base=/sleepoutside/",
+    "build": "vite build --emptyOutDir",
     "lint": "eslint *.js src/**/*.js",
     "format": "prettier --ignore-path ./.gitignore --write \"./**/*.{html,json,js,ts,css}\"",
     "test": "jest",
