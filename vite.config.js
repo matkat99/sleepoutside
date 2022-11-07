@@ -19,6 +19,10 @@ export default defineConfig({
           __dirname,
           "src/product_pages/northface-alpine-3.html"
         ),
+        product4: resolve(
+          __dirname,
+          "src/product_pages/northface-talus-4.html"
+        ),
       },
     },
   },
