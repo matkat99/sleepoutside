@@ -89,6 +89,7 @@ button {
   display: block;
   border: 0;
   font-size: var(--large-font);
+  cursor: pointer;
 }
 .divider {
   border-bottom: 2px solid var(--primary-color);
