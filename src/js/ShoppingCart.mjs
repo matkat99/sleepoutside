@@ -23,10 +23,21 @@ export default class ShoppingCart {
   constructor(key, parentSelector) {
     this.key = key;
     this.parentSelector = parentSelector;
+    this.total = 0;
+  }
+  async init() {
+    const list = getLocalStorage(this.key);
+    this.calculateListTotal(list);
+    this.renderCartContents(list);
+  }
+  calculateListTotal(list) {
+    const amounts = list.map((item) => item.FinalPrice);
+    this.total = amounts.reduce((sum, item) => sum + item);
   }
   renderCartContents() {
     const cartItems = getLocalStorage(this.key);
     const htmlItems = cartItems.map((item) => cartItemTemplate(item));
     document.querySelector(this.parentSelector).innerHTML = htmlItems.join("");
+    document.querySelector(".list-total").innerText += ` $${this.total}`;
   }
 }
