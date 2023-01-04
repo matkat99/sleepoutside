@@ -3,3 +3,7 @@ Trello link: https://trello.com/b/KflaqxFD/wdd-330
 Josue Centurion 
 Diana Quispe
 Zeir Braidi
+        branch josue 
+  main file -- --- ----   
+        branch Diana
+        git checkout -b branch-Zair git checkout origin/master
