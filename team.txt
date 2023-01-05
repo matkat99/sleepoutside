@@ -4,7 +4,3 @@ Josue Centurion
 Diana Quispe
 Zeir Braidi
 Felix Guzman
-        branch josue 
-  main file -- --- ----   
-        branch Diana
-        git checkout -b branch-Zair git checkout origin/master
