@@ -16,12 +16,14 @@ async function addToCartHandler(e) {
   // Add an event listener to the button
   button.addEventListener("click", function() {
       // This function will be called when the button is clicked
-      console.log(product["Name"]);
-  });
-
+      alert("You purchase!")
+      console.log(product["Id"])
+    });
+    
 }
 
 // add listener to Add to Cart button
 document
   .getElementById("addToCart")
   .addEventListener("click", addToCartHandler);
+  
