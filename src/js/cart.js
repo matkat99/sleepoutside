@@ -1,13 +1,20 @@
 import { getLocalStorage } from './utils.mjs';
 
 function renderCartContents() {
-  const cartItems = getLocalStorage('so-cart');
-  const htmlItems = cartItems.map((item) => cartItemTemplate(item));
-  document.querySelector('.product-list').innerHTML = htmlItems.join('');
+  
+  const cartItem = getLocalStorage('so-cart');
+  const htmlItem = cartItemTemplate(cartItem);
+  document.querySelector('.product-list').innerHTML = htmlItem;
+  // currently only one item in local storage, future implementations will have a list of items.
+
+  // const cartItems = getLocalStorage('so-cart');
+  // console.log(cartItems);
+  // const htmlItems = cartItems.map((item) => cartItemTemplate(item));
+  // document.querySelector('.product-list').innerHTML = htmlItems.join('');
 }
 
 function cartItemTemplate(item) {
-  const newItem = `<li class="cart-card divider">
+  const newItem = `<li class="cart-card-divider">
   <a href="#" class="cart-card__image">
     <img
       src="${item.Image}"
