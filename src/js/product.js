@@ -31,9 +31,26 @@ function addProductToCart(product) {
 async function addToCartHandler(e) {
   const product = await dataSource.findProductById(e.target.dataset.id);
   addProductToCart(product);
+  // Get the button element by its ID
+var button = document.getElementById("addToCart");
+
+// Add an event listener to the button
+button.addEventListener("click", function() {
+    // This function will be called when the button is clicked
+    alert("You purchase!" + "" + product["Name"])
+});
+
 }
 
 // add listener to Add to Cart button
 document
   .getElementById("addToCart")
   .addEventListener("click", addToCartHandler);
+  // Get the button element by its ID
+  var addButton = document.getElementById("addToCart");
+
+  // Add an event listener to the button
+  addButton.addEventListener("click", function() {
+      // This function will be called when the addButton is clicked
+      alert("Add button was clicked!");
+  });
