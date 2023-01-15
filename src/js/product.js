@@ -46,11 +46,4 @@ button.addEventListener("click", function() {
 document
   .getElementById("addToCart")
   .addEventListener("click", addToCartHandler);
-  // Get the button element by its ID
-  var addButton = document.getElementById("addToCart");
-
-  // Add an event listener to the button
-  addButton.addEventListener("click", function() {
-      // This function will be called when the addButton is clicked
-      alert("Add button was clicked!");
-  });
+  
