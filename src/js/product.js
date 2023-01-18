@@ -1,8 +1,9 @@
-import { getLocalStorage, setLocalStorage } from "./utils.mjs";
+import { getLocalStorage, setLocalStorage, getParam } from "./utils.mjs";
 import ProductData from "./ProductData.mjs";
 
 const dataSource = new ProductData("tents");
-
+const productId = new getParam("product");
+console.log(dataSource.findProductById(productId));
 function addProductToCart(product) {
   let cart = getLocalStorage("soCart");
   if (cart) {
@@ -38,8 +39,9 @@ var button = document.getElementById("addToCart");
 button.addEventListener("click", function() {
     // This function will be called when the button is clicked
     alert("You purchase!" + "" + product["Name"])
-});
-
+    
+  });
+  
 }
 
 // add listener to Add to Cart button
@@ -47,3 +49,4 @@ document
   .getElementById("addToCart")
   .addEventListener("click", addToCartHandler);
   
+

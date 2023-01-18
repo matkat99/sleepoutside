@@ -26,3 +26,4 @@ function cartItemTemplate(item) {
 }
 
 renderCartContents();
+
