@@ -3,7 +3,8 @@ import ProductData from "./ProductData.mjs";
 
 const dataSource = new ProductData("tents");
 const productId = new getParam("product");
-console.log(dataSource.findProductById(productId));
+productId.Id;
+
 function addProductToCart(product) {
   let cart = getLocalStorage("soCart");
   if (cart) {
@@ -48,5 +49,4 @@ button.addEventListener("click", function() {
 document
   .getElementById("addToCart")
   .addEventListener("click", addToCartHandler);
-  
 
