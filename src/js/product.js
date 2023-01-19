@@ -3,7 +3,7 @@ import ProductData from "./ProductData.mjs";
 
 const dataSource = new ProductData("tents");
 const productId = new getParam("product");
-productId.Id;
+console.log(productId);
 
 function addProductToCart(product) {
   let cart = getLocalStorage("soCart");
@@ -50,3 +50,4 @@ document
   .getElementById("addToCart")
   .addEventListener("click", addToCartHandler);
 
+  
