@@ -2,8 +2,17 @@ import { getLocalStorage } from "./utils.mjs";
 
 function renderCartContents() {
   const cartItems = getLocalStorage("soCart");
-  const htmlItems = cartItems.map((item) => cartItemTemplate(item));
-  document.querySelector(".product-list").innerHTML = htmlItems.join("");
+  let cartTotal = document.querySelector(".cart-total")
+
+  /* If there's something in the Cart, display the items and the total sum of them. */
+  if (cartItems != null) {
+    const htmlItems = cartItems.map((item) => cartItemTemplate(item));
+    document.querySelector(".product-list").innerHTML = htmlItems.join("");
+
+    cartTotal.style.display = 'block'; // Make appear the total paragraph that is hidden by default
+    cartTotal.innerHTML = `Total: ${sumTotal(cartItems)}`
+
+  }
 }
 
 function cartItemTemplate(item) {
@@ -23,6 +32,12 @@ function cartItemTemplate(item) {
 </li>`;
 
   return newItem;
+}
+
+function sumTotal(cart) {
+  let total = 0;
+  cart.forEach(item => total += (item.FinalPrice * item.quantity));
+  return total;
 }
 
 renderCartContents();

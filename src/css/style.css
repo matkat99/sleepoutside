@@ -103,6 +103,7 @@ button {
   text-align: center;
 }
 
+
 .cart svg {
   width: 25px;
 }
@@ -200,6 +201,11 @@ button {
 .cart-card__price {
   grid-row: 2;
   grid-column: 3;
+}
+
+
+.cart-total {
+  display: none;
 }
 
 @media screen and (min-width: 500px) {
