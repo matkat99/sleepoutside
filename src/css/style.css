@@ -201,6 +201,19 @@ button {
   grid-row: 2;
   grid-column: 3;
 }
+/* ========== modified by ZB  1/21/2023============ */
+.quantity-buttons {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin: 0;
+  margin-bottom: .5rem;
+  grid-column: 2 / 3;
+}
+.quantity-buttons button {
+  margin: 0;
+}
+
 
 @media screen and (min-width: 500px) {
   body {
