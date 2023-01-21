@@ -1,39 +1,46 @@
-import { getLocalStorage, setLocalStorage } from "./utils.mjs";
+import { getParam } from "./utils.mjs";
 import ProductData from "./ProductData.mjs";
+import ProductDetails from "./ProductDetails.mjs";
 
+const productId = getParam("product");
 const dataSource = new ProductData("tents");
 
-function addProductToCart(product) {
-  let cart = getLocalStorage("soCart");
-  if (cart) {
-    let tent = 1;
-    for (let i = 0; i < cart.length; i++) {
-      if (cart[i].Id == product.Id) {
-        product.quantity = cart[i].quantity++;
-        tent = 0;
-      }
-    }
+const product = new ProductDetails(productId, dataSource);
+product.init();
 
-    if (tent == 1) {
-      product.quantity = 1;
-      cart.push(product);
-    }
-  } else {
-    cart = [];
-    product.quantity = 1;
-    cart.push(product);
-  }
+//console.log(dataSource.findProductById(productId));
 
-  setLocalStorage("soCart", cart);
-}
+// function addProductToCart(product) {
+//   let cart = getLocalStorage("so-cart");
+//   if (cart) {
+//     let tent = 1;
+//     for (let i = 0; i < cart.length; i++) {
+//       if (cart[i].Id == product.Id) {
+//         product.quantity = cart[i].quantity++;
+//         tent = 0;
+//       }
+//     }
 
-// add to cart button event handler
-async function addToCartHandler(e) {
-  const product = await dataSource.findProductById(e.target.dataset.id);
-  addProductToCart(product);
-}
+//     if (tent == 1) {
+//       product.quantity = 1;
+//       cart.push(product);
+//     }
+//   } else {
+//     cart = [];
+//     product.quantity = 1;
+//     cart.push(product);
+//   }
 
-// add listener to Add to Cart button
-document
-  .getElementById("addToCart")
-  .addEventListener("click", addToCartHandler);
+//   setLocalStorage("so-cart", cart);
+// }
+
+// // add to cart button event handler
+// async function addToCartHandler(e) {
+//   const product = await dataSource.findProductById(e.target.dataset.id);
+//   addProductToCart(product);
+// }
+
+// // add listener to Add to Cart button
+// document
+//   .getElementById("addToCart")
+//   .addEventListener("click", addToCartHandler);
