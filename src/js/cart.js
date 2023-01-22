@@ -1,7 +1,7 @@
 import { getLocalStorage } from "./utils.mjs";
 
 function renderCartContents() {
-  const cartItems = getLocalStorage("soCart");
+  const cartItems = getLocalStorage("so-cart") || [];
   let cartTotal = document.querySelector(".cart-total")
 
   /* If there's something in the Cart, display the items and the total sum of them. */
@@ -30,7 +30,6 @@ function cartItemTemplate(item) {
   <p class='cart-card__quantity'>qty: ${item.quantity}</p>
   <p class='cart-card__price'>$${item.FinalPrice}</p>
 </li>`;
-
   return newItem;
 }
 
@@ -39,5 +38,7 @@ function sumTotal(cart) {
   cart.forEach(item => total += (item.FinalPrice * item.quantity));
   return total;
 }
+
+
 
 renderCartContents();
