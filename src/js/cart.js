@@ -1,9 +1,18 @@
 import { getLocalStorage } from "./utils.mjs";
 
 function renderCartContents() {
-  const cartItems = getLocalStorage("soCart");
-  const htmlItems = cartItems.map((item) => cartItemTemplate(item));
-  document.querySelector(".product-list").innerHTML = htmlItems.join("");
+  const cartItems = getLocalStorage("so-cart") || [];
+  let cartTotal = document.querySelector(".cart-total")
+
+  /* If there's something in the Cart, display the items and the total sum of them. */
+  if (cartItems != null) {
+    const htmlItems = cartItems.map((item) => cartItemTemplate(item));
+    document.querySelector(".product-list").innerHTML = htmlItems.join("");
+
+    cartTotal.style.display = "block"; // Make appear the total paragraph that is hidden by default
+    cartTotal.innerHTML = `Total: ${sumTotal(cartItems)}`
+
+  }
 }
 
 function cartItemTemplate(item) {
@@ -18,12 +27,18 @@ function cartItemTemplate(item) {
     <h2 class='card__name'>${item.Name}</h2>
   </a>
   <p class='cart-card__color'>${item.Colors[0].ColorName}</p>
-  <p class='cart-card__quantity'> ${item.quantity}</p>
+  <p class='cart-card__quantity'>qty: ${item.quantity}</p>
   <p class='cart-card__price'>$${item.FinalPrice}</p>
 </li>`;
-
   return newItem;
 }
 
-renderCartContents();
+function sumTotal(cart) {
+  let total = 0;
+  cart.forEach(item => total += (item.FinalPrice * item.quantity));
+  return total;
+}
 
+
+
+renderCartContents();

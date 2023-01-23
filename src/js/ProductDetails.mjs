@@ -1,7 +1,7 @@
 import { getLocalStorage, setLocalStorage } from "./utils.mjs";
 
 function productDetailsTemplate(product) {
-  return `<section class="product-detail"> <h3>${product.NameWithoutBrand}</h3>
+  return `<section class="product-detail"> <h3>${product.Brand.Name}</h3>
     <h2 class="divider">${product.NameWithoutBrand}</h2>
     <img
       class="divider"
@@ -40,7 +40,7 @@ export default class ProductDetails {
     // Data.push(this.product);
     // setLocalStorage("so-cart", Data);
 
-    let Data = getLocalStorage("soCart");
+    let Data = getLocalStorage("so-cart");
     if (Data) {
       let tent = 1;
       for (let i = 0; i < Data.length; i++) {
@@ -61,7 +61,7 @@ export default class ProductDetails {
       Data.push(this.product);
     }
 
-    setLocalStorage("soCart", Data);
+    setLocalStorage("so-cart", Data);
   }
 
   renderProductDetails(selector) {
