@@ -110,6 +110,11 @@ document.addEventListener("DOMContentLoaded", function(){
         const product = cart.find(item => item.Name === nameProduct);
         //decrease the quantity of the product
         product.quantity--;
+        //if the quantity is less than 1 delete product
+        if(product.quantity < 1) {
+            deleteProduct(event);
+            return;
+        }
         //update the quantity on the DOM
         quantityProduct.textContent = product.quantity;
         //update the total price of the product
