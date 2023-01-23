@@ -11,7 +11,7 @@ product.init();
 // console.log(dataSource.findProductById(productId));
 
 // function addProductToCart(product) {
-//   let cart = getLocalStorage("soCart");
+//   let cart = getLocalStorage("so-cart");
 //   if (cart) {
 //     let tent = 1;
 //     for (let i = 0; i < cart.length; i++) {
@@ -31,7 +31,7 @@ product.init();
 //     cart.push(product);
 //   }
 
-//   setLocalStorage("soCart", cart);
+//   setLocalStorage("so-cart", cart);
 // }
 
 // // add to cart button event handler

@@ -9,7 +9,7 @@ function renderCartContents() {
     const htmlItems = cartItems.map((item) => cartItemTemplate(item));
     document.querySelector(".product-list").innerHTML = htmlItems.join("");
 
-    cartTotal.style.display = 'block'; // Make appear the total paragraph that is hidden by default
+    cartTotal.style.display = "block"; // Make appear the total paragraph that is hidden by default
     cartTotal.innerHTML = `Total: ${sumTotal(cartItems)}`
 
   }

@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function(){
 
     //select the cart container
     const myCartContainer = document.querySelector(".products");
-    let check = JSON.parse(localStorage.getItem("soCart"))
+    let check = JSON.parse(localStorage.getItem("so-cart"))
     //check if the localstorage is empty
     if(check == null) {
         const messageEmptyCart = document.createElement("p");
@@ -52,10 +52,10 @@ document.addEventListener("DOMContentLoaded", function(){
         //get the name of the product
         const nameProduct = productCard.querySelector(".card__name").textContent;
         //remove the product from the localstorage
-        let cart = JSON.parse(localStorage.getItem("soCart"));
+        let cart = JSON.parse(localStorage.getItem("so-cart"));
         cart = cart.filter(item => item.Name !== nameProduct);
         //set the localstorage
-        localStorage.setItem("soCart", JSON.stringify(cart));
+        localStorage.setItem("so-cart", JSON.stringify(cart));
         //remove the product from the DOM
         productCard.remove();
         //if the cart is empty, display a message
@@ -80,7 +80,7 @@ document.addEventListener("DOMContentLoaded", function(){
         //get the price of the product
         const priceProduct = productCard.querySelector(".cart-card__price");
         //get the cart
-        let cart = JSON.parse(localStorage.getItem("soCart"));
+        let cart = JSON.parse(localStorage.getItem("so-cart"));
         //find the product in the cart
         const product = cart.find(item => item.Name === nameProduct);
         //increase the quantity of the product
@@ -90,7 +90,7 @@ document.addEventListener("DOMContentLoaded", function(){
         //update the total price of the product
         priceProduct.textContent = (product.quantity * product.Price).toFixed(2);
         //set the localstorage
-        localStorage.setItem("soCart", JSON.stringify(cart));
+        localStorage.setItem("so-cart", JSON.stringify(cart));
         //reload
         location.reload();
     }
@@ -105,7 +105,7 @@ document.addEventListener("DOMContentLoaded", function(){
         //get the price of the product
         const priceProduct = productCard.querySelector(".cart-card__price");
         //get the cart
-        let cart = JSON.parse(localStorage.getItem("soCart"));
+        let cart = JSON.parse(localStorage.getItem("so-cart"));
         //find the product in the cart
         const product = cart.find(item => item.Name === nameProduct);
         //decrease the quantity of the product
@@ -115,7 +115,7 @@ document.addEventListener("DOMContentLoaded", function(){
         //update the total price of the product
         priceProduct.textContent = (product.quantity * product.Price).toFixed(2);
         //set the localstorage
-        localStorage.setItem("soCart", JSON.stringify(cart));
+        localStorage.setItem("so-cart", JSON.stringify(cart));
         //reload
         location.reload();
     }
