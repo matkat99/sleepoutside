@@ -10,8 +10,7 @@ function renderCartContents() {
     document.querySelector(".product-list").innerHTML = htmlItems.join("");
 
     cartTotal.style.display = "block"; // Make appear the total paragraph that is hidden by default
-    cartTotal.innerHTML = `Total: ${sumTotal(cartItems)}`
-
+    cartTotal.innerHTML = `Total: ${sumTotal(cartItems).toFixed(2)}`
   }
 }
 
