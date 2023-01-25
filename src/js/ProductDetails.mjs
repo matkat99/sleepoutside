@@ -14,7 +14,7 @@ function productDetailsTemplate(product) {
     />
     <p class="product-card__price">$${final_price}</p>
     <p class="product-card__retail_price">$${suggested_retail_price}</p>
-    <p class="product-card__price">You're Saving $${discount}</p>
+    <p class="product-card__description">You're Saving $${discount}</p>
     <p class="product__color">${product.Colors[0].ColorName}</p>
     <p class="product__description">
     ${product.DescriptionHtmlSimple}
