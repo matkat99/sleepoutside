@@ -60,6 +60,7 @@ document.addEventListener("DOMContentLoaded", function(){
       productCard.remove();
       //if the cart is empty, display a message
       if(cart.length === 0) {
+          window.location.reload();
           const messageEmptyCart = document.createElement("p");
           messageEmptyCart.textContent = "Your cart is empty!";
           messageEmptyCart.style.fontSize = "2rem";
