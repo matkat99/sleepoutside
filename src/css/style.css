@@ -148,6 +148,16 @@ button {
   margin: 0.5em 0;
 }
 
+.product-card__price {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.product-card__retail_price { 
+  text-decoration: line-through;
+}
+
+
 .card__brand {
   font-size: var(--small-font);
 }
