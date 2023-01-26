@@ -5,7 +5,8 @@ function renderCartContents() {
   let cartTotal = document.querySelector(".cart-total")
 
   /* If there's something in the Cart, display the items and the total sum of them. */
-  if (cartItems != null) {
+  if (cartItems.length != 0) {
+    console.log(cartItems)
     const htmlItems = cartItems.map((item) => cartItemTemplate(item));
     document.querySelector(".product-list").innerHTML = htmlItems.join("");
 
