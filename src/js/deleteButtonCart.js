@@ -61,7 +61,7 @@ document.addEventListener("DOMContentLoaded", function(){
       //if the cart is empty, display a message
       if(cart.length === 0) {
           const messageEmptyCart = document.createElement("p");
-          document.querySelector(".cart-total").style.display = "none;"
+          document.querySelector(".cart-total").style.display = "none";
           messageEmptyCart.textContent = "Your cart is empty!";
           messageEmptyCart.style.fontSize = "2rem";
           messageEmptyCart.style.fontWeight = "bold";
@@ -114,7 +114,7 @@ document.addEventListener("DOMContentLoaded", function(){
       //if the quantity is less than 1 delete product
       if(product.quantity < 1) {
           deleteProduct(event);
-          document.querySelector(".cart-total").style.display = "none;"
+          document.querySelector(".cart-total").style.display = "none";
           return;
       }
       //update the quantity on the DOM
