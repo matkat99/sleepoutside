@@ -1,10 +1,6 @@
 import { getLocalStorage, setLocalStorage } from "./utils.mjs";
 
 function productDetailsTemplate(product) {
-  console.log(product);
-  let final_price = Number(product.FinalPrice)
-  let suggested_retail_price = Number(product.SuggestedRetailPrice)
-  let discount = Math.abs(final_price - suggested_retail_price).toFixed(2)
   return `<section class="product-detail"> <h3>${product.Brand.Name}</h3>
     <h2 class="divider">${product.NameWithoutBrand}</h2>
     <img
@@ -12,9 +8,7 @@ function productDetailsTemplate(product) {
       src="${product.Image}"
       alt="${product.NameWithoutBrand}"
     />
-    <p class="product-card__price">$${final_price}</p>
-    <p class="product-card__retail_price">$${suggested_retail_price}</p>
-    <p class="product-card__description">You're Saving $${discount}</p>
+    <p class="product-card__price">$${product.FinalPrice}</p>
     <p class="product__color">${product.Colors[0].ColorName}</p>
     <p class="product__description">
     ${product.DescriptionHtmlSimple}
@@ -42,34 +36,15 @@ export default class ProductDetails {
       .addEventListener("click", this.addToCart.bind(this));
   }
   addToCart() {
-    // let Data = getLocalStorage("so-cart");
-    // Data.push(this.product);
-    // setLocalStorage("so-cart", Data);
-
-    let Data = getLocalStorage("so-cart");
-    if (Data) {
-      let tent = 1;
-      for (let i = 0; i < Data.length; i++) {
-        if (Data[i].Id == this.product.Id) {
-          this.product.quantity = Data[i].quantity++;
-          tent = 0;
-        }
-      }
-
-      if (tent == 1) {
-        this.product.quantity = 1;
-        Data.push(this.product);
-      }
-      
-    } else {
-      Data = [];
-      this.product.quantity = 1;
-      Data.push(this.product);
+    let cartContents = getLocalStorage("so-cart");
+    //check to see if there was anything there
+    if (!cartContents) {
+      cartContents = [];
     }
-
-    setLocalStorage("so-cart", Data);
+    // then add the current product to the list
+    cartContents.push(this.product);
+    setLocalStorage("so-cart", cartContents);
   }
-
   renderProductDetails(selector) {
     const element = document.querySelector(selector);
     element.insertAdjacentHTML(

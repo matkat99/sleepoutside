@@ -103,7 +103,6 @@ button {
   text-align: center;
 }
 
-
 .cart svg {
   width: 25px;
 }
@@ -147,16 +146,6 @@ button {
 .product-card p {
   margin: 0.5em 0;
 }
-
-.product-card__price {
-  font-size: 20px;
-  font-weight: bold;
-}
-
-.product-card__retail_price { 
-  text-decoration: line-through;
-}
-
 
 .card__brand {
   font-size: var(--small-font);
@@ -211,11 +200,6 @@ button {
 .cart-card__price {
   grid-row: 2;
   grid-column: 3;
-}
-
-
-.cart-total {
-  display: none;
 }
 
 @media screen and (min-width: 500px) {
