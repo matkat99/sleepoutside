@@ -6,7 +6,9 @@ function renderCartContents() {
 
   /* If there's something in the Cart, display the items and the total sum of them. */
   if (cartItems.length != 0) {
-    const htmlItems = cartItems.map((item) => cartItemTemplate(item));
+    const htmlItems =  cartItems.map(
+      (item) => cartItemTemplate(item)
+    )
     document.querySelector(".product-list").innerHTML = htmlItems.join("");
 
     cartTotal.style.display = "block"; // Make appear the total paragraph that is hidden by default
@@ -37,7 +39,5 @@ function sumTotal(cart) {
   cart.forEach(item => total += (item.FinalPrice * item.quantity));
   return total;
 }
-
-
 
 renderCartContents();
