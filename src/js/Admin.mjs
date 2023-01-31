@@ -65,7 +65,7 @@ function loginFormTemplate() {
   <button type="submit" id="loginButton">Login</button>
 </fieldset>`;
 }
-
+// test
 function orderTemplate() {
   return `<h2>Current Orders</h2>
   <table id="orders">
