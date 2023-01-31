@@ -52,9 +52,7 @@ export default class ProductDetails {
 
       if (tent == 1) {
         this.product.quantity = 1;
-        let push = Data;
-        Array.from(push).push(this.product);
-        alert(push.NameWithoutBrand);
+        Data.push(this.product);
       }
       
     } else {
