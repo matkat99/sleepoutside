@@ -103,6 +103,7 @@ button {
   text-align: center;
 }
 
+
 .cart svg {
   width: 25px;
 }
@@ -146,6 +147,16 @@ button {
 .product-card p {
   margin: 0.5em 0;
 }
+
+.product-card__price {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.product-card__retail_price { 
+  text-decoration: line-through;
+}
+
 
 .card__brand {
   font-size: var(--small-font);
@@ -202,6 +213,28 @@ button {
   grid-column: 3;
 }
 
+
+.cart-total {
+  display: none;
+}
+/* ========== modified by ZB  cart Buttons============ */
+.quantity-buttons {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin: 0;
+  margin-bottom: .5rem;
+  grid-column: 2 / 3;
+}
+.quantity-buttons button {
+  margin: 0;
+}
+.increase-button {
+  border-radius: 0 1rem 1rem 0;
+}
+.decrease-button {
+  border-radius: 1rem 0 0 1rem;
+}
 @media screen and (min-width: 500px) {
   body {
     max-width: 1080px;
@@ -220,16 +253,3 @@ footer {
   font-size: var(--small-font);
   padding: 1em;
 }
-/* Superscript number of items in the cart to the backpack icon*/
-.badge:after {
-        content: attr(value);
-        font-size: 12px;
-        color: #fff;
-        background: red;
-        border-radius: 50%;
-        padding: 0 5px;
-        position: relative;
-        left: -8px;
-        top: -10px;
-        opacity: 0.9;
-      }
