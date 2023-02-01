@@ -14,12 +14,45 @@
   </head>
 
   <body>
-    <header class="divider">
+    <header class="main-header">
       
     </header>
 
     <main class="divider"></main>
+    <script>
 
-    <footer></footer>
+    
+      var totalQty = 5;
+      var elementVar = document.getElementById("card-qty");
+      elementVar.setAttribute("value", totalQty);
+
+
+      var totalQty = 5;
+      var elementVar = document.getElementById("card-qty");
+      elementVar.setAttribute("value", totalQty);
+      var totalQty = 5;
+      const elementVar = document.getElementsByClassName("badge");
+
+
+      while (index < elementVar.length) {
+        elementVar[index].setAttribute("value", totalQty);
+        index++
+      }
+
+
+      var totalQty = 5;
+      const elementVar = document.getElementsByClassName("badge");
+      let index = 0;
+
+
+      while (index < elementVar.length) {
+        elementVar[index].setAttribute("value", totalQty);
+        index++
+      }
+    </script>
+  
+
+    <i class="fa badge fa-lg" id="card-qty" value="">&#xf07a;</i>
+    <footer class="main-footer"></footer>
   </body>
 </html>

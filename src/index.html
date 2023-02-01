@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="/css/style.css" />
   </head>
   <body>
-    <header class="divider">
+    <header class="main-header">
       
     </header>
     <main class="divider">
@@ -36,7 +36,41 @@
         <ul class="product-list"></ul>
       </section>
     </main>
-    <footer></footer>
+    <script>
+
+    
+      var totalQty = 5;
+      var elementVar = document.getElementById("card-qty");
+      elementVar.setAttribute("value", totalQty);
+
+
+      var totalQty = 5;
+      var elementVar = document.getElementById("card-qty");
+      elementVar.setAttribute("value", totalQty);
+      var totalQty = 5;
+      const elementVar = document.getElementsByClassName("badge");
+
+
+      while (index < elementVar.length) {
+        elementVar[index].setAttribute("value", totalQty);
+        index++
+      }
+
+
+      var totalQty = 5;
+      const elementVar = document.getElementsByClassName("badge");
+      let index = 0;
+
+
+      while (index < elementVar.length) {
+        elementVar[index].setAttribute("value", totalQty);
+        index++
+      }
+    </script>
+  
+
+    <i class="fa badge fa-lg" id="card-qty" value="">&#xf07a;</i>
+    <footer class="main-footer"></footer>
     <script src="js/main.js" type="module"></script>
   </body>
 </html>
