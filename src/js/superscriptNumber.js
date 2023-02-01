@@ -1,7 +1,21 @@
-//How to add superscript number of items in the cart from the index.html to the backpack icon?
+var totalQty = 5;
+var elementVar = document.getElementById("card-qty");
+elementVar.setAttribute("value", totalQty);
 
 
+elementVar.setAttribute("value", totalQty);
 
-//Source: https://stackoverflow.com/questions/74452548
+
+while (index < elementVar.length) {
+  elementVar[index].setAttribute("value", totalQty);
+  index++
+}
 
 
+let index = 0;
+
+
+while (index < elementVar.length) {
+  elementVar[index].setAttribute("value", totalQty);
+  index++
+}
