@@ -8,3 +8,5 @@ export default class Alert{
         alertPart.querySelector("p").innerHTML = alert1[1];
       }
 }
+
+Alert();
