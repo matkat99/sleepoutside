@@ -256,16 +256,23 @@ footer {
 
 
 
-
-
-
-
-
-
-
+.icon {
+  background-image: url(backpack.png);
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: 32px;
+  width: 32px;
+}
 .superscript {
   font-size: smaller;
   vertical-align: super;
   position: relative;
-  right: 10.5em;
+  left: -0.5em;
 }
+
+
+
+
+
+
+
