@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
   document.getElementById("cart-count").innerHTML = count;
 });
 
-document.getElementById("add-to-cart").addEventListener("click", function() {
+document.getElementById("addToCart").addEventListener("click", function() {
   let count = parseInt(document.getElementById("cart-count").innerHTML) + 1;
   document.getElementById("cart-count").innerHTML = count;
   localStorage.setItem("cartCount", count);
