@@ -1,14 +1,13 @@
 import { loadHeaderFooter } from "./utils.mjs";
 import ProductData from "./ProductData.mjs";
 import ProductListing from "./ProductList.mjs";
-import {addToCartBtn,cartQuantitySpan} from "./superscriptNumber";
+import {cartQuantitySpan} from "./superscriptNumber";
 
 
 loadHeaderFooter();
 
 const cartQuantity = new cartQuantitySpan("cart-quantity");
-const cartBtn = new addToCartBtn("addToCart");
-const itemQuantity = ProductData(cartQuantity,cartBtn);
+const itemQuantity = new cartQuantity(cartQuantity);
 itemQuantity.init();
 const dataSource = new ProductData("tents"); 
 const element = document.querySelector(".product-list");
