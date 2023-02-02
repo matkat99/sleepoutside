@@ -255,24 +255,21 @@ footer {
 }
 
 
-
-.icon {
-  
-  background-repeat: no-repeat;
-  display: inline-block;
-  height: 32px;
-  width: 32px;
-}
-.superscript {
-  font-size: smaller;
-  vertical-align: super;
+.cart-icon {
   position: relative;
-  left: -0.5em;
+  display: inline-block;
+  background-color: chartreuse;
 }
 
-
-
-
-
-
-
+.cart-count {
+  font-size: 0.8em;
+  background-color: #f44336;
+  color: white;
+  border-radius: 50%;
+  padding: 5px;
+  min-width: 20px;
+  text-align: center;
+  position: absolute;
+  top: -15px;
+  right: -10px;
+}

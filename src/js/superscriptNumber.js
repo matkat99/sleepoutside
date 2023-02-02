@@ -1,13 +1,14 @@
-document.addEventListener("DOMContentLoaded", function() {
-  let count = localStorage.getItem("cartCount");
-  if (count === null) {
-    count = 0;
-  }
-  document.getElementById("cart-count").innerHTML = count;
-});
+// Get cart count from local storage
+let cartCount = localStorage.getItem("cartCount") || 0;
 
-document.getElementById("addToCart").addEventListener("click", function() {
-  let count = parseInt(document.getElementById("cart-count").innerHTML) + 1;
-  document.getElementById("cart-count").innerHTML = count;
-  localStorage.setItem("cartCount", count);
-});
+// Update the cart count display
+document.getElementById("cartCount").innerText = cartCount;
+
+// Update the cart count in local storage when adding items to cart
+function addToCart() {
+  cartCount++;
+  localStorage.setItem("cartCount", cartCount);
+  document.getElementById("cartCount").innerText = cartCount;
+}
+
+addToCart();
