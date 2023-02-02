@@ -255,3 +255,17 @@ footer {
 }
 
 
+
+
+
+
+
+
+
+
+.superscript {
+  font-size: smaller;
+  vertical-align: super;
+  position: relative;
+  left: -0.5em;
+}
