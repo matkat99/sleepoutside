@@ -1,5 +1,5 @@
-import { getLocalStorage, loadHeaderFooter } from "./utils.mjs";
- 
+import { getLocalStorage } from "./utils.mjs";
+
 function renderCartContents() {
   const cartItems = getLocalStorage("so-cart") || [];
   let cartTotal = document.querySelector(".cart-total")
@@ -39,34 +39,6 @@ function sumTotal(cart) {
   return total;
 }
 
-function updateCartCount() {
-  let count = localStorage("so-cart") || 0;
-  count = parseInt(count, 10);
-  
-  const cartCountElement = document.querySelector(".product-list");
-  cartCountElement.textContent = count;
-  
-  if (count === 0) {
-    cartCountElement.style.display = "none";
-  } else {
-    cartCountElement.style.display = "block";
-  }
-}
 
-// Call the updateCartCount function when the page loads
-window.addEventListener("load", updateCartCount);
 
-// Update the cart count in local storage whenever it changes
-function addToCart() {
-  let count = localStorage("so-cart") || 0;
-  count = parseInt(count, 10);
-  count += 1;
-  
-  getLocalStorage.setItem(".product-list", count);
-  updateCartCount();
-}
-
-updateCartCount();
-addToCart();
 renderCartContents();
-loadHeaderFooter();
