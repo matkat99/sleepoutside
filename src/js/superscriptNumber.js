@@ -1,5 +1,5 @@
 function updateCartCount() {
-  let count = localStorage.getItem(".cart-total") || 0;
+  let count = localStorage.getItem("cartCount") || 0;
   count = parseInt(count, 10);
   
   const cartCountElement = document.querySelector(".cart-count");
@@ -15,7 +15,12 @@ function updateCartCount() {
 // Call the updateCartCount function when the page loads
 window.addEventListener("load", updateCartCount);
 
-// Call the updateCartCount function when the page unloads
-window.addEventListener("unload", updateCartCount);
-// Call the updateCartCount function when the user clicks the cart button
-document.getElementById("addToCart").addEventListener("click", updateCartCount);
+// Update the cart count in local storage whenever it changes
+function addToCart() {
+  let count = localStorage.getItem("cartCount") || 0;
+  count = parseInt(count, 10);
+  count += 1;
+  
+  localStorage.setItem("cartCount", count);
+  updateCartCount();
+}
