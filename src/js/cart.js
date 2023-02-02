@@ -40,7 +40,7 @@ function sumTotal(cart) {
 }
 
 function updateCartCount() {
-  let count = getLocalStorage("so-cart") || 0;
+  let count = localStorage("so-cart") || 0;
   count = parseInt(count, 10);
   
   const cartCountElement = document.querySelector(".product-list");
@@ -58,7 +58,7 @@ window.addEventListener("load", updateCartCount);
 
 // Update the cart count in local storage whenever it changes
 function addToCart() {
-  let count = getLocalStorage("so-cart") || 0;
+  let count = localStorage("so-cart") || 0;
   count = parseInt(count, 10);
   count += 1;
   
