@@ -255,20 +255,3 @@ footer {
 }
 
 
-.cart-icon {
-  position: relative;
-  display:inline-block;
-}
-
-.cart-count {
-  font-size: 0.8em;
-  background-color: #f44336;
-  color: rgb(42, 165, 63);
-  border-radius: 50%;
-  padding: 5px;
-  min-width: 20px;
-  text-align: center;
-  position: absolute;
-  top: -15px;
-  right: -10px;
-}
