@@ -257,14 +257,13 @@ footer {
 
 .cart-icon {
   position: relative;
-  display: inline-block;
-  background-color: chartreuse;
+  display:inline-block;
 }
 
 .cart-count {
   font-size: 0.8em;
   background-color: #f44336;
-  color: white;
+  color: rgb(42, 165, 63);
   border-radius: 50%;
   padding: 5px;
   min-width: 20px;
