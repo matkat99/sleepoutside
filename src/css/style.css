@@ -254,7 +254,7 @@ footer {
   padding: 1em;
 }
 
-.cart-quantity {
+/*.cart-quantity {
   background:chartreuse;
   color:violet;
   width: 18px;
@@ -265,4 +265,9 @@ footer {
   text-align: center;
   font-size: .625rem;
   line-height: 16px;
+}*/
+
+.cart-quantity {
+  display: inline-block;
+  padding: 10px;
 }
