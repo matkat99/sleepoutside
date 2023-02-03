@@ -42,34 +42,15 @@ export default class ProductDetails {
       .addEventListener("click", this.addToCart.bind(this));
   }
   addToCart() {
-    // let Data = getLocalStorage("so-cart");
-    // Data.push(this.product);
-    // setLocalStorage("so-cart", Data);
-
-    let Data = getLocalStorage("so-cart");
-    if (Data) {
-      let tent = 1;
-      for (let i = 0; i < Data.length; i++) {
-        if (Data[i].Id == this.product.Id) {
-          this.product.quantity = Data[i].quantity++;
-          tent = 0;
-        }
-      }
-
-      if (tent == 1) {
-        this.product.quantity = 1;
-        Data.push(this.product);
-      }
-      
-    } else {
-      Data = [];
-      this.product.quantity = 1;
-      Data.push(this.product);
+    let cartContents = getLocalStorage("so-cart");
+    //check to see if there was anything there
+    if (!cartContents) {
+      cartContents = [];
     }
-
-    setLocalStorage("so-cart", Data);
+    // then add the current product to the list
+    cartContents.push(this.product);
+    setLocalStorage("so-cart", cartContents);
   }
-
   renderProductDetails(selector) {
     const element = document.querySelector(selector);
     element.insertAdjacentHTML(
