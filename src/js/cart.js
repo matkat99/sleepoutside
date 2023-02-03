@@ -42,4 +42,3 @@ function sumTotal(cart) {
 
 loadHeaderFooter();
 renderCartContents();
-updateCartCount();
