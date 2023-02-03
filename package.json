@@ -10,7 +10,7 @@
     "format": "prettier --ignore-path ./.gitignore --write \"./**/*.{html,json,js,ts,css}\"",
     "test": "jest",
     "preview": "vite preview"
-  }, 
+  },
   "author": "Shane Thompson",
   "license": "ISC",
   "devDependencies": {
