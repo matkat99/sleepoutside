@@ -1,13 +1,13 @@
-const addToCartBtn = document.getElementById("addToCart");
-  const cartQuantitySpan = document.getElementsByClassName("cart-quantity");
+const addToCartButton = document.getElementById("addToCart");
+const cartQuantitySpan = document.querySelector(".cart-quantity");
 
-  addToCartBtn.addEventListener("click", function () {
-    let currentQuantity = localStorage.getItem("cart-quantity") || 0;
-    currentQuantity++;
-    localStorage.setItem("cart-quantity", currentQuantity);
-    cartQuantitySpan.innerHTML = currentQuantity;
-  });
+addToCartButton.addEventListener("click", () => {
+  let currentCount = Number(localStorage.getItem("itemCount")) || 0;
+  currentCount++;
+  localStorage.setItem("itemCount", currentCount);
+  cartQuantitySpan.innerText = currentCount;
+});
 
-  document.addEventListener("DOMContentLoaded", function () {
-    cartQuantitySpan.innerHTML = localStorage.getItem("cart-quantity") || 0;
-  });
+// On page load, get the item count from local storage and update the span
+const itemCount = Number(localStorage.getItem("itemCount")) || 0;
+cartQuantitySpan.innerText = itemCount;
