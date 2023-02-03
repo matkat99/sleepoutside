@@ -1,5 +1,5 @@
 import { getLocalStorage, loadHeaderFooter } from "./utils.mjs";
-
+import updateCartCount from "./superscriptNumber";
 function renderCartContents() {
   const cartItems = getLocalStorage("so-cart") || [];
   let cartTotal = document.querySelector(".cart-total")
@@ -42,4 +42,4 @@ function sumTotal(cart) {
 
 loadHeaderFooter();
 renderCartContents();
-
+updateCartCount();
