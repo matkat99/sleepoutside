@@ -34,7 +34,6 @@ export default class ShoppingCart {
 
       /* If there's something in the Cart, display the items and the total sum of them. */
       if (cartItems.length != 0) {
-        console.log(cartItems)
         const htmlItems = cartItems.map((item) => cartItemTemplate(item));
         document.querySelector(this.parentSelector).innerHTML = htmlItems.join("");
 
