@@ -50,7 +50,8 @@ export function renderWithTemplate(
   template,
   parentElement, // <main>, <footer>, <ul>, <div>, etc.
   data,
-  position = "afterbegin", // Insert template at the beginning of the parent element
+  position = "afterbegin",
+  callback // Insert template at the beginning of the parent element
 ) {
   parentElement.insertAdjacentHTML(position, template);
   // If the callback exists then call it.
@@ -73,9 +74,9 @@ export async function loadHeaderFooter() {
 
   const headerElement = document.querySelector("#main-header") // Grab the header element out of the DOM
   const footerElement = document.querySelector("#main-footer") // Grab the footer element out of the DOM
-  const productPagesHeaderElement = document.querySelector("#productPagesHeader")
+  //const productPagesHeaderElement = document.querySelector("#productPagesHeader")
 
   renderWithTemplate(headerTemplate, headerElement) // document.querySelector("#main-header"), null, position
   renderWithTemplate(footerTemplate, footerElement) // document.querySelector("#main-footer"), null, position
-  renderWithTemplate(headerTemplate, productPagesHeaderElement)
+  //renderWithTemplate(headerTemplate, productPagesHeaderElement)
 }

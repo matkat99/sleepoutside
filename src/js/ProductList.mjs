@@ -26,7 +26,6 @@ export default class ProductListing {
       const list = await this.dataSource.getData();
       // render the list 
       this.renderList(list)
-      console.log(list)
     }
     // render after doing the first stretch
     renderList(list) {

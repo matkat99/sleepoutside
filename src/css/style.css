@@ -152,10 +152,9 @@ button {
   font-weight: bold;
 }
 
-.product-card__retail_price { 
+.product-card__retail_price {
   text-decoration: line-through;
 }
-
 
 .card__brand {
   font-size: var(--small-font);
