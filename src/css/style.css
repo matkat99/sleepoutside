@@ -94,8 +94,8 @@ button {
 .divider {
   border-bottom: 2px solid var(--primary-color);
 }
-.divider numberCartItems{
-  
+.numberCartItems{
+  color:teal;
 }
 /* End utility classes */
 
