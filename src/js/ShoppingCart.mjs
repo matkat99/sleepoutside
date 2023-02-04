@@ -31,13 +31,12 @@ export default class ShoppingCart {
     renderCartContents() {
       const cartItems = getLocalStorage(this.key) || [];
       let cartTotal = document.querySelector(".cart-total")
-
+    
       /* If there's something in the Cart, display the items and the total sum of them. */
       if (cartItems.length != 0) {
-        console.log(cartItems)
         const htmlItems = cartItems.map((item) => cartItemTemplate(item));
         document.querySelector(this.parentSelector).innerHTML = htmlItems.join("");
-
+    
         cartTotal.style.display = "block"; // Make appear the total paragraph that is hidden by default
         cartTotal.innerHTML = `Total: ${sumTotal(cartItems).toFixed(2)}`
       }
