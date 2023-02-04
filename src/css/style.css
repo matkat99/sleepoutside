@@ -249,6 +249,58 @@ span.rise-shake {
 .cart-total {
   display: none;
 }
+
+
+/* NEWSLETTER SUBSCRIPTION */
+#newsletter-signup {
+width: 400px;
+margin: 2rem auto;
+text-align: center;
+padding: 3rem;
+border: 1px solid #ccc;
+border-radius: 5px;
+}
+
+h2 {
+margin-bottom: 20px;
+}
+
+form {
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-bottom: 20px;
+}
+
+input {
+width: 100%;
+padding: 10px;
+margin-bottom: 20px;
+border: 1px solid #ccc;
+border-radius: 5px;
+font-size: 16px;
+}
+
+button {
+width: 100%;
+padding: 10px;
+
+color: #fff;
+border: none;
+border-radius: 5px;
+font-size: 16px;
+cursor: pointer;
+}
+
+#response {
+margin-top: 20px;
+font-size: 18px;
+font-weight: bold;
+}
+
+
+
+
 /* ========== modified by ZB  cart Buttons============ */
 .quantity-buttons {
   display: flex;
