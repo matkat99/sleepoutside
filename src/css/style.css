@@ -105,6 +105,8 @@ button {
 
 .cart svg {
   width: 25px;
+  position: relative;
+  left: 1400px;
 }
 .cart:hover svg {
   fill: gray;
