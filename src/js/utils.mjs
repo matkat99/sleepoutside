@@ -50,7 +50,8 @@ export function renderWithTemplate(
   template,
   parentElement, // <main>, <footer>, <ul>, <div>, etc.
   data,
-  position = "afterbegin", // Insert template at the beginning of the parent element
+  position = "afterbegin",
+  callback // Insert template at the beginning of the parent element
 ) {
   parentElement.insertAdjacentHTML(position, template);
   // If the callback exists then call it.
