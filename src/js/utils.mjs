@@ -73,9 +73,7 @@ export async function loadHeaderFooter() {
 
   const headerElement = document.querySelector("#main-header") // Grab the header element out of the DOM
   const footerElement = document.querySelector("#main-footer") // Grab the footer element out of the DOM
-  const productPagesHeaderElement = document.querySelector("#productPagesHeader")
 
-  renderWithTemplate(headerTemplate, headerElement) // document.querySelector("#main-header"), null, position
-  renderWithTemplate(footerTemplate, footerElement) // document.querySelector("#main-footer"), null, position
-  renderWithTemplate(headerTemplate, productPagesHeaderElement)
+  renderWithTemplate(headerTemplate, headerElement)
+  renderWithTemplate(footerTemplate, footerElement)
 }
