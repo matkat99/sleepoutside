@@ -2,6 +2,7 @@ import { renderListWithTemplate } from "./utils.mjs";
 
 export function productCardTemplate(product) {
   if(product.Id != "880RT" && product.Id != "989CG"){ return `<li class="product-card">
+  <button class="close-pop-up">Close</button>
   <a href="product_pages/index.html?product=${product.Id}">
   <img
     src="${product.Image}"
@@ -10,6 +11,7 @@ export function productCardTemplate(product) {
   <h3 class="card__brand">${product.Brand.Name}</h3>
   <h2 class="card__name">${product.Name}</h2>
   <p class="product-card__price">$${product.FinalPrice}</p></a>
+  <button class="show-pop-up" id="${product.Id}">Show Pop-Up</button>
 </li>`};
 }
 
