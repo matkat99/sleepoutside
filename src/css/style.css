@@ -111,7 +111,7 @@ button {
 }
 
 span.rise-shake {
-  background: #b3e4ff;
+
   color: white;
   padding: 1.5rem;
   font-size: 1rem;
@@ -281,16 +281,6 @@ border-radius: 5px;
 font-size: 16px;
 }
 
-button {
-width: 100%;
-padding: 10px;
-
-color: #fff;
-border: none;
-border-radius: 5px;
-font-size: 16px;
-cursor: pointer;
-}
 
 #response {
 margin-top: 20px;
