@@ -94,13 +94,6 @@ button {
 .divider {
   border-bottom: 2px solid var(--primary-color);
 }
-.numberCartItems{
-  color: red;
-  position:relative;
-  top: 2px;
-  right: 4%;
-  padding-top: 0%;
-}
 /* End utility classes */
 
 /* Cart icon styles */
@@ -113,12 +106,55 @@ button {
 .cart svg {
   width: 25px;
   position: relative;
-  right: -1400%;
+  left: 1400%;
 }
 .cart:hover svg {
   fill: gray;
 }
 
+.numberCartItems{
+  color: red;
+  position:relative;
+  top: 2px;
+  right: 4%;
+  padding-top: 0%;
+}
+
+span.rise-shake {
+
+  color: white;
+  padding: 1.5rem;
+  font-size: 1rem;
+  display: inline-block;
+}
+
+/* span.rise-shake {
+  animation: jump-shaking 0.83s infinite;
+} */
+
+@keyframes jump-shaking {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateY(-9px);
+  }
+  35% {
+    transform: translateY(-9px) rotate(17deg);
+  }
+  55% {
+    transform: translateY(-9px) rotate(-17deg);
+  }
+  65% {
+    transform: translateY(-9px) rotate(17deg);
+  }
+  75% {
+    transform: translateY(-9px) rotate(-17deg);
+  }
+  100% {
+    transform: translateY(0) rotate(0);
+  }
+}
 /* End cart icon styles */
 
 .mission {
@@ -223,6 +259,48 @@ button {
 .cart-total {
   display: none;
 }
+
+
+/* NEWSLETTER SUBSCRIPTION */
+#newsletter-signup {
+width: 400px;
+margin: 2rem auto;
+text-align: center;
+padding: 3rem;
+border: 1px solid #ccc;
+border-radius: 5px;
+}
+
+h2 {
+margin-bottom: 20px;
+}
+
+form {
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-bottom: 20px;
+}
+
+input {
+width: 100%;
+padding: 10px;
+margin-bottom: 20px;
+border: 1px solid #ccc;
+border-radius: 5px;
+font-size: 16px;
+}
+
+
+#response {
+margin-top: 20px;
+font-size: 18px;
+font-weight: bold;
+}
+
+
+
+
 /* ========== modified by ZB  cart Buttons============ */
 .quantity-buttons {
   display: flex;
