@@ -110,6 +110,14 @@ button {
   fill: gray;
 }
 
+.numberCartItems{
+  color: red;
+  position:relative;
+  top: 2px;
+  right: 4%;
+  padding-top: 0%;
+}
+
 span.rise-shake {
 
   color: white;
