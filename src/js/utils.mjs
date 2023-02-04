@@ -80,3 +80,13 @@ export async function loadHeaderFooter() {
   renderWithTemplate(footerTemplate, footerElement) // document.querySelector("#main-footer"), null, position
   //renderWithTemplate(headerTemplate, productPagesHeaderElement)
 }
+
+export function numberItems(key) {
+  const cart = getLocalStorage(key);
+
+  let total =  0;
+  cart.forEach(item => total += item.quantity);
+
+  let numTotal = document.querySelector(".numberCartItems");
+  numTotal.textContent = total;
+}
