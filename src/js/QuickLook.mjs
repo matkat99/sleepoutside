@@ -19,22 +19,33 @@ export async function logProductCard() {
           const product = document.getElementById(`product-${item.id}`);
           product.classList.remove('product-card');
           product.classList.add('modal');
+          document.addEventListener('click', function (event) {
+            const popUp = document.getElementById(`product-${item.id}`);
+            if (!popUp.contains(event.target)) {
+              document.getElementById(`${item.id}`).style.display = "block";
+              document.getElementById(`close-${item.id}`).style.display = "none";
+              product.classList.remove('modal');
+              product.classList.add('product-card');
+             
+            }
+          })
         });
 
       });
 
       closePopUpButton.forEach(function (item) {
         document.getElementById(`${item.id}`).addEventListener('click', function () {
-          let productId = item.id.slice(6,11)
+          let productId = item.id.slice(6, 11)
           document.getElementById(`${productId}`).style.display = "block";
           document.getElementById(`close-${productId}`).style.display = "none";
           const product = document.getElementById(`product-${productId}`);
           product.classList.remove('modal');
           product.classList.add('product-card');
+          
         });
 
       });
-      
+
       resolve(productCard);
     } else {
       setTimeout(() => resolve(logProductCard()), 100);
