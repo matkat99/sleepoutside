@@ -105,9 +105,19 @@ button {
 
 .cart svg {
   width: 25px;
+  position: relative;
+  left: 1400%;
 }
 .cart:hover svg {
   fill: gray;
+}
+
+.numberCartItems{
+  color: red;
+  position:relative;
+  top: 2px;
+  right: 4%;
+  padding-top: 0%;
 }
 
 span.rise-shake {
