@@ -1,8 +1,8 @@
 import { renderListWithTemplate } from "./utils.mjs";
 
 export function productCardTemplate(product) {
-  if(product.Id != "880RT" && product.Id != "989CG"){ return `<li class="product-card">
-  <button class="close-pop-up">Close</button>
+  if(product.Id != "880RT" && product.Id != "989CG"){ return `<li id="product-${product.Id}" class="product-card">
+  <button id="close-${product.Id}" class="close-pop-up">Close</button>
   <a href="product_pages/index.html?product=${product.Id}">
   <img
     src="${product.Image}"
