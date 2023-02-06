@@ -12,6 +12,6 @@ const listing = new ProductListing("Tents", dataSource, element);
 newsLetterTemplate()
 document.getElementById("submit-button").addEventListener("click", responseToSubmission);
 
-logProductCard()
+logProductCard();
 
 listing.init();

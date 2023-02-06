@@ -44,6 +44,7 @@ export default class ProductDetails {
     // let Data = getLocalStorage("so-cart");
     // Data.push(this.product);
     // setLocalStorage("so-cart", Data);
+    document.querySelector(".rise-shake").style.animation = "jump-shaking 0.83s"
 
     let Data = getLocalStorage("so-cart");
     if (Data) {
