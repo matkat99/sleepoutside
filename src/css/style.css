@@ -199,6 +199,10 @@ span.rise-shake {
 
 .product-card__retail_price {
   text-decoration: line-through;
+  color: red;
+  font-size: 0.8em;
+  margin: 0;
+  margin-bottom: 0.5rem;
 }
 
 .card__brand {
@@ -331,6 +335,25 @@ box-shadow: 1px 12px 58px 1200px rgb(0 0 0 / 50%);
 }
 .decrease-button {
   border-radius: 1rem 0 0 1rem;
+}
+.discount {
+  color: red;
+  font-size: 0.8em;
+  margin: 0;
+  margin-bottom: 0.5rem;
+  grid-column: 2 / 3;
+}
+.saved {
+  color: green;
+  font-size: 1em;
+  margin: 0;
+  margin-bottom: 0.5rem;
+  grid-column: 2 / 3;
+}
+.product-card__price {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: .5rem;
 }
 @media screen and (min-width: 500px) {
   body {

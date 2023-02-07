@@ -4,16 +4,17 @@ function productDetailsTemplate(product) {
   let final_price = Number(product.FinalPrice)
   let suggested_retail_price = Number(product.SuggestedRetailPrice)
   let discount = Math.abs(final_price - suggested_retail_price).toFixed(2)
-  return `<section class="product-detail"> <h3>${product.Brand.Name}</h3>
+  return `
+    <section class="product-detail"> <h3>${product.Brand.Name}</h3>
     <h2 class="divider">${product.NameWithoutBrand}</h2>
     <img
       class="divider"
       src="${product.Image}"
       alt="${product.NameWithoutBrand}"
     />
-    <p class="product-card__price">$${final_price}</p>
-    <p class="product-card__retail_price">$${suggested_retail_price}</p>
-    <p class="product-card__description">You're Saving $${discount}</p>
+    <p class="product-card__price">Now! $${final_price}</p>
+    <p class="product-card__retail_price">Before: $${suggested_retail_price}</p>
+    <p class="product-card__description saved">You're Saving $${discount}</p>
     <p class="product__color">${product.Colors[0].ColorName}</p>
     <p class="product__description">
     ${product.DescriptionHtmlSimple}
