@@ -3,7 +3,7 @@ import ShoppingCart from "./ShoppingCart.mjs";
 
 loadHeaderFooter();
 numberItems("so-cart");
-getLocalStorage("so-cart");
-const ShoppingBag =  new ShoppingCart("so-cart", ".product-list");
+getLocalStorage("so-cart", this.addToCart);
 
-ShoppingBag.renderCartContents();
+const cart =  new ShoppingCart("so-cart", ".product-list");
+cart.renderCartContents();
