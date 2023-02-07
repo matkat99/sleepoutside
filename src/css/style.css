@@ -115,8 +115,8 @@ button {
 .numberCartItems{
   color: red;
   position:relative;
-  top: 4px;
-  left: 4%;
+  top: 2px;
+  right: 4%;
   padding-top: 0%;
 }
 
