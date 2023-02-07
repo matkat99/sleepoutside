@@ -1,3 +1,3 @@
-import { loadHeaderFooter, numberItems } from "./utils.mjs";
+import { loadHeaderFooter} from "./utils.mjs";
 loadHeaderFooter();
-numberItems("so-cart");
+
