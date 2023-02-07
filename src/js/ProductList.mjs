@@ -12,7 +12,7 @@ export function productCardTemplate(product) {
   <p class="product-card__price">$${product.FinalPrice}</p></a>
   <button class="show-pop-up" id="${product.Id}">Show Pop-Up</button>
 </li>`};
-}
+
 
 export default class ProductListing {
     constructor(category, dataSource, listElement) {
