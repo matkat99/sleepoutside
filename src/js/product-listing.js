@@ -1,7 +1,8 @@
-import { loadHeaderFooter, getParam,numberItems } from "./utils.mjs";
+import { loadHeaderFooter, getParam } from "./utils.mjs";
 import ProductData from "./ProductData.mjs";
 import ProductList from "./ProductList.mjs";
-numberItems("so-cart");
+
+
 loadHeaderFooter();
 const category = getParam("category");
 const dataSource = new ProductData();
