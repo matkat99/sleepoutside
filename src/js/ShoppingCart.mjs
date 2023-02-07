@@ -1,6 +1,11 @@
 import { getLocalStorage } from "./utils.mjs";
 
 function cartItemTemplate(item) {
+    let final_price = Number(item.FinalPrice)
+    let suggested_retail_price = Number(item.SuggestedRetailPrice)
+    let discount = Math.abs(final_price - suggested_retail_price).toFixed(2)
+    let quantity = Number(item.quantity)
+    let total_discount = (discount * quantity).toFixed(2)
     const newItem = `<li class='cart-card divider'>
     <a href='#' class='cart-card__image'>
       <img
@@ -13,8 +18,10 @@ function cartItemTemplate(item) {
     </a>
     <p class='cart-card__color'>${item.Colors[0].ColorName}</p>
     <p class='cart-card__quantity'>qty: ${item.quantity}</p>
+    <p class='saved'>Saved: $${total_discount}<p>
     <p class='cart-card__price'>$${item.FinalPrice}</p>
-  </li>`;
+  </li>
+  `;
     return newItem;
 }
 
