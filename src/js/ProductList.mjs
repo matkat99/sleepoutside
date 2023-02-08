@@ -1,7 +1,11 @@
 import { renderListWithTemplate } from "./utils.mjs";
 
 export function productCardTemplate(product) {
-  if(product.Id != "880RT" && product.Id != "989CG"){ return `<li id="product-${product.Id}" class="product-card">
+  let final_price = Number(product.FinalPrice)
+  let suggested_retail_price = Number(product.SuggestedRetailPrice)
+  let discount = Math.abs(final_price - suggested_retail_price).toFixed(2)
+  if(product.Id != "880RT" && product.Id != "989CG"){
+      return `<li id="product-${product.Id}" class="product-card">
   <button id="close-${product.Id}" class="close-pop-up">Close</button>
   <a href="product_pages/index.html?product=${product.Id}">
   <img
@@ -10,7 +14,8 @@ export function productCardTemplate(product) {
   />
   <h3 class="card__brand">${product.Brand.Name}</h3>
   <h2 class="card__name">${product.Name}</h2>
-  <p class="product-card__price">$${product.FinalPrice}</p></a>
+  <p class="product-card__price"> Now! $${product.FinalPrice}</p></a>
+  <p class='saved'>Save: $${discount} <s class='discount'>$${suggested_retail_price}</s><p>
   <button class="show-pop-up" id="${product.Id}">Show Pop-Up</button>
 </li>`};
 }
