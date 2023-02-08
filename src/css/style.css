@@ -106,7 +106,7 @@ button {
 .cart svg {
   width: 25px;
   position: relative;
-  left: 1400%;
+  left: 1100%;
 }
 .cart:hover svg {
   fill: gray;
