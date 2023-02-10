@@ -93,7 +93,7 @@ export function numberItems(key) {
     numTotal.innerHTML = total;
   }
   window.onload = function() {
-    numberItems("cart");
+    numberItems("so-cart");
   };
   
 }
