@@ -87,5 +87,7 @@ export function numberItems(key) {
   cart.forEach(item => total += item.quantity);
 
   let numTotal = document.querySelector(".numberCartItems");
-  numTotal.innerHTML = total;
+  if (!isNaN(total)) {
+    numTotal.innerHTML = total;
+  }
 }
