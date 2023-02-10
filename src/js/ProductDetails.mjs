@@ -4,23 +4,24 @@ function productDetailsTemplate(product) {
   let final_price = Number(product.FinalPrice)
   let suggested_retail_price = Number(product.SuggestedRetailPrice)
   let discount = Math.abs(final_price - suggested_retail_price).toFixed(2)
+
   return `<section class="product-detail"> <h3>${product.Brand.Name}</h3>
-    <h2 class="divider">${product.NameWithoutBrand}</h2>
-    <img
-      class="divider"
-      src="${product.Images.PrimaryLarge}"
-      alt="${product.NameWithoutBrand}"
-    />
-    <p class="product-card__price">$${final_price}</p>
-    <p class="product-card__retail_price">$${suggested_retail_price}</p>
-    <p class="product-card__description">You're Saving $${discount}</p>
-    <p class="product__color">${product.Colors[0].ColorName}</p>
-    <p class="product__description">
-    ${product.DescriptionHtmlSimple}
-    </p>
-    <div class="product-detail__add">
-      <button id="addToCart" data-id="${product.Id}">Add to Cart</button>
-    </div></section>`;
+          <h2 class="divider">${product.NameWithoutBrand}</h2>
+          <img
+            class="divider"
+            src="${product.Images.PrimaryLarge}"
+            alt="${product.NameWithoutBrand}"
+          />
+          <p class="product-card__price">Now! $${final_price}</p>
+          <p class="product-card__retail_price">Before: $${suggested_retail_price}</p>
+          <p class="product-card__description saved">You're Saving $${discount}</p>
+          <p class="product__color">${product.Colors[0].ColorName}</p>
+          <p class="product__description">
+          ${product.DescriptionHtmlSimple}
+          </p>
+          <div class="product-detail__add">
+            <button id="addToCart" data-id="${product.Id}">Add to Cart</button>
+          </div></section>`;
 }
 
 export default class ProductDetails {
@@ -41,6 +42,9 @@ export default class ProductDetails {
       .addEventListener("click", this.addToCart.bind(this));
   }
   addToCart() {
+    // let Data = getLocalStorage("so-cart");
+    // Data.push(this.product);
+    // setLocalStorage("so-cart", Data);
     document.querySelector(".rise-shake").style.animation = "jump-shaking 0.83s"
 
     let Data = getLocalStorage("so-cart");
