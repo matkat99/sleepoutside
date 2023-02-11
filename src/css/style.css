@@ -21,14 +21,18 @@ body {
   font-family: var(--font-body);
   font-size: var(--font-base);
   color: var(--dark-grey);
+  max-width: 100%;
 }
 img {
   max-width: 100%;
 }
 header {
+  padding: 0.5em;
   display: flex;
+  align-items: center;
   justify-content: space-between;
-  padding: 0 10px;
+  position: relative;
+  width: 100%;
 }
 .logo {
   line-height: 60px;
@@ -104,9 +108,8 @@ button {
 }
 
 .cart svg {
-  width: 25px;
+  width: 2rem;
   position: relative;
-  left: 1400%;
 }
 .cart:hover svg {
   fill: gray;
@@ -119,7 +122,7 @@ button {
   top: 2.8rem;
   font-size: 0.8em;
   font-weight: bold;
-  background-color: red;
+  background-color: tomato;
   border-radius: 50%;
   width: 1.5em;
   height: 1.5em;
@@ -127,9 +130,11 @@ button {
   text-align: center;
 }
 
-
 span.rise-shake {
-  width: 40rem;
+  color: white;
+  padding: 1.5rem;
+  font-size: 1rem;
+  display: inline-block;
 }
 
 /* span.rise-shake {
@@ -454,7 +459,6 @@ input {
     width: 40rem;
   }
 }
-
 footer {
   font-size: var(--small-font);
   padding: 1em;
