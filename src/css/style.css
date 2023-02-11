@@ -462,33 +462,3 @@ footer {
   font-size: var(--small-font);
   padding: 1em;
 }
-
-
-
-
-
-
-
-
-#breadcrumb {
-  background-color: #eee;
-  padding: 10px;
-}
-
-#breadcrumb ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-#breadcrumb li {
-  display: inline-block;
-}
-
-#breadcrumb li::before {
-  content: " \00BB ";
-}
-
-#breadcrumb li:first-child::before {
-  content: none;
-}
