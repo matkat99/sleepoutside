@@ -18,11 +18,11 @@ if (currentURL.indexOf("/product/") !== -1) {
   breadcrumbItems.push("<li>" + productCategory + "</li>");
 } else if (currentURL.indexOf("/product-category/") !== -1) {
   // Get the product category
-  var productCategory = document.querySelector(".woocommerce-breadcrumb a:last-child").textContent;
+  var productCategorys = document.querySelector(".woocommerce-breadcrumb a:last-child").textContent;
   // Get the number of products in the category
   var productCount = document.querySelector(".woocommerce-result-count").textContent.trim().split(" ")[0];
   // Add the product category and count to the breadcrumb
-  breadcrumbItems.push("<li>" + productCategory + " &rarr; (" + productCount + " items)</li>");
+  breadcrumbItems.push("<li>" + productCategorys + " &rarr; (" + productCount + " items)</li>");
 }
 
 // Add the breadcrumb items to the breadcrumb element
