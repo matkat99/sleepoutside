@@ -83,17 +83,11 @@ export async function loadHeaderFooter() {
 export function numberItems(key) {
   const cart = getLocalStorage(key) || [];
   
-
   let total = 0;
   cart.forEach(item => total += item.quantity);
 
   let numTotal = document.querySelector(".numberCartItems");
-  
   if (!isNaN(total)) {
     numTotal.innerHTML = total;
   }
-  window.onload = function() {
-    numberItems("cart");
-  };
-  
 }
