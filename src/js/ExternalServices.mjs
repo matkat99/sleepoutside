@@ -8,10 +8,10 @@ function convertToJson(res) {
 }
 
 export default class ExternalServices {
-  constructor(category) {
+  //constructor(category) {
     // this.category = category;
     // this.path = `../json/${this.category}.json`;
-  }
+  //}
   async getData(category) {
     const response = await fetch(baseURL + `products/search/${category}`);
     const data = await convertToJson(response);
