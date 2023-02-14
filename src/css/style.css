@@ -601,3 +601,32 @@ footer {
   width: 25%;
   font-size: 1em;
 }
+
+/*Breadcrumb for the category*/
+.breadcrumb {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-size: 14px;
+  color: #666;
+}
+
+.breadcrumb li {
+  margin-right: 10px;
+}
+
+.breadcrumb li:last-child {
+  font-weight: bold;
+  color: #333;
+}
+
+.breadcrumb li a {
+  color: #666;
+  text-decoration: none;
+}
+
+.breadcrumb li a:hover {
+  text-decoration: underline;
+}
