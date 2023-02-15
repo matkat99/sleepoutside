@@ -88,6 +88,7 @@ export function numberItems(key, outputSelector = null) {
 
   if (outputSelector) {
     let numTotal = document.querySelector(outputSelector);
+    let showTotal = document.querySelector(".numberCartItems");
     if (!isNaN(total)) {
       numTotal.innerHTML += total;
     }
