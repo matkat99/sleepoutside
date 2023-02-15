@@ -603,23 +603,3 @@ footer {
 }
 
 /*Breadcrumb for the category*/
-.breadcrumb {
-  padding: 0.5rem;
-  background-color: #f8f9fa;
-  font-size: 0.9rem;
-}
-
-.breadcrumb a {
-  color: #6c757d;
-  text-decoration: none;
-}
-
-.breadcrumb a:hover {
-  color: #343a40;
-}
-
-.breadcrumb a:active,
-.breadcrumb a:focus {
-  color: #1b1e21;
-  text-decoration: underline;
-}
