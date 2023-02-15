@@ -1,9 +1,14 @@
-import { numberItems } from "./utils.mjs";
+// get the breadcrumb element
 const breadcrumb = document.querySelector(".breadcrumb");
-const category = new URLSearchParams(window.location.search).get("category");
 
-if (category) {
-  breadcrumb.innerHTML = `<a href="/">Home</a> > <a href="/product-listing/index.html">${category}</a> > (${numberItems} items)`;
-} else {
-  breadcrumb.innerHTML = `<a href="/">Home</a>`;
-}
+// create a new list item for the current category
+const currentCategory = document.createElement("li");
+currentCategory.textContent = "Tents";
+
+// create a new list item for the number of products
+const numProducts = document.createElement("li");
+numProducts.textContent = "(24 items)";
+
+// add the new list items to the breadcrumb
+breadcrumb.appendChild(currentCategory);
+breadcrumb.appendChild(numProducts);
