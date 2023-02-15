@@ -604,29 +604,22 @@ footer {
 
 /*Breadcrumb for the category*/
 .breadcrumb {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  font-size: 14px;
-  color: #666;
+  padding: 0.5rem;
+  background-color: #f8f9fa;
+  font-size: 0.9rem;
 }
 
-.breadcrumb li {
-  margin-right: 10px;
-}
-
-.breadcrumb li:last-child {
-  font-weight: bold;
-  color: #333;
-}
-
-.breadcrumb li a {
-  color: #666;
+.breadcrumb a {
+  color: #6c757d;
   text-decoration: none;
 }
 
-.breadcrumb li a:hover {
+.breadcrumb a:hover {
+  color: #343a40;
+}
+
+.breadcrumb a:active,
+.breadcrumb a:focus {
+  color: #1b1e21;
   text-decoration: underline;
 }
