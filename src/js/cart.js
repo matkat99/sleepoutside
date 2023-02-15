@@ -7,6 +7,8 @@ const shoppingBag = new ShoppingCart("so-cart", ".product-list");
 
 shoppingBag.renderCartContents();
 
+
+
 // function renderCartContents() {
 //   const cartItems = getLocalStorage("so-cart") || [];
 //   let cartTotal = document.querySelector(".cart-total")

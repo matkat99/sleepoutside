@@ -102,7 +102,6 @@ button {
 }
 .divider {
   border-bottom: 2px solid var(--primary-color);
-
 }
 /* End utility classes */
 
@@ -222,7 +221,7 @@ span.rise-shake {
   align-items: center;
   justify-content: center;
 }
-.product-list a img{
+.product-list a img {
   transition: all 0.3s ease-in-out;
 }
 .product-list a img:hover {
@@ -353,7 +352,7 @@ span.rise-shake {
   text-align: center;
   font-size: 1.5rem;
   font-weight: bold;
-  margin: .5rem;
+  margin: 0.5rem;
   margin-bottom: 1rem;
 }
 .news-letter {
@@ -382,7 +381,8 @@ input {
   border-radius: 1rem;
   font-size: 16px;
 }
-input#name, input#email {
+input#name,
+input#email {
   text-align: center;
 }
 
@@ -428,7 +428,10 @@ input#name, input#email {
   padding: 1rem 0.5rem;
   font-size: 1rem;
 }
-.quantity-buttons button:hover {
+.quantity-buttons button:hover,
+#sortName:hover,
+#sortPrice:hover,
+#addToCart:hover {
   background-color: #525b0fc9;
   transition: all ease-in-out 0.3s;
 }
@@ -507,7 +510,7 @@ footer {
   box-shadow: 1px 1px 1px 1px #525b0f;
   transition: all ease-in-out 0.3s;
 }
-.product-grid div h3{
+.product-grid div h3 {
   text-align: center;
   font-size: 2rem;
 }
@@ -526,14 +529,23 @@ footer {
   transition: all ease-in-out 0.3s;
 }
 
+/* ---------------------------- */
+/* -- SORT by Price and Name -- */
+/* ---------------------------- */
+
+.sort {
+  display: flex;
+  column-gap: 2rem;
+}
+
 /* ========================medium view================================ */
-@media(min-width: 35rem){
+@media (min-width: 35rem) {
   .product-grid {
     display: grid;
     grid-template-columns: auto auto;
     grid-gap: 1rem;
   }
-  .product-grid div h3{
+  .product-grid div h3 {
     font-size: 2.5rem;
   }
   .product-grid div a {
@@ -547,7 +559,6 @@ footer {
     display: grid;
     grid-template-columns: auto auto;
     grid-gap: 1rem;
-
   }
 }
 
@@ -558,7 +569,7 @@ footer {
     grid-template-columns: auto auto auto auto;
     grid-gap: 1rem;
   }
-  .product-grid div h3{
+  .product-grid div h3 {
     text-align: center;
     font-size: 1.5rem;
   }
@@ -574,32 +585,3 @@ footer {
     font-size: 2rem;
   }
 }
-
-/* checkout styles */
-/* checkout styles */
-.checkout-form {
-  padding: 0.5em;
-}
-.checkout-form label {
-  display: block;
-}
-.checkout-form input {
-  width: 100%;
-  font-size: 1.2em;
-}
-
-.checkout-summary > ul {
-  padding-left: 0;
-  list-style-type: none;
-}
-.checkout-summary li {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.checkout-summary input {
-  width: 25%;
-  font-size: 1em;
-}
-
-/*Breadcrumb for the category*/

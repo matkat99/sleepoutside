@@ -54,7 +54,7 @@ export default class ShoppingCart {
     }
 }
 
-function sumTotal(cart) {
+export function sumTotal(cart) {
   let total = 0;
   cart.forEach(item => total += (item.FinalPrice * item.quantity));
   return total;
