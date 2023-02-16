@@ -49,10 +49,16 @@ export default class ExternalServices {
         "Content-Type": "application/json"
       },
       body: JSON.stringify(payload)
+    };
+  
+    try {
+      const response = await fetch(baseURL + "checkout/", options);
+      console.log("Checkout response:", response);
+      const data = await convertToJson(response);
+      return data.Result;
+    } catch (error) {
+      console.error("Checkout error:", error);
+      throw error;
     }
-    // const response = await fetch(baseURL + "checkout/", options);
-    // const data = await convertToJson(response);
-    // return data.Result;
-    return await fetch(baseURL + "checkout/", options).then(convertToJson);
   }
-}
+};
