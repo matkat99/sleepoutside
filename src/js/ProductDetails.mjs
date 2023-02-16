@@ -43,7 +43,7 @@ export default class ProductDetails {
   }
   addToCart() {
     
-    numberItems("so-cart", ".numberCartItems");
+    numberItems("so-cart",".numberCartItems");
     window.location.reload();
 
     document.querySelector(".rise-shake").style.animation = "jump-shaking 0.83s"
