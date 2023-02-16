@@ -75,8 +75,13 @@ export async function loadHeaderFooter() {
   const headerElement = document.querySelector("#main-header") // Grab the header element out of the DOM
   const footerElement = document.querySelector("#main-footer") // Grab the footer element out of the DOM
 
-  renderWithTemplate(headerTemplate, headerElement)
-  renderWithTemplate(footerTemplate, footerElement)
+  if (headerElement) {
+  renderWithTemplate(headerTemplate, headerElement);
+  }
+
+  if (footerElement) {
+  renderWithTemplate(footerTemplate, footerElement);
+  }
 }
 
 //Function to display the number of items in the Backpack Icon
