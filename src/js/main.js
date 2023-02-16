@@ -6,7 +6,7 @@ import { newsLetterTemplate, responseToSubmission } from "./NewsLetter.mjs";
 import { logProductCard } from "./QuickLook.mjs";
 
 loadHeaderFooter();
-numberItems("so-cart");
+numberItems("so-cart",".numberCartItems");
 
 // const dataSource = new ProductData("tents");
 // const element = document.querySelector(".product-list");

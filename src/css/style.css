@@ -182,11 +182,12 @@ span.rise-shake {
   text-indent: 1rem;
 }
 .products {
+  grid-template-columns: auto;
   padding: 0.5em;
   display: flex;
-  align-items: center;
-  justify-content: center;
   flex-direction: column;
+  text-align: center;
+  max-width: 100%;
 }
 .product-list {
   display: grid;
@@ -289,7 +290,7 @@ span.rise-shake {
   grid-template-columns: 25% auto 15%;
   font-size: var(--small-font);
   align-items: center;
-  width: 25rem;
+  max-width: 100%;
 }
 .cart-card__image {
   grid-row: 1/3;
@@ -325,7 +326,7 @@ span.rise-shake {
   display: none;
   font-size: 1.3rem;
   display: flex;
-  text-align: end;
+  text-align: center;
   margin: 0 3rem 1rem 0;
   font-weight: bold;
 }
@@ -529,6 +530,11 @@ footer {
   transition: all ease-in-out 0.3s;
 }
 
+.myCartTitle {
+  text-align: center;
+}
+
+
 /* ---------------------------- */
 /* -- SORT by Price and Name -- */
 /* ---------------------------- */
@@ -537,6 +543,7 @@ footer {
   display: flex;
   column-gap: 2rem;
 }
+
 
 /* ========================medium view================================ */
 @media (min-width: 35rem) {
@@ -559,6 +566,13 @@ footer {
     display: grid;
     grid-template-columns: auto auto;
     grid-gap: 1rem;
+  }
+  
+  /* ==============cart section =================*/
+  .products {
+    display: grid;
+    grid-template-columns: auto;
+
   }
 }
 

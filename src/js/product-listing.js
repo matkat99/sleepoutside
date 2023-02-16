@@ -4,7 +4,7 @@ import { loadHeaderFooter, numberItems, getParam } from "./utils.mjs";
 import { logProductCard } from "./QuickLook.mjs";
 
 loadHeaderFooter();
-numberItems("so-cart");
+numberItems("so-cart",".numberCartItems");
 
 const category = getParam("category");
 

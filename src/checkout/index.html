@@ -1,17 +1,12 @@
 <!DOCTYPE html>
-
 <html lang="en">
-
 <head>
   <meta charset="UTF-8" />
-
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
   <title>Sleep Outside | Cedar Ridge Rimrock 2-person tent</title>
-
   <link rel="stylesheet" href="../css/style.css" />
-
-  <script src="../js/CheckoutProcess.mjs" type="module"></script>
+  <!-- <script src="../js/CheckoutProcess.mjs" type="module"></script> -->
+  <script src="../js/checkout.js" type="module"></script>
 </head>
 
 <body>
@@ -20,54 +15,49 @@
     <form>
       <fieldset>
         <legend>Shipping</legend>
-        <label for="first-name">First Name:</label>
-        <input type="text" id="first-name" name="first-name" required>
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="fname" value="John" required>
         <br>
-        <label for="last-name">Last Name:</label>
-        <input type="text" id="last-name" name="last-name" required>
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="lname" value="Doe" required>
         <br>
         <label for="street">Street:</label>
-        <input type="text" id="street" name="street" required>
+        <input type="text" id="street" name="street" value="123 Main" required>
         <br>
         <label for="city">City:</label>
-        <input type="text" id="city" name="city" required>
+        <input type="text" id="city" name="city" value="Rexburg" required>
         <br>
         <label for="state">State:</label>
-        <input type="text" id="state" name="state" required>
+        <input type="text" id="state" name="state" value="ID" required>
         <br>
         <label for="zip">Zip:</label>
-        <input type="text" id="zip" name="zip" required>
+        <input type="text" id="zip" name="zip" value="83440" required>
         <br>
       </fieldset>
       <br>
       <fieldset>
         <legend>Payment Information</legend>
-        <label for="card-number">Credit Card Number:</label>
-        <input type="text" id="card-number" name="card-number" required>
+        <label for="cardNumber">Credit Card Number:</label>
+        <input type="text" id="cardNumber" name="cardNumber" value="1234123412341234" required>
         <br>
-        <label for="expiration-date">Expiration Date:</label>
-        <input type="text" id="expiration-date" name="expiration-date" required>
+        <label for="expiration">Expiration Date:</label>
+        <input type="text" id="expiration" name="expiration" value="8/21" required>
         <br>
-        <label for="security-code">Security Code:</label>
-        <input type="text" id="security-code" name="security-code" required>
+        <label for="code">Security Code:</label>
+        <input type="text" id="code" name="code" value="123" required>
         <br>
       </fieldset>
-      <fieldset>
+      <fieldset class="checkout-summary">
         <legend>Order Summary </legend>
         <p id="subtotal-p">Item Subtotal </p><span id="subtotal-sum"></span>
-        <p>Shipping Estimate  <span id="shipping-estimate"></span></p>
+        <p>Shipping Estimate  <span id="shipping"></span></p>
         <p>Tax  <span id="tax"></span></p>
-        <p><strong>Order Total</strong>  <span id="order-total"></span></p>
+        <p><strong>Order Total</strong>  <span id="orderTotal"></span></p>
       </fieldset>
-
       <br>
-      <input type="submit" value="Submit">
+      <button id="checkoutSubmit" type="submit">Submit Order</button>
     </form>
   </div>
-
-
-
-
 </body>
 
 </html>

@@ -4,19 +4,27 @@ export function productCardTemplate(product) {
   let final_price = Number(product.FinalPrice)
   let suggested_retail_price = Number(product.SuggestedRetailPrice)
   let discount = Math.abs(final_price - suggested_retail_price).toFixed(2)
-  
-  return `<li id="product-${product.Id}" class="product-card">
-            <button id="close-${product.Id}" class="close-pop-up">Close</button>
-            <a href="/product_pages/index.html?product=${product.Id}">
+  let { Id, Images, Brand, Name, FinalPrice} = product
+  return `<li id="product-${Id}" class="product-card">
+            <button id="close-${Id}" class="close-pop-up">Close</button>
+            <a href="/product_pages/index.html?product=${Id}">
             <img
-              src="${product.Images.PrimaryMedium}"
-              alt="Image of ${product.Name}"
+              src="${Images.PrimaryMedium}"
+              srcset="${Images.PrimarySmall} 350w,
+                      ${Images.PrimaryMedium} 850w,
+                      ${Images.PrimaryLarge} 1350w,
+                      ${Images.PrimaryExtraLarge} 1900w"
+              sizes="(max-width: 350px) 320px,
+                    (max-width: 850px) 768px,
+                    (max-width: 1350px) 1200px,
+                    1900px"
+              alt="Image of ${Name}"
             />
-            <h3 class="card__brand">${product.Brand.Name}</h3>
-            <h2 class="card__name">${product.Name}</h2>
-            <p class="product-card__price"> Now! $${product.FinalPrice}</p></a>
+            <h3 class="card__brand">${Brand.Name}</h3>
+            <h2 class="card__name">${Name}</h2>
+            <p class="product-card__price"> Now! $${FinalPrice}</p></a>
             <p class='saved'>Save: $${discount} <s class='discount'>$${suggested_retail_price}</s><p>
-            <button class="show-pop-up" id="${product.Id}">Show Pop-Up</button>
+            <button class="show-pop-up" id="${Id}">Show Pop-Up</button>
           </li>`
 }
 

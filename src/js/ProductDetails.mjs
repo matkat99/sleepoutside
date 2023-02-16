@@ -1,4 +1,4 @@
-import { getLocalStorage, setLocalStorage } from "./utils.mjs";
+import { getLocalStorage, setLocalStorage, numberItems } from "./utils.mjs";
 
 function productDetailsTemplate(product) {
   let final_price = Number(product.FinalPrice)
@@ -42,10 +42,11 @@ export default class ProductDetails {
       .addEventListener("click", this.addToCart.bind(this));
   }
   addToCart() {
-    // let Data = getLocalStorage("so-cart");
-    // Data.push(this.product);
-    // setLocalStorage("so-cart", Data);
-    //document.querySelector(".rise-shake").style.animation = "jump-shaking 0.83s"
+    
+    numberItems("so-cart", ".numberCartItems");
+    window.location.reload();
+
+    document.querySelector(".rise-shake").style.animation = "jump-shaking 0.83s"
 
     let Data = getLocalStorage("so-cart");
     if (Data) {
@@ -67,7 +68,6 @@ export default class ProductDetails {
       this.product.quantity = 1;
       Data.push(this.product);
     }
-
     setLocalStorage("so-cart", Data);
   }
 
