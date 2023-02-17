@@ -1,5 +1,5 @@
 import { getLocalStorage } from "./utils.mjs";
-
+import { numberItems } from "./utils.mjs";
 function cartItemTemplate(item) {
     let final_price = Number(item.FinalPrice)
     let suggested_retail_price = Number(item.SuggestedRetailPrice)
@@ -70,3 +70,11 @@ export function sumTotal(cart) {
   cart.forEach(item => total += (item.FinalPrice * item.quantity));
   return total;
 }
+
+function updateCartItemCount() {
+  const cartItems = getLocalStorage("so-cart") || [];
+  const itemCount = cartItems.reduce((total, item) => total + item.quantity, 0);
+  numberItems("so-cart", ".numberCartItems", itemCount);
+}
+
+updateCartItemCount();
