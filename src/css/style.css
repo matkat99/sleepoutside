@@ -599,3 +599,17 @@ footer {
     font-size: 2rem;
   }
 }
+
+/*Style for the breadcrumb*/
+.breadcrumb {
+  padding: 0.5em;
+  font-size: var(--small-font);
+  color: var(--dark-grey);
+}
+.breadcrumb a {
+  color: var(--dark-grey);
+  text-decoration: none;
+}
+.breadcrumb a:hover {
+  text-decoration: underline;
+}
