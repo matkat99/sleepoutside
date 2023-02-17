@@ -6,24 +6,35 @@ function cartItemTemplate(item) {
     let discount = Math.abs(final_price - suggested_retail_price).toFixed(2)
     let quantity = Number(item.quantity)
     let total_discount = (discount * quantity).toFixed(2)
+    let { Images, Name } = item
+    let total_price = Number(final_price * quantity).toFixed(2)
 
     console.log("item", item)
     console.log("image",item.Images.PrimarySmall)
-    
+
     const newItem = `<li class='cart-card divider'>
                       <a href='#' class='cart-card__image'>
-                        <img
-                          src='${item.Images.PrimarySmall}'
-                          alt='${item.Name}'
-                        />
+                      <img
+                        src="${Images.PrimaryMedium}"
+                        srcset="${Images.PrimarySmall} 350w,
+                                ${Images.PrimaryMedium} 850w,
+                                ${Images.PrimaryLarge} 1350w,
+                                ${Images.PrimaryExtraLarge} 1900w"
+                        sizes="(max-width: 350px) 320px,
+                              (max-width: 850px) 768px,
+                              (max-width: 1350px) 1200px,
+                              1900px"
+                        alt="Image of ${Name}"
+                      />
                       </a>
                       <a href='#'>
                         <h2 class='card__name'>${item.Name}</h2>
                       </a>
                       <p class='cart-card__color'>${item.Colors[0].ColorName}</p>
-                      <p class='cart-card__quantity'>qty: ${item.quantity}</p>
+                      <p class='cart-card__quantity'>Quantity: ${item.quantity}</p>
+                      <p class='cart-card__price'>Unit Price: $${item.FinalPrice}</p>
+                      <p class='cart-card__price'>Total: $${total_price}</p>
                       <p class='saved'>Saved: $${total_discount}<p>
-                      <p class='cart-card__price'>$${item.FinalPrice}</p>
                     </li>
                     `;
     return newItem;
@@ -49,7 +60,7 @@ export default class ShoppingCart {
         document.querySelector(this.parentSelector).innerHTML = htmlItems.join("");
     
         cartTotal.style.display = "block"; // Make appear the total paragraph that is hidden by default
-        cartTotal.innerHTML = `Total: ${sumTotal(cartItems).toFixed(2)}`
+        cartTotal.innerHTML = `Total: $${sumTotal(cartItems).toFixed(2)}`
       }
     }
 }
