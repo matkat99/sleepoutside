@@ -4,9 +4,9 @@ import ShoppingCart from "./ShoppingCart.mjs";
 loadHeaderFooter();
 numberItems("so-cart", ".numberCartItems"); 
 
-const shoppingBag = new ShoppingCart("so-cart", ".product-list");
+const cart = new ShoppingCart("so-cart", ".product-list");
 
-shoppingBag.renderCartContents();
+cart.renderCartContents();
 
 
 
