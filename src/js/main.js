@@ -12,6 +12,7 @@ numberItems("so-cart",".numberCartItems");
 // const element = document.querySelector(".product-list");
 // const listing = new ProductListing("Tents", dataSource, element);
 
+
 /* Function that Renders the newsletter form and say "Thanks when submitted" */
 newsLetterTemplate();
 document
