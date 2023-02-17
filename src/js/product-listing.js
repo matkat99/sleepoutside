@@ -25,5 +25,5 @@ breadcrumbElement.innerHTML = breadcrumbHtml;
 
 logProductCard();
 loadHeaderFooter();
-numberItems("so-cart");
+numberItems("so-cart",".numberCartItems");
 listing.init();
