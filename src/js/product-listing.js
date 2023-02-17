@@ -1,7 +1,9 @@
 import ProductListing from "./ProductList.mjs";
 import ExternalServices from "./ExternalServices.mjs";
+import Alert from "./Alert.js";
 import { loadHeaderFooter, numberItems, getParam } from "./utils.mjs";
 import { logProductCard } from "./QuickLook.mjs";
+
 loadHeaderFooter();
 numberItems("so-cart", ".numberCartItems");
 
@@ -26,3 +28,7 @@ if (category) {
   breadcrumbHtml += "Home";
 }
 breadcrumbElement.innerHTML = breadcrumbHtml;
+
+// Alert for the website
+const alert = new Alert();
+alert.showAlert();
