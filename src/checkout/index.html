@@ -5,14 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Sleep Outside | Cedar Ridge Rimrock 2-person tent</title>
   <link rel="stylesheet" href="../css/style.css" />
-  <!-- <script src="../js/CheckoutProcess.mjs" type="module"></script> -->
   <script src="../js/checkout.js" type="module"></script>
 </head>
 
 <body>
   <div>
     <h1>Review &amp; Place your Order</h1>
-    <form>
+    <form name="checkout">
       <fieldset>
         <legend>Shipping</legend>
         <label for="fname">First Name:</label>
@@ -47,12 +46,17 @@
         <input type="text" id="code" name="code" value="123" required>
         <br>
       </fieldset>
+
       <fieldset class="checkout-summary">
-        <legend>Order Summary </legend>
-        <p id="subtotal-p">Item Subtotal </p><span id="subtotal-sum"></span>
-        <p>Shipping Estimate  <span id="shipping"></span></p>
-        <p>Tax  <span id="tax"></span></p>
-        <p><strong>Order Total</strong>  <span id="orderTotal"></span></p>
+        <legend>Order Summary</legend>
+          <label for="cartTotal">Item Subtotal(<span id="num-items"></span>)</label>
+          <p name="cartTotal" id="cartTotal"></p>
+          <label for="shipping">Shipping Estimate</label>
+          <p id="shipping"></p>
+          <label for="tax">Tax</label>
+          <p id="tax"></p>
+          <label for="orderTotal"><b>Order Total</b></label>
+          <p id="orderTotal"></p>
       </fieldset>
       <br>
       <button id="checkoutSubmit" type="submit">Submit Order</button>
