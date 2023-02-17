@@ -88,7 +88,7 @@ export function numberItems(key, outputSelector = null) {
 
   if (outputSelector) {
     let numTotal = document.querySelector(outputSelector);
-    if (numTotal !== null && !isNaN(total)) {
+    if (!isNaN(total)) {
       numTotal.innerHTML += total;
     }
   }
