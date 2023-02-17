@@ -78,9 +78,9 @@ export default class CheckoutProcess {
         console.log("json", json);
         try {
             const res = await services.checkout(json);
-            return res;
+            console.log(res);
         } catch (err) {
-        return err;
+        console.log(err);
         }
     }
 }
