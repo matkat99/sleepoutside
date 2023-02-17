@@ -80,7 +80,7 @@ export async function loadHeaderFooter() {
 }
 
 //Function to display the number of items in the Backpack Icon
-export function numberItems(key, outputSelector) {
+export function numberItems(key, outputSelector = null) {
   const cart = getLocalStorage(key) || [];
   
   let total = 0;
