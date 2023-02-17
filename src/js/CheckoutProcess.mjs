@@ -1,8 +1,6 @@
 import { sumTotal } from "./ShoppingCart.mjs";
-import { getLocalStorage } from "./utils.mjs";
-import { numberItems } from "./utils.mjs";
-import { calculateShippingCost } from "./utils.mjs";
-import ExternalServices from "./ExternalServices.mjs"
+import { getLocalStorage, numberItems, calculateShippingCost } from "./utils.mjs";
+import ExternalServices from "./ExternalServices.mjs";
 
 // Takes a form element and returns an object where the key is the "name" of the form input.
 const services = new ExternalServices();
@@ -50,8 +48,8 @@ export default class CheckoutProcess {
         // calculate and display the total amount of the items in the cart, and the number of items.
         // console.log(this.list)
         this.itemTotal = `${sumTotal(this.list).toFixed(2)}`
-        document.querySelector("#subtotal-sum").innerHTML += `<strong>${this.itemTotal}<strong/>`
-        numberItems(this.key, "#subtotal-p")
+        document.querySelector("#cartTotal").innerHTML += `<strong>${this.itemTotal}<strong/>`
+        numberItems(this.key, "#num-items")
         // console.log(numberItems(this.key))
     }
     calculateOrdertotal() {
@@ -68,7 +66,7 @@ export default class CheckoutProcess {
             document.getElementById("tax").innerHTML += `<strong>${this.tax}<strong/>`
             document.getElementById("orderTotal").innerHTML += `<strong>${this.orderTotal.toFixed(2)}<strong/>`
         }
-    async checkout(form) {
+    async checkout() {
         const formElement = document.forms["checkout"];
         const json = formDataToJSON(formElement);
         // Add totals, and item details
@@ -77,13 +75,12 @@ export default class CheckoutProcess {
         json.tax = this.tax;
         json.shipping = this.shipping;
         json.items = packageItems(this.list);
-        console.log(json);
+        console.log("json", json);
         try {
             const res = await services.checkout(json);
-            console.log(res.CheckoutProcess);
+            console.log(res);
         } catch (err) {
-        console.log(err.CheckoutProcess);
+        console.log(err);
         }
     }
 }
- 
