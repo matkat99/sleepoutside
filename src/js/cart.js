@@ -2,7 +2,7 @@ import { loadHeaderFooter, numberItems } from "./utils.mjs";
 import ShoppingCart from "./ShoppingCart.mjs";
 
 loadHeaderFooter();
-numberItems("so-cart", ".numberCartItems"); 
+numberItems("so-cart",".numberCartItems"); 
 
 const cart = new ShoppingCart("so-cart", ".product-list");
 
