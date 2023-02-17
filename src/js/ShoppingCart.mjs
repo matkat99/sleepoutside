@@ -1,43 +1,43 @@
 import { getLocalStorage } from "./utils.mjs";
 
 function cartItemTemplate(item) {
-    let final_price = Number(item.FinalPrice)
-    let suggested_retail_price = Number(item.SuggestedRetailPrice)
-    let discount = Math.abs(final_price - suggested_retail_price).toFixed(2)
-    let quantity = Number(item.quantity)
-    let total_discount = (discount * quantity).toFixed(2)
-    let { Images, Name } = item
-    let total_price = Number(final_price * quantity).toFixed(2)
+  let final_price = Number(item.FinalPrice)
+  let suggested_retail_price = Number(item.SuggestedRetailPrice)
+  let discount = Math.abs(final_price - suggested_retail_price).toFixed(2)
+  let quantity = Number(item.quantity)
+  let total_discount = (discount * quantity).toFixed(2)
+  let { Images, Name } = item
+  let total_price = Number(final_price * quantity).toFixed(2)
 
-    console.log("item", item)
-    console.log("image",item.Images.PrimarySmall)
+  console.log("item", item)
+  console.log("image",item.Images.PrimarySmall)
 
-    const newItem = `<li class='cart-card divider'>
-                      <a href='#' class='cart-card__image'>
-                      <img
-                        src="${Images.PrimaryMedium}"
-                        srcset="${Images.PrimarySmall} 350w,
-                                ${Images.PrimaryMedium} 850w,
-                                ${Images.PrimaryLarge} 1350w,
-                                ${Images.PrimaryExtraLarge} 1900w"
-                        sizes="(max-width: 350px) 320px,
-                              (max-width: 850px) 768px,
-                              (max-width: 1350px) 1200px,
-                              1900px"
-                        alt="Image of ${Name}"
-                      />
-                      </a>
-                      <a href='#'>
-                        <h2 class='card__name'>${item.Name}</h2>
-                      </a>
-                      <p class='cart-card__color'>${item.Colors[0].ColorName}</p>
-                      <p class='cart-card__quantity'>Quantity: ${item.quantity}</p>
-                      <p class='cart-card__price'>Unit Price: $${item.FinalPrice}</p>
-                      <p class='cart-card__price'>Total: $${total_price}</p>
-                      <p class='saved'>Saved: $${total_discount}<p>
-                    </li>
-                    `;
-    return newItem;
+  const newItem = `<li class='cart-card divider'>
+                    <a href='#' class='cart-card__image'>
+                    <img
+                      src="${Images.PrimaryMedium}"
+                      srcset="${Images.PrimarySmall} 350w,
+                              ${Images.PrimaryMedium} 850w,
+                              ${Images.PrimaryLarge} 1350w,
+                              ${Images.PrimaryExtraLarge} 1900w"
+                      sizes="(max-width: 350px) 320px,
+                            (max-width: 850px) 768px,
+                            (max-width: 1350px) 1200px,
+                            1900px"
+                      alt="Image of ${Name}"
+                    />
+                    </a>
+                    <a href='#'>
+                      <h2 class='card__name'>${item.Name}</h2>
+                    </a>
+                    <p class='cart-card__color'>${item.Colors[0].ColorName}</p>
+                    <p class='cart-card__quantity'>Quantity: ${item.quantity}</p>
+                    <p class='cart-card__price'>Unit Price: $${item.FinalPrice}</p>
+                    <p class='cart-card__price'>Total: $${total_price}</p>
+                    <p class='saved'>Saved: $${total_discount}<p>
+                  </li>
+                  `;
+  return newItem;
 }
 
 export default class ShoppingCart {
