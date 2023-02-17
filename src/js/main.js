@@ -4,10 +4,16 @@
 import { loadHeaderFooter, numberItems } from "./utils.mjs";
 import { newsLetterTemplate, responseToSubmission } from "./NewsLetter.mjs";
 import { logProductCard } from "./QuickLook.mjs";
-
+import { getLocalStorage}  from "./utils.mjs";
 loadHeaderFooter();
 numberItems("so-cart", ".numberCartItems");
-
+const update = updateCartItemCount;
+function updateCartItemCount() {
+  const cartItems = getLocalStorage("so-cart") || [];
+  const itemCount = cartItems.reduce((total, item) => total + item.quantity, 0);
+  numberItems("so-cart", ".numberCartItems", itemCount);
+}
+update();
 // const dataSource = new ExternalServices("tents");
 // const element = document.querySelector(".product-list");
 // const listing = new ProductListing("Tents", dataSource, element);
