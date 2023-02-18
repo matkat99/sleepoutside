@@ -106,3 +106,4 @@ export function calculateShippingCost(numItems) {
   // For each additional item, add $2 to the shipping cost
   return 10 + (2 * (numItems - 1));
 }
+ 
