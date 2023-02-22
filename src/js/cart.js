@@ -4,6 +4,7 @@ function renderCartContents() {
   const cartItems = getLocalStorage("so-cart");
   const htmlItems = cartItems.map((item) => cartItemTemplate(item));
   document.querySelector(".product-list").innerHTML = htmlItems.join("");
+  console.log(import.meta.env.VITE_SERVER_URL);
 }
 
 function cartItemTemplate(item) {
