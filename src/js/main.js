@@ -1,3 +1,3 @@
-import ProductList from "./ProductList.mjs";
+import productList from "./productList.mjs";
 
-ProductList(".product-list", "tents");
+productList(".product-list", "tents");
