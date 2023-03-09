@@ -1,4 +1,4 @@
-import ProductList from "./ProductList.mjs";
+import productList from "./productList.mjs";
 import { loadHeaderFooter } from "./utils.mjs";
 
 loadHeaderFooter();
