@@ -1,5 +1,5 @@
 import { getParam } from "./utils.mjs";
-import ProductDetails from "./ProductDetails.mjs";
+import productDetails from "./productDetails.mjs";
 
 const productId = getParam("product");
-ProductDetails(productId);
+productDetails(productId);
