@@ -24,3 +24,14 @@ function cartItemTemplate(item) {
 
   return newItem;
 }
+
+export function setCartCount(selector) {
+  const count = getLocalStorage("so-cart")?.length ?? 0;
+  const el = document.querySelector(selector);
+  el.cartCount = count;
+}
+
+export function getCartCount() {
+  const count = getLocalStorage("so-cart")?.length ?? 0;
+  return count;
+}

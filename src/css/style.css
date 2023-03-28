@@ -25,7 +25,9 @@ body {
 img {
   max-width: 100%;
 }
-header {
+
+header,
+main-header {
   display: flex;
   justify-content: space-between;
   padding: 0 10px;
@@ -109,6 +111,17 @@ button {
 .cart:hover svg {
   fill: gray;
 }
+.cart a {
+  position: relative;
+}
+sup {
+  position: absolute;
+  background-color: orange;
+  border-radius: 50%;
+  width: 15px;
+  top: -12px;
+  right: -5px;
+}
 
 /* End cart icon styles */
 
@@ -158,7 +171,7 @@ button {
 
 .product-detail {
   padding: 1em;
-  max-width: 500px;
+  width: clamp(320px, 80%, 500px);
   margin: auto;
 }
 
