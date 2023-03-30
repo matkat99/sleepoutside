@@ -1,5 +1,6 @@
+import renderHeaderFooter from "./renderHeaderFooter.mjs";
 import { findProductById } from "./productData.mjs";
-import { setLocalStorage } from "./utils.mjs";
+import { getLocalStorage, setLocalStorage } from "./utils.mjs";
 
 let product = {};
 
@@ -13,7 +14,12 @@ export default async function productDetails(productId, selector) {
   document.getElementById("addToCart").addEventListener("click", addToCart);
 }
 function addToCart() {
-  setLocalStorage("so-cart", product);
+  const currentCart = getLocalStorage("so-cart") || [];
+  currentCart.push(product);
+
+  setLocalStorage("so-cart", currentCart);
+  // need to trigger a re-render of the header so that the cart count will update.
+  renderHeaderFooter();
 }
 
 function productDetailsTemplate(product) {
