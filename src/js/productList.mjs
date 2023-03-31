@@ -4,8 +4,8 @@ import { getData } from "./productData.mjs";
 
 function ProductSummary({ product }) {
   return html`<li class="product-card">
-    <a href="product_pages/index.html?product=${product.Id}">
-      <img src="${product.Image}" alt="${product.Name}" />
+    <a href="/product_pages/index.html?product=${product.Id}">
+      <img src="${product.Images.PrimaryMedium}" alt="${product.Name}" />
       <h3 class="card__brand">${product.Brand.Name}</h3>
       <h2 class="card__name">${product.NameWithoutBrand}</h2>
       <p class="product-card__price">$${product.FinalPrice}</p></a
@@ -33,7 +33,7 @@ export default function ProductList({ category }) {
 
   // note the 'html' at the beginning. That is actually a special type of function used in this way to create a tagged template literal.
   // they can be used to give template literal strings abilities that they would not normally have.
-  return html`<h2>Top Products</h2>
+  return html`<h2>Top Products: ${category}</h2>
     <ul class="product-list">
       <!-- one of the superpowers of html is that it can take the results of a .map directly...like this -->
       ${products.map(

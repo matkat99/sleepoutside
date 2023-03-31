@@ -8,7 +8,7 @@ function CartItem({ item }) {
       href="/product_pages/index.html?product=${item.Id}"
       class="cart-card__image"
     >
-      <img src="${item.Image}" alt="${item.Name}" />
+      <img src="${item.Images.PrimaryMedium}" alt="${item.Name}" />
     </a>
     <a href="/product_pages/index.html?product=${item.Id}">
       <h2 class="card__name">${item.Name}</h2>
