@@ -1,9 +1,10 @@
 import { findProductById } from "./productData.mjs";
 import { setLocalStorage, getLocalStorage } from "./utils.mjs";
-import { setCartCount } from "./shoppingCart.mjs";
+import { getCartCount, setCartCount } from "./shoppingCart.mjs";
 import { LitElement, html, css } from "lit";
 import { html as phtml } from "htm/preact";
 import { useState, useEffect } from "preact/hooks";
+import { cartCount } from "./stores.mjs";
 
 let product = {};
 
@@ -24,7 +25,9 @@ function addToCart() {
   // then add the current product to the list
   cartContents.push(product);
   setLocalStorage("so-cart", cartContents);
-  setCartCount("main-header");
+  // update the store
+  cartCount.set(cartContents.length);
+  // setCartCount("main-header");
 }
 function renderProductDetails() {
   document.querySelector("#productName").innerText = product.Brand.Name;
