@@ -7,13 +7,13 @@
   let promise = getData(category);
 </script>
 
-<h2>Top Products</h2>
+<h2>Top Products: {category}</h2>
 {#await promise}
   <p>Loading</p>
 {:then data}
   <ul class="product-list">
     {#each data as product}
-      <li><ProductSummary {product} /></li>
+      <li class="product-card"><ProductSummary {product} /></li>
     {/each}
   </ul>
 {/await}

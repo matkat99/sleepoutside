@@ -9,7 +9,7 @@
       href="/product_pages/index.html?productid={item.Id}"
       class="cart-card__image"
     >
-      <img src={item.Image} alt={item.Name} />
+      <img src={item.Images.PrimaryMedium} alt={item.Name} />
     </a>
     <a href="#">
       <h2 class="card__name">{item.Name}</h2>
