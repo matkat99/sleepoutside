@@ -13,7 +13,7 @@
 {:then data}
   <ul class="product-list">
     {#each data as product}
-      <li><ProductSummary {product} /></li>
+      <li class="product-card"><ProductSummary {product} /></li>
     {/each}
   </ul>
 {/await}
