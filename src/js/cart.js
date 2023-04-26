@@ -4,5 +4,5 @@ import { loadHeaderFooter } from "./utils.mjs";
 loadHeaderFooter();
 
 new ShoppingCart({
-  target: document.querySelector(".product-list"),
+  target: document.querySelector(".products"),
 });
