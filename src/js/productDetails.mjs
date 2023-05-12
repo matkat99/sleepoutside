@@ -1,6 +1,6 @@
 import { findProductById } from "./externalServices.mjs";
 import { cartCount } from "./stores.mjs";
-import { setLocalStorage, getLocalStorage } from "./utils.mjs";
+import { setLocalStorage, getLocalStorage, alertMessage } from "./utils.mjs";
 
 let product = {};
 
@@ -24,6 +24,7 @@ function addToCart() {
   setLocalStorage("so-cart", cartContents);
   // update the visible cartCount
   cartCount.set(cartContents.length);
+  alertMessage(`${product.NameWithoutBrand} added to cart!`);
 }
 
 function productDetailsTemplate(product) {
