@@ -43,3 +43,14 @@ export function loadHeaderFooter() {
     target: document.querySelector("#main-footer"),
   });
 }
+
+export function formDataToJSON(formElement) {
+  const formData = new FormData(formElement),
+    convertedJSON = {};
+
+  formData.forEach(function (value, key) {
+    convertedJSON[key] = value;
+  });
+
+  return convertedJSON;
+}
