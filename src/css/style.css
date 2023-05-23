@@ -303,3 +303,18 @@ footer {
 .alert > p {
   margin: 0;
 }
+.login-form {
+  max-width: 500px;
+  margin: 1em auto;
+}
+.login-form input {
+  font-size: 1.2em;
+}
+.login-form label {
+  width: 10ch;
+}
+.login-form > p {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
