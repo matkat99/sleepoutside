@@ -18,6 +18,9 @@ function addProductToCart(product) {
 async function addToCartHandler(e) {
   const product = await dataSource.findProductById(e.target.dataset.id);
   addProductToCart(product);
+
+  // window.location.href = "../";
+  document.getElementById("addToCart").textContent = "Product Added";
 }
 
 // add listener to Add to Cart button
