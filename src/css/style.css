@@ -109,6 +109,23 @@ button {
 .cart:hover svg {
   fill: gray;
 }
+.cart {
+  position: relative;
+}
+.cart-count-container {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background-color: #ecb245;
+  color: #ffffff;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+}
 
 /* End cart icon styles */
 
@@ -132,6 +149,13 @@ button {
 .product-list a {
   text-decoration: none;
   color: var(--dark-grey);
+}
+.hidden {
+  display: none;
+}
+#total-price{
+ text-align: right;
+ font-size: var(--font-base);
 }
 /* Styles for product lists */
 .product-card {
