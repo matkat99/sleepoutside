@@ -153,9 +153,9 @@ button {
 .hidden {
   display: none;
 }
-#total-price {
-  text-align: right;
-  font-size: var(--font-base);
+#total-price{
+ text-align: right;
+ font-size: var(--font-base);
 }
 /* Styles for product lists */
 .product-card {

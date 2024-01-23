@@ -33,19 +33,17 @@ function updateTotalPrice() {
       totalElement.classList.remove("hidden");
     }
   } else {
-    console.warn("El elemento con ID 'total-price' no se encontró en el documento.");
+    return;
   }
 }
+
 
 document.addEventListener("DOMContentLoaded", function () {
   updateCartCount();
   updateTotalPrice();
-  console.log("DOMContentLoaded")
 });
 
-// Initial update on DOMContentLoaded
 document.addEventListener("cartUpdated", function () {
   updateCartCount();
   updateTotalPrice();
-  console.log("cart updated")
 });
