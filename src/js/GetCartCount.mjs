@@ -33,13 +33,6 @@ function updateTotalPrice() {
   }
 }
 
-// Additional event listener for changes in the cart
-document.addEventListener("cartUpdated", function () {
-  // Update cart count and total price when the cart is updated
-  updateCartCount();
-  updateTotalPrice();
-});
-
 document.addEventListener("DOMContentLoaded", function () {
   updateCartCount();
   updateTotalPrice();
