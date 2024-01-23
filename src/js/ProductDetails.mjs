@@ -1,4 +1,4 @@
-import { getLocalStorage,setLocalStorage } from "./utils.mjs";
+import { getLocalStorage, setLocalStorage } from "./utils.mjs";
 
 function productDetailsTemplate(product) {
   return `<section class="product-detail"> <h3>${product.Brand.Name}</h3>
@@ -49,6 +49,8 @@ export default class ProductDetails {
 
     // Guardar el carrito actualizado en el almacenamiento local
     setLocalStorage("so-cart", cartItems);
+    // Trigger the cartUpdated event after updating the cart
+    document.dispatchEvent(new Event("cartUpdated"));
   }
   renderProductDetails(selector) {
     const element = document.querySelector(selector);
