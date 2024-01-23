@@ -40,10 +40,12 @@ function updateTotalPrice() {
 document.addEventListener("DOMContentLoaded", function () {
   updateCartCount();
   updateTotalPrice();
+  console.log("DOMContentLoaded")
 });
 
 // Initial update on DOMContentLoaded
 document.addEventListener("cartUpdated", function () {
   updateCartCount();
   updateTotalPrice();
+  console.log("cart updated")
 });
