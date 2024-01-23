@@ -21,18 +21,29 @@ function calculateTotalPrice() {
 
 function updateTotalPrice() {
   const totalElement = document.getElementById("total-price");
-  const totalPrice = calculateTotalPrice();
-  totalElement.textContent = `Total Price: $${totalPrice.toFixed(2)}`;
 
-  if (totalPrice === 0) {
-    totalElement.classList.add("hidden");
+  // Verifica si el elemento existe antes de intentar actualizarlo
+  if (totalElement) {
+    const totalPrice = calculateTotalPrice();
+    totalElement.textContent = `Total Price: $${totalPrice.toFixed(2)}`;
+
+    if (totalPrice === 0) {
+      totalElement.classList.add("hidden");
+    } else {
+      totalElement.classList.remove("hidden");
+    }
   } else {
-    totalElement.classList.remove("hidden");
+    console.warn("El elemento con ID 'total-price' no se encontró en el documento.");
   }
 }
 
-
 document.addEventListener("DOMContentLoaded", function () {
+  updateCartCount();
+  updateTotalPrice();
+});
+
+// Initial update on DOMContentLoaded
+document.addEventListener("cartUpdated", function () {
   updateCartCount();
   updateTotalPrice();
 });
