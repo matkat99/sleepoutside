@@ -7,10 +7,13 @@ function getCartCount() {
 }
 
 export function updateCartCountIndex() {
-  // Utiliza la función loadHeaderFooter para obtener el elemento cart-count
   loadHeaderFooter().then(cartCountElement => {
-    const cartCount = getCartCount(); // Supongo que tienes alguna función para obtener el conteo del carrito
-    cartCountElement.textContent = cartCount;
+    if (cartCountElement && typeof cartCountElement.textContent !== "undefined") {
+      const cartCount = getCartCount(); 
+      cartCountElement.textContent = cartCount;
+    } else {
+      return
+    }
   });
 }
 
@@ -24,7 +27,6 @@ export function updateCartCount() {
     return
   }
 }
-
 
 //Total$ in Cart
 function calculateTotalPrice() {
@@ -50,7 +52,6 @@ function updateTotalPrice() {
     return;
   }
 }
-
 
 document.addEventListener("DOMContentLoaded", function () {
   updateCartCountIndex();
