@@ -1,4 +1,4 @@
-import { getLocalStorage } from "./utils.mjs";
+import { getLocalStorage, loadHeaderFooter } from "./utils.mjs";
 
 // Add a superscript number of items in the cart to the backpack icon.
 function getCartCount() {
@@ -6,11 +6,25 @@ function getCartCount() {
   return cartItems.length;
 }
 
+export function updateCartCountIndex() {
+  // Utiliza la función loadHeaderFooter para obtener el elemento cart-count
+  loadHeaderFooter().then(cartCountElement => {
+    const cartCount = getCartCount(); // Supongo que tienes alguna función para obtener el conteo del carrito
+    cartCountElement.textContent = cartCount;
+  });
+}
+
 export function updateCartCount() {
   const cartCountElement = document.getElementById("cart-count");
-  const cartCount = getCartCount();
-  cartCountElement.textContent = cartCount;
+
+  if (cartCountElement !== null) {
+    const cartCount = getCartCount();
+    cartCountElement.textContent = cartCount;
+  } else {
+    return
+  }
 }
+
 
 //Total$ in Cart
 function calculateTotalPrice() {
@@ -39,11 +53,13 @@ function updateTotalPrice() {
 
 
 document.addEventListener("DOMContentLoaded", function () {
-  updateCartCount();
+  updateCartCountIndex();
+  updateCartCount()
   updateTotalPrice();
 });
 
 document.addEventListener("cartUpdated", function () {
-  updateCartCount();
+  updateCartCountIndex();
+  updateCartCount()
   updateTotalPrice();
 });
