@@ -72,6 +72,7 @@ export async function loadHeaderFooter() {
       renderWithTemplate(footerTemplate, footerElement)
     ]);
 
+
     // Ahora los elementos han sido renderizados, puedes seleccionar el elemento con id "cart-count"
     const cartCountElement = document.getElementById("cart-count");
     return cartCountElement;
