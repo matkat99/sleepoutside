@@ -2,8 +2,6 @@
 export function qs(selector, parent = document) {
   return parent.querySelector(selector);
 }
-// or a more concise version if you are into that sort of thing:
-// export const qs = (selector, parent = document) => parent.querySelector(selector);
 
 // retrieve data from localstorage
 export function getLocalStorage(key) {
@@ -31,7 +29,6 @@ export function getParam(param) {
 }
 
 // function to take a list of objects and a template and insert the objects as HTML into the DOM
-
 export function renderListWithTemplate(
   templateFn,
   parentElement,
