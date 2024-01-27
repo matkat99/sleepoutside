@@ -95,6 +95,14 @@ button {
   border-bottom: 2px solid var(--primary-color);
 }
 /* End utility classes */
+.close-button{
+  margin: 20px;
+  padding: 5px 10px;
+  color: #303030;
+  background-color: #a4b8c4;
+  border-radius: 16px;
+  border: 1px solid #d0d0d0;
+}
 /* product grid styles */
 .product-grid {
   list-style-type: none;

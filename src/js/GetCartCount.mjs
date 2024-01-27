@@ -1,4 +1,5 @@
 import { getLocalStorage, loadHeaderFooter } from "./utils.mjs";
+import Alert from "./Alert";
 
 // Add a superscript number of items in the cart to the backpack icon.
 function getCartCount() {
@@ -57,6 +58,7 @@ document.addEventListener("DOMContentLoaded", function () {
   updateCartCountIndex();
   updateCartCount()
   updateTotalPrice();
+  Alert.displayAlerts();
 });
 
 document.addEventListener("cartUpdated", function () {
