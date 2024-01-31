@@ -90,12 +90,19 @@ button {
   border: 0;
   font-size: var(--large-font);
   cursor: pointer;
+  border-radius: 24px;
+  transition: transform 0.2s ease-in-out;
+}
+button a {
+  text-decoration: none;
+  color: white;
+  display: block;
 }
 .divider {
   border-bottom: 2px solid var(--primary-color);
 }
 /* End utility classes */
-.close-button{
+.close-button {
   margin: 20px;
   padding: 5px 10px;
   color: #303030;
@@ -194,9 +201,21 @@ button {
 .hidden {
   display: none;
 }
-#total-price{
- text-align: right;
- font-size: var(--font-base);
+#total-price {
+  text-align: right;
+  font-size: var(--font-base);
+  font-weight: bold;
+  padding: 10px;
+}
+#checkout {
+  margin: 20px;
+  border-radius: 24px;
+  transition: transform 0.2s ease-in-out;
+}
+#checkout:hover,
+button:hover {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0);
+  transform: scale(1.1);
 }
 /* Styles for product lists */
 .product-card {
@@ -230,7 +249,82 @@ button {
 .product-detail img {
   width: 100%;
 }
+.form-container {
+  display: grid;
+  place-content: center;
+  margin-bottom: 5%;
+}
+.card {
+  width: fit-content;
+  background: rgb(255, 250, 235);
+  box-shadow: 0px 187px 75px rgba(0, 0, 0, 0.01),
+    0px 105px 63px rgba(0, 0, 0, 0.05), 0px 47px 47px rgba(0, 0, 0, 0.09),
+    0px 12px 26px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+}
+/* checkout styles */
 
+.form label,.form-btn {
+  display: block;
+  text-align: center;
+  padding: 8px;
+}
+.form input {
+  width: 80%;
+  font-size: 1.2em;
+  margin: 0 auto;
+}
+/* Cart */
+.cart {
+  border-radius: 19px 19px 0px 0px;
+}
+.cart .steps {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.cart .steps .step {
+  display: grid;
+  gap: 10px;
+}
+.cart .steps .step span {
+  font-size: 13px;
+  font-weight: 600;
+  color: #000000;
+  margin-bottom: 8px;
+  display: block;
+}
+.cart .steps .step p {
+  font-size: 11px;
+  font-weight: 600;
+  color: #000000;
+}
+/* Promo */
+.form fieldset {
+  padding: 20px;
+}
+.form legend {
+  text-align: left;
+  font-weight: bold;
+}
+/* Checkout */
+.payments .details {
+  display: grid;
+  grid-template-columns: 10fr 1fr;
+  padding: 0px;
+  gap: 5px;
+}
+.payments .details span:nth-child(odd) {
+  font-size: 16px;
+  font-weight: 600;
+  color: #000000;
+  margin: auto auto auto 0;
+}
+.payments .details span:nth-child(even) {
+  font-size: 13px;
+  font-weight: 600;
+  color: #000000;
+  margin: auto 0 auto auto;
+}
 /* Start cart list card styles */
 .cart-card {
   display: grid;

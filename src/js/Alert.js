@@ -30,7 +30,7 @@ class Alert {
       alertParagraph.style.color = alert.color;
 
       const closeButton = document.createElement("button");
-      closeButton.textContent = "Close";
+      closeButton.textContent = "Dismiss";
       closeButton.className = "close-button";
       closeButton.addEventListener("click", () => {
         alertContainer.remove();

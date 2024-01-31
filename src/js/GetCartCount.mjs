@@ -37,6 +37,7 @@ function calculateTotalPrice() {
 
 function updateTotalPrice() {
   const totalElement = document.getElementById("total-price");
+  const checkoutBtn = document.getElementById("checkout");
 
   // Verifica si el elemento existe antes de intentar actualizarlo
   if (totalElement) {
@@ -45,8 +46,10 @@ function updateTotalPrice() {
 
     if (totalPrice === 0) {
       totalElement.classList.add("hidden");
+      checkoutBtn.classList.add("hidden");
     } else {
       totalElement.classList.remove("hidden");
+      checkoutBtn.classList.remove("hidden");
     }
   } else {
     return;

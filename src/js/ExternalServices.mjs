@@ -1,4 +1,6 @@
 const baseURL = import.meta.env.VITE_SERVER_URL;
+const checkoutURL = "https://wdd330-backend.onrender.com/checkout"
+//const checkoutURL = "https://wdd330-backend.onrender.com/checkout"
 
 function convertToJson(res) {
   if (res.ok) {
@@ -8,10 +10,9 @@ function convertToJson(res) {
   } else {
     throw new Error("Bad Response");
   }
-}
+} 
 
-
-export default class ProductData {
+export default class ExternalServices  {
   constructor(category) {
   }
   async getData(category) {
@@ -24,5 +25,15 @@ export default class ProductData {
     const response = await fetch(baseURL + `product/${id}`);
     const data = await convertToJson(response);
     return data.Result;
+  }
+  async checkout(payload) {
+    const options = {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(payload),
+    };
+    return await fetch(checkoutURL, options).then(convertToJson);
   }
 }
