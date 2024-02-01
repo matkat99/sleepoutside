@@ -2,15 +2,15 @@ const baseURL = import.meta.env.VITE_SERVER_URL;
 const checkoutURL = "https://wdd330-backend.onrender.com/checkout"
 //const checkoutURL = "https://wdd330-backend.onrender.com/checkout"
 
-function convertToJson(res) {
+async function convertToJson(res) {
+  const data = await res.json();
   if (res.ok) {
-    return res.json();
-  } else if (res.status === 404) {
-    throw new Error("Product not found");
+    return data;
   } else {
-    throw new Error("Bad Response");
+    throw { name: "servicesError", message: data };
   }
-} 
+}
+
 
 export default class ExternalServices  {
   constructor(category) {
