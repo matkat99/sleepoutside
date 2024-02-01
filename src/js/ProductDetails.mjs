@@ -5,7 +5,7 @@ function productDetailsTemplate(product) {
     <h3>${product.Brand.Name}</h3>
     <h2 class="divider">${product.NameWithoutBrand}</h2>
 
-    <img class="divider" src="${product.Images.PrimaryMedium}" alt="${product.NameWithoutBrand}" />
+    <img class="divider" src="${product.Images.PrimaryLarge}" alt="${product.NameWithoutBrand}" />
     
     <p class="product-card__price">$${product.FinalPrice}</p>
     <p class="product__color">${product.Colors[0].ColorName}</p>
@@ -25,6 +25,7 @@ export default class ProductDetails {
   async init() {
     // use our datasource to get the details for the current product. findProductById will return a promise! use await or .then() to process it
     this.product = await this.dataSource.findProductById(this.productId);
+    console.log(this.product)
     // once we have the product details we can render out the HTML
     this.renderProductDetails("main");
     // once the HTML is rendered we can add a listener to Add to Cart button
@@ -51,6 +52,21 @@ export default class ProductDetails {
 
     // add the current product to the cart
     cartItems.push(this.product);
+
+    const alert = document.createElement("div");
+    alert.classList.add("alert");
+    alert.innerHTML = `<p>Item added to cart</p><span>close</span>`;
+
+    alert.addEventListener("click", function (e) {
+      if (e.target.tagName == "SPAN") {
+        main.removeChild(this);
+      }
+    });
+
+    const main = document.querySelector("main");
+    main.prepend(alert);
+
+    if (scroll) window.scrollTo(0, 0);
 
     // set the cart items in local storage
     setLocalStorage("so-cart", cartItems);
