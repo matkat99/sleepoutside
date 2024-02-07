@@ -1,0 +1,875 @@
+[
+  {
+    "Id": "20CXG",
+    "Category": "backpacks",
+    "IsClearance": false,
+    "IsNew": false,
+    "Url": "/product/20cxg/",
+    "Reviews": {
+      "ReviewsUrl": "/reviewsbyproduct/20cxg/",
+      "ReviewCount": 0,
+      "AverageRating": 0
+    },
+    "NameWithoutBrand": "Pivoter 27 L Backpack",
+    "Name": "The North Face Pivoter 27 L Backpack",
+    "IsFamousBrand": false,
+    "Images": {
+      "PrimarySmall": "https://wdd330-backend.onrender.com/images/sleepoutside/the-north-face-pivoter-27-l-backpack-in-tnf-black~p~20cxg_01~80.jpg",
+      "PrimaryMedium": "https://wdd330-backend.onrender.com/images/sleepoutside/the-north-face-pivoter-27-l-backpack-in-tnf-black~p~20cxg_01~160.jpg",
+      "PrimaryLarge": "https://wdd330-backend.onrender.com/images/sleepoutside/the-north-face-pivoter-27-l-backpack-in-tnf-black~p~20cxg_01~320.jpg",
+      "PrimaryExtraLarge": "https://wdd330-backend.onrender.com/images/sleepoutside/the-north-face-pivoter-27-l-backpack-in-tnf-black~p~20cxg_01~600.jpg",
+      "ExtraImages": [
+        {
+          "Title": "Alternate View",
+          "Src": "https://wdd330-backend.onrender.com/images/sleepoutside/the-north-face-pivoter-27-l-backpack~a~20cxg_2~600.1.jpg"
+        },
+        {
+          "Title": "Alternate View",
+          "Src": "https://wdd330-backend.onrender.com/images/sleepoutside/the-north-face-pivoter-27-l-backpack~a~20cxg_3~600.1.jpg"
+        },
+        {
+          "Title": "Alternate View",
+          "Src": "https://wdd330-backend.onrender.com/images/sleepoutside/the-north-face-pivoter-27-l-backpack~a~20cxg_4~600.1.jpg"
+        }
+      ]
+    },
+    "SizesAvailable": {},
+    "Colors": [
+      {
+        "ColorCode": "01",
+        "ColorName": "Tnf Black",
+        "ColorChipImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/colorchip/20cxg-01.jpg",
+        "ColorPreviewImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/the-north-face-pivoter-27-l-backpack-in-tnf-black~p~20cxg_01~160.jpg"
+      }
+    ],
+    "DescriptionHtmlSimple": "<strong><a class=\"glossaryTermLink\" href=\"/closeout~g~3281\" title=\"Closeout: - Closeout indicates an item may be last year's model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.\">Closeout</a></strong>. Whether you&#39;re headed to class or hiking a new trail, The North Face&#39;s Pivoter backpack provides breathable, padded comfort with room for all the goodies, including your laptop!",
+    "SuggestedRetailPrice": 60,
+    "Brand": {
+      "Id": "1440",
+      "Url": "/brand/1440/",
+      "ProductsUrl": "/products?Brand=1440",
+      "LogoSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/brands/the-north-face~b~1440~160x100.jpg",
+      "Name": "The North Face"
+    },
+    "ListPrice": 39.99,
+    "FinalPrice": 39.99
+  },
+  {
+    "Id": "28UPM",
+    "Category": "backpacks",
+    "IsClearance": false,
+    "IsNew": false,
+    "Url": "/product/28upm/",
+    "Reviews": {
+      "ReviewsUrl": "/reviewsbyproduct/28upm/",
+      "ReviewCount": 0,
+      "AverageRating": 0
+    },
+    "NameWithoutBrand": "Urban Assault 21L Backpack",
+    "Name": "Mystery Ranch Urban Assault 21L Backpack",
+    "IsFamousBrand": false,
+    "Images": {
+      "PrimarySmall": "https://wdd330-backend.onrender.com/images/sleepoutside/mystery-ranch-urban-assault-21l-backpack-in-lemon~p~28upm_08~80.jpg",
+      "PrimaryMedium": "https://wdd330-backend.onrender.com/images/sleepoutside/mystery-ranch-urban-assault-21l-backpack-in-lemon~p~28upm_08~160.jpg",
+      "PrimaryLarge": "https://wdd330-backend.onrender.com/images/sleepoutside/mystery-ranch-urban-assault-21l-backpack-in-lemon~p~28upm_08~320.jpg",
+      "PrimaryExtraLarge": "https://wdd330-backend.onrender.com/images/sleepoutside/mystery-ranch-urban-assault-21l-backpack-in-lemon~p~28upm_08~600.jpg",
+      "ExtraImages": [
+        {
+          "Title": "Alternate View",
+          "Src": "https://wdd330-backend.onrender.com/images/sleepoutside/mystery-ranch-urban-assault-21l-backpack~a~28upm_2~600.2.jpg"
+        },
+        {
+          "Title": "Alternate View",
+          "Src": "https://wdd330-backend.onrender.com/images/sleepoutside/mystery-ranch-urban-assault-21l-backpack~a~28upm_3~600.2.jpg"
+        },
+        {
+          "Title": "Alternate View",
+          "Src": "https://wdd330-backend.onrender.com/images/sleepoutside/mystery-ranch-urban-assault-21l-backpack~a~28upm_4~600.1.jpg"
+        }
+      ]
+    },
+    "SizesAvailable": {},
+    "Colors": [
+      {
+        "ColorCode": "08",
+        "ColorName": "Lemon",
+        "ColorChipImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/colorchip/28upm-08.jpg",
+        "ColorPreviewImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/mystery-ranch-urban-assault-21l-backpack-in-lemon~p~28upm_08~160.jpg"
+      },
+      {
+        "ColorCode": "03",
+        "ColorName": "Eggplant",
+        "ColorChipImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/colorchip/28upm-03.jpg",
+        "ColorPreviewImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/mystery-ranch-urban-assault-21l-backpack-in-eggplant~p~28upm_03~160.jpg"
+      },
+      {
+        "ColorCode": "05",
+        "ColorName": "Forest",
+        "ColorChipImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/colorchip/28upm-05.jpg",
+        "ColorPreviewImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/mystery-ranch-urban-assault-21l-backpack-in-forest~p~28upm_05~160.jpg"
+      },
+      {
+        "ColorCode": "01",
+        "ColorName": "Coyote",
+        "ColorChipImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/colorchip/28upm-01.jpg",
+        "ColorPreviewImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/mystery-ranch-urban-assault-21l-backpack-in-coyote~p~28upm_01~160.jpg"
+      },
+      {
+        "ColorCode": "04",
+        "ColorName": "Flame",
+        "ColorChipImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/colorchip/28upm-04.jpg",
+        "ColorPreviewImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/mystery-ranch-urban-assault-21l-backpack-in-flame~p~28upm_04~160.jpg"
+      },
+      {
+        "ColorCode": "09",
+        "ColorName": "Mystery Pop",
+        "ColorChipImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/colorchip/28upm-09.jpg",
+        "ColorPreviewImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/mystery-ranch-urban-assault-21l-backpack-in-mystery-pop~p~28upm_09~160.jpg"
+      }
+    ],
+    "DescriptionHtmlSimple": "<strong>Excess</strong>. Mystery Ranch&#39;s Urban Assault 21L backpack is a spacious and comfortable daypack for work, travel and trail. The 3-ZIP design allows ready access to your pack&#39;s contents, and the built-in laptop and tablet sleeves hug you devices closely to the back panel for optimal protection.",
+    "SuggestedRetailPrice": 110,
+    "Brand": {
+      "Id": "37083",
+      "Url": "/brand/37083/",
+      "ProductsUrl": "/products?Brand=37083",
+      "LogoSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/brands/mystery-ranch-logo.svg",
+      "Name": "Mystery Ranch"
+    },
+    "ListPrice": 69.99,
+    "FinalPrice": 69.99
+  },
+  {
+    "Id": "20FAJ",
+    "Category": "backpacks",
+    "IsClearance": false,
+    "IsNew": false,
+    "Url": "/product/20faj/",
+    "Reviews": {
+      "ReviewsUrl": "/reviewsbyproduct/20faj/",
+      "ReviewCount": 0,
+      "AverageRating": 0
+    },
+    "NameWithoutBrand": "Router Transit Backpack - 41 L",
+    "Name": "The North Face Router Transit Backpack - 41 L",
+    "IsFamousBrand": false,
+    "Images": {
+      "PrimarySmall": "https://wdd330-backend.onrender.com/images/sleepoutside/the-north-face-router-transit-backpack-41-l-in-zinc-grey-heather-tnf-black~p~20faj_01~80.jpg",
+      "PrimaryMedium": "https://wdd330-backend.onrender.com/images/sleepoutside/the-north-face-router-transit-backpack-41-l-in-zinc-grey-heather-tnf-black~p~20faj_01~160.jpg",
+      "PrimaryLarge": "https://wdd330-backend.onrender.com/images/sleepoutside/the-north-face-router-transit-backpack-41-l-in-zinc-grey-heather-tnf-black~p~20faj_01~320.jpg",
+      "PrimaryExtraLarge": "https://wdd330-backend.onrender.com/images/sleepoutside/the-north-face-router-transit-backpack-41-l-in-zinc-grey-heather-tnf-black~p~20faj_01~600.jpg",
+      "ExtraImages": [
+        {
+          "Title": "Alternate View",
+          "Src": "https://wdd330-backend.onrender.com/images/sleepoutside/the-north-face-router-transit-backpack-41-l~a~20faj_2~600.1.jpg"
+        }
+      ]
+    },
+    "SizesAvailable": {},
+    "Colors": [
+      {
+        "ColorCode": "01",
+        "ColorName": "Zinc Grey Heather/Tnf Black",
+        "ColorChipImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/colorchip/20faj-01.jpg",
+        "ColorPreviewImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/the-north-face-router-transit-backpack-41-l-in-zinc-grey-heather-tnf-black~p~20faj_01~160.jpg"
+      }
+    ],
+    "DescriptionHtmlSimple": "<strong><a class=\"glossaryTermLink\" href=\"/closeout~g~3281\" title=\"Closeout: - Closeout indicates an item may be last year's model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.\">Closeout</a></strong>. From local commutes to weekend travels, The North Face Router Transit backpack offers plenty of storage for all your travel needs.",
+    "SuggestedRetailPrice": 100,
+    "Brand": {
+      "Id": "1440",
+      "Url": "/brand/1440/",
+      "ProductsUrl": "/products?Brand=1440",
+      "LogoSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/brands/the-north-face~b~1440~160x100.jpg",
+      "Name": "The North Face"
+    },
+    "ListPrice": 69.99,
+    "FinalPrice": 69.99
+  },
+  {
+    "Id": "889PR",
+    "Category": "backpacks",
+    "IsClearance": false,
+    "IsNew": false,
+    "Url": "/product/889pr/",
+    "Reviews": {
+      "ReviewsUrl": "/reviewsbyproduct/889pr/",
+      "ReviewCount": 0,
+      "AverageRating": 0
+    },
+    "NameWithoutBrand": "Stout 45 Adjustable Backpack",
+    "Name": "Gregory Stout 45 Adjustable Backpack",
+    "IsFamousBrand": false,
+    "Images": {
+      "PrimarySmall": "https://wdd330-backend.onrender.com/images/sleepoutside/gregory-stout-45-adjustable-backpack-in-prairie-orange~p~889pr_02~80.jpg",
+      "PrimaryMedium": "https://wdd330-backend.onrender.com/images/sleepoutside/gregory-stout-45-adjustable-backpack-in-prairie-orange~p~889pr_02~160.jpg",
+      "PrimaryLarge": "https://wdd330-backend.onrender.com/images/sleepoutside/gregory-stout-45-adjustable-backpack-in-prairie-orange~p~889pr_02~320.jpg",
+      "PrimaryExtraLarge": "https://wdd330-backend.onrender.com/images/sleepoutside/gregory-stout-45-adjustable-backpack-in-prairie-orange~p~889pr_02~600.jpg",
+      "ExtraImages": [
+        {
+          "Title": "Alternate View",
+          "Src": "https://wdd330-backend.onrender.com/images/sleepoutside/gregory-stout-45-adjustable-backpack~a~889pr_2~600.3.jpg"
+        },
+        {
+          "Title": "Alternate View",
+          "Src": "https://wdd330-backend.onrender.com/images/sleepoutside/gregory-stout-45-adjustable-backpack~a~889pr_3~600.3.jpg"
+        },
+        {
+          "Title": "Alternate View",
+          "Src": "https://wdd330-backend.onrender.com/images/sleepoutside/gregory-stout-45-adjustable-backpack~a~889pr_4~600.3.jpg"
+        }
+      ]
+    },
+    "SizesAvailable": {},
+    "Colors": [
+      {
+        "ColorCode": "02",
+        "ColorName": "Prairie Orange",
+        "ColorChipImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/colorchip/889pr-02.jpg",
+        "ColorPreviewImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/gregory-stout-45-adjustable-backpack-in-prairie-orange~p~889pr_02~160.jpg"
+      },
+      {
+        "ColorCode": "01",
+        "ColorName": "Navy Blue",
+        "ColorChipImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/colorchip/889pr-01.jpg",
+        "ColorPreviewImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/gregory-stout-45-adjustable-backpack-in-navy-blue~p~889pr_01~160.jpg"
+      }
+    ],
+    "DescriptionHtmlSimple": "<strong><a class=\"glossaryTermLink\" href=\"/closeouts~g~2312\" title=\"Closeouts: - Closeouts are items that may be last year's model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.\">Closeouts</a></strong>. Supportive and smartly designed, Gregory&#39;s Stout 35 backpack features a TrailFlex wishbone suspension so it carries comfortably when fully loaded. A roomy, yet compact option well-suited to weekend backpacking trips through technical terrain.",
+    "SuggestedRetailPrice": 149.99,
+    "Brand": {
+      "Id": "7155",
+      "Url": "/brand/7155/",
+      "ProductsUrl": "/products?Brand=7155",
+      "LogoSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/brands/gregory~b~7155~160x100.jpg",
+      "Name": "Gregory"
+    },
+    "ListPrice": 99.99,
+    "FinalPrice": 99.99
+  },
+  {
+    "Id": "665HD",
+    "Category": "backpacks",
+    "IsClearance": false,
+    "IsNew": false,
+    "Url": "/product/665hd/",
+    "Reviews": {
+      "ReviewsUrl": "/reviewsbyproduct/665hd/",
+      "ReviewCount": 0,
+      "AverageRating": 0
+    },
+    "NameWithoutBrand": "Maven 45L Backpack - Internal Frame",
+    "Name": "Gregory Maven 45L Backpack - Internal Frame",
+    "IsFamousBrand": false,
+    "Images": {
+      "PrimarySmall": "https://wdd330-backend.onrender.com/images/sleepoutside/gregory-maven-45l-backpack-internal-frame-in-phoenix-red~p~665hd_02~80.jpg",
+      "PrimaryMedium": "https://wdd330-backend.onrender.com/images/sleepoutside/gregory-maven-45l-backpack-internal-frame-in-phoenix-red~p~665hd_02~160.jpg",
+      "PrimaryLarge": "https://wdd330-backend.onrender.com/images/sleepoutside/gregory-maven-45l-backpack-internal-frame-in-phoenix-red~p~665hd_02~320.jpg",
+      "PrimaryExtraLarge": "https://wdd330-backend.onrender.com/images/sleepoutside/gregory-maven-45l-backpack-internal-frame-in-phoenix-red~p~665hd_02~600.jpg",
+      "ExtraImages": [
+        {
+          "Title": "Alternate View",
+          "Src": "https://wdd330-backend.onrender.com/images/sleepoutside/gregory-maven-45l-backpack-internal-frame~a~665hd_2~600.2.jpg"
+        },
+        {
+          "Title": "Alternate View",
+          "Src": "https://wdd330-backend.onrender.com/images/sleepoutside/gregory-maven-45l-backpack-internal-frame~a~665hd_3~600.1.jpg"
+        },
+        {
+          "Title": "Alternate View",
+          "Src": "https://wdd330-backend.onrender.com/images/sleepoutside/gregory-maven-45l-backpack-internal-frame~a~665hd_4~600.1.jpg"
+        }
+      ]
+    },
+    "SizesAvailable": { "SIZE": ["XS/S", "S/M"] },
+    "Colors": [
+      {
+        "ColorCode": "02",
+        "ColorName": "Phoenix Red",
+        "ColorChipImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/colorchip/665hd-02.jpg",
+        "ColorPreviewImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/gregory-maven-45l-backpack-internal-frame-in-phoenix-red~p~665hd_02~160.jpg"
+      },
+      {
+        "ColorCode": "03",
+        "ColorName": "Forest Grey",
+        "ColorChipImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/colorchip/665hd-03.jpg",
+        "ColorPreviewImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/gregory-maven-45l-backpack-internal-frame-in-forest-grey~p~665hd_03~160.jpg"
+      }
+    ],
+    "DescriptionHtmlSimple": "<strong><a class=\"glossaryTermLink\" href=\"/closeouts~g~2312\" title=\"Closeouts: - Closeouts are items that may be last year's model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.\">Closeouts</a></strong>. The perfect lightweight companion for peak-bagging and minimalist overnighting, Gregory&#39;s Maven 45L backpack is well-balanced with alloy anti-barreling stays and an HDPE sheet for firm support.",
+    "SuggestedRetailPrice": 149.99,
+    "Brand": {
+      "Id": "7155",
+      "Url": "/brand/7155/",
+      "ProductsUrl": "/products?Brand=7155",
+      "LogoSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/brands/gregory~b~7155~160x100.jpg",
+      "Name": "Gregory"
+    },
+    "ListPrice": 99.99,
+    "FinalPrice": 99.99
+  },
+  {
+    "Id": "28UPU",
+    "Category": "backpacks",
+    "IsClearance": false,
+    "IsNew": false,
+    "Url": "/product/28upu/",
+    "Reviews": {
+      "ReviewsUrl": "/reviewsbyproduct/28upu/",
+      "ReviewCount": 0,
+      "AverageRating": 0
+    },
+    "NameWithoutBrand": "Scree 32L Backpack (For Women)",
+    "Name": "Mystery Ranch Scree 32L Backpack (For Women)",
+    "IsFamousBrand": false,
+    "Images": {
+      "PrimarySmall": "https://wdd330-backend.onrender.com/images/sleepoutside/mystery-ranch-scree-32l-backpack-for-women-in-black~p~28upu_02~80.jpg",
+      "PrimaryMedium": "https://wdd330-backend.onrender.com/images/sleepoutside/mystery-ranch-scree-32l-backpack-for-women-in-black~p~28upu_02~160.jpg",
+      "PrimaryLarge": "https://wdd330-backend.onrender.com/images/sleepoutside/mystery-ranch-scree-32l-backpack-for-women-in-black~p~28upu_02~320.jpg",
+      "PrimaryExtraLarge": "https://wdd330-backend.onrender.com/images/sleepoutside/mystery-ranch-scree-32l-backpack-for-women-in-black~p~28upu_02~600.jpg",
+      "ExtraImages": [
+        {
+          "Title": "Alternate View",
+          "Src": "https://wdd330-backend.onrender.com/images/sleepoutside/mystery-ranch-scree-32l-backpack-for-women~a~28upu_2~600.1.jpg"
+        },
+        {
+          "Title": "Alternate View",
+          "Src": "https://wdd330-backend.onrender.com/images/sleepoutside/mystery-ranch-scree-32l-backpack-for-women~a~28upu_3~600.1.jpg"
+        }
+      ]
+    },
+    "SizesAvailable": { "SIZE": ["XS/S", "M/L"] },
+    "Colors": [
+      {
+        "ColorCode": "02",
+        "ColorName": "Black",
+        "ColorChipImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/colorchip/28upu-02.jpg",
+        "ColorPreviewImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/mystery-ranch-scree-32l-backpack-for-women-in-black~p~28upu_02~160.jpg"
+      },
+      {
+        "ColorCode": "01",
+        "ColorName": "Henna",
+        "ColorChipImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/colorchip/28upu-01.jpg",
+        "ColorPreviewImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/mystery-ranch-scree-32l-backpack-for-women-in-henna~p~28upu_01~160.jpg"
+      }
+    ],
+    "DescriptionHtmlSimple": "<strong>Excess</strong>. Mystery Ranch&#39;s Scree 32L backpack is a spacious and comfortable daypack for all your outdoor hiking needs. The 3-ZIP design allows ready access to contents, and the removable Redirect waistbelt system secures in a natural, forward pull direction that requires less effort to tighten.",
+    "SuggestedRetailPrice": 170,
+    "Brand": {
+      "Id": "37083",
+      "Url": "/brand/37083/",
+      "ProductsUrl": "/products?Brand=37083",
+      "LogoSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/brands/mystery-ranch-logo.svg",
+      "Name": "Mystery Ranch"
+    },
+    "ListPrice": 119.99,
+    "FinalPrice": 119.99
+  },
+  {
+    "Id": "223RN",
+    "Category": "backpacks",
+    "IsClearance": false,
+    "IsNew": false,
+    "Url": "/product/223rn/",
+    "Reviews": {
+      "ReviewsUrl": "/reviewsbyproduct/223rn/",
+      "ReviewCount": 11,
+      "AverageRating": 4.64
+    },
+    "NameWithoutBrand": "Zulu 55 Backpack - Internal Frame",
+    "Name": "Gregory Zulu 55 Backpack - Internal Frame",
+    "IsFamousBrand": false,
+    "Images": {
+      "PrimarySmall": "https://wdd330-backend.onrender.com/images/sleepoutside/gregory-zulu-55-backpack-internal-frame-in-moss-green~p~223rn_02~80.jpg",
+      "PrimaryMedium": "https://wdd330-backend.onrender.com/images/sleepoutside/gregory-zulu-55-backpack-internal-frame-in-moss-green~p~223rn_02~160.jpg",
+      "PrimaryLarge": "https://wdd330-backend.onrender.com/images/sleepoutside/gregory-zulu-55-backpack-internal-frame-in-moss-green~p~223rn_02~320.jpg",
+      "PrimaryExtraLarge": "https://wdd330-backend.onrender.com/images/sleepoutside/gregory-zulu-55-backpack-internal-frame-in-moss-green~p~223rn_02~600.jpg",
+      "ExtraImages": [
+        {
+          "Title": "Alternate View",
+          "Src": "https://wdd330-backend.onrender.com/images/sleepoutside/gregory-zulu-55-backpack-internal-frame~a~223rn_2~600.2.jpg"
+        },
+        {
+          "Title": "Alternate View",
+          "Src": "https://wdd330-backend.onrender.com/images/sleepoutside/gregory-zulu-55-backpack-internal-frame~a~223rn_3~600.1.jpg"
+        }
+      ]
+    },
+    "SizesAvailable": { "SIZE": ["M"] },
+    "Colors": [
+      {
+        "ColorCode": "02",
+        "ColorName": "Moss Green",
+        "ColorChipImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/colorchip/223rn-02.jpg",
+        "ColorPreviewImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/gregory-zulu-55-backpack-internal-frame-in-moss-green~p~223rn_02~160.jpg"
+      },
+      {
+        "ColorCode": "03",
+        "ColorName": "Feldspar Grey",
+        "ColorChipImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/colorchip/223rn-03.jpg",
+        "ColorPreviewImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/gregory-zulu-55-backpack-internal-frame-in-feldspar-grey~p~223rn_03~160.jpg"
+      }
+    ],
+    "DescriptionHtmlSimple": "<strong><a class=\"glossaryTermLink\" href=\"/closeouts~g~2312\" title=\"Closeouts: - Closeouts are items that may be last year's model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.\">Closeouts</a></strong>. Gregory&#39;s Zulu 55 backpack boasts a streamlined, yet spacious design ideal for weekend trips and winter overnights. The highly breathable CrossFlo DTS suspension system keeps air circulating across your back, and the bottom compartment offers easy access to your sleeping bag.",
+    "SuggestedRetailPrice": 199,
+    "Brand": {
+      "Id": "7155",
+      "Url": "/brand/7155/",
+      "ProductsUrl": "/products?Brand=7155",
+      "LogoSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/brands/gregory~b~7155~160x100.jpg",
+      "Name": "Gregory"
+    },
+    "ListPrice": 129.99,
+    "FinalPrice": 129.99
+  },
+  {
+    "Id": "445FJ",
+    "Category": "backpacks",
+    "IsClearance": false,
+    "IsNew": false,
+    "Url": "/product/445fj/",
+    "Reviews": {
+      "ReviewsUrl": "/reviewsbyproduct/445fj/",
+      "ReviewCount": 1,
+      "AverageRating": 5
+    },
+    "NameWithoutBrand": "Siro 50L Backpack - Internal Frame",
+    "Name": "Kelty Siro 50L Backpack - Internal Frame",
+    "IsFamousBrand": false,
+    "Images": {
+      "PrimarySmall": "https://wdd330-backend.onrender.com/images/sleepoutside/kelty-siro-50l-backpack-internal-frame-in-woodbine~p~445fj_01~80.jpg",
+      "PrimaryMedium": "https://wdd330-backend.onrender.com/images/sleepoutside/kelty-siro-50l-backpack-internal-frame-in-woodbine~p~445fj_01~160.jpg",
+      "PrimaryLarge": "https://wdd330-backend.onrender.com/images/sleepoutside/kelty-siro-50l-backpack-internal-frame-in-woodbine~p~445fj_01~320.jpg",
+      "PrimaryExtraLarge": "https://wdd330-backend.onrender.com/images/sleepoutside/kelty-siro-50l-backpack-internal-frame-in-woodbine~p~445fj_01~600.jpg",
+      "ExtraImages": [
+        {
+          "Title": "Alternate View",
+          "Src": "https://wdd330-backend.onrender.com/images/sleepoutside/kelty-siro-50l-backpack-internal-frame~a~445fj_2~600.1.jpg"
+        }
+      ]
+    },
+    "SizesAvailable": { "SIZE": ["S/M", "M/L"] },
+    "Colors": [
+      {
+        "ColorCode": "01",
+        "ColorName": "Woodbine",
+        "ColorChipImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/colorchip/445fj-01.jpg",
+        "ColorPreviewImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/kelty-siro-50l-backpack-internal-frame-in-woodbine~p~445fj_01~160.jpg"
+      },
+      {
+        "ColorCode": "02",
+        "ColorName": "Black",
+        "ColorChipImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/colorchip/445fj-02.jpg",
+        "ColorPreviewImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/kelty-siro-50l-backpack-internal-frame-in-black~p~445fj_02~160.jpg"
+      }
+    ],
+    "DescriptionHtmlSimple": "<strong><a class=\"glossaryTermLink\" href=\"/overstock~g~2313\" title=\"Overstock: - A surplus quantity of items that exceeded the vendor’s ability to sell them during the season for which they were intended. Overstocks are purchased by companies like Sierra Trading Post to help vendors clear out excess inventory. Original retail prices on overstocks are drastically reduced for sale, and quality is always first-rate.\">Overstock</a></strong>. Lightweight and streamlined, Kelty&#39;s 45L Siro backpack offers a FeatherFIT suspension system with a suspended AirMesh back panel and integrated lumbar support to keep you in comfort on the long haul.",
+    "SuggestedRetailPrice": 199.95,
+    "Brand": {
+      "Id": "1105",
+      "Url": "/brand/1105/",
+      "ProductsUrl": "/products?Brand=1105",
+      "LogoSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/brands/kelty~b~1105~160x100.jpg",
+      "Name": "Kelty"
+    },
+    "ListPrice": 119.99,
+    "FinalPrice": 119.99
+  },
+  {
+    "Id": "889DC",
+    "Category": "backpacks",
+    "IsClearance": false,
+    "IsNew": false,
+    "Url": "/product/889dc/",
+    "Reviews": {
+      "ReviewsUrl": "/reviewsbyproduct/889dc/",
+      "ReviewCount": 0,
+      "AverageRating": 0
+    },
+    "NameWithoutBrand": "Amber 60L Backpack (For Women)",
+    "Name": "Gregory Amber 60L Backpack (For Women)",
+    "IsFamousBrand": false,
+    "Images": {
+      "PrimarySmall": "https://wdd330-backend.onrender.com/images/sleepoutside/gregory-amber-60l-backpack-for-women-in-pearl-blue~p~889dc_01~80.jpg",
+      "PrimaryMedium": "https://wdd330-backend.onrender.com/images/sleepoutside/gregory-amber-60l-backpack-for-women-in-pearl-blue~p~889dc_01~160.jpg",
+      "PrimaryLarge": "https://wdd330-backend.onrender.com/images/sleepoutside/gregory-amber-60l-backpack-for-women-in-pearl-blue~p~889dc_01~320.jpg",
+      "PrimaryExtraLarge": "https://wdd330-backend.onrender.com/images/sleepoutside/gregory-amber-60l-backpack-for-women-in-pearl-blue~p~889dc_01~600.jpg",
+      "ExtraImages": [
+        {
+          "Title": "Alternate View",
+          "Src": "https://wdd330-backend.onrender.com/images/sleepoutside/gregory-amber-60l-backpack-for-women~a~889dc_2~600.1.jpg"
+        }
+      ]
+    },
+    "SizesAvailable": {},
+    "Colors": [
+      {
+        "ColorCode": "01",
+        "ColorName": "Pearl Blue",
+        "ColorChipImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/colorchip/889dc-01.jpg",
+        "ColorPreviewImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/gregory-amber-60l-backpack-for-women-in-pearl-blue~p~889dc_01~160.jpg"
+      }
+    ],
+    "DescriptionHtmlSimple": "<strong><a class=\"glossaryTermLink\" href=\"/closeouts~g~2312\" title=\"Closeouts: - Closeouts are items that may be last year's model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.\">Closeouts</a></strong>. The features, TrailFlex suspension and 60-liter capacity of the Gregory Amber 60L backpack combine to hit a sweet spot -- this versatile backpack can cover quick over-night trips and multi-day hikes with equal ease.",
+    "SuggestedRetailPrice": 169.99,
+    "Brand": {
+      "Id": "7155",
+      "Url": "/brand/7155/",
+      "ProductsUrl": "/products?Brand=7155",
+      "LogoSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/brands/gregory~b~7155~160x100.jpg",
+      "Name": "Gregory"
+    },
+    "ListPrice": 129.99,
+    "FinalPrice": 129.99
+  },
+  {
+    "Id": "31PYK",
+    "Category": "backpacks",
+    "IsClearance": false,
+    "IsNew": true,
+    "Url": "/product/31pyk/",
+    "Reviews": {
+      "ReviewsUrl": "/reviewsbyproduct/31pyk/",
+      "ReviewCount": 0,
+      "AverageRating": 0
+    },
+    "NameWithoutBrand": "Deva 60 L A3 Suspension Backpack - Internal Frame (For Women)",
+    "Name": "Gregory Deva 60 L A3 Suspension Backpack - Internal Frame (For Women)",
+    "IsFamousBrand": false,
+    "Images": {
+      "PrimarySmall": "https://wdd330-backend.onrender.com/images/sleepoutside/gregory-deva-60-l-a3-suspension-backpack-internal-frame-for-women-in-egyptian-blue~p~31pyk_01~80.jpg",
+      "PrimaryMedium": "https://wdd330-backend.onrender.com/images/sleepoutside/gregory-deva-60-l-a3-suspension-backpack-internal-frame-for-women-in-egyptian-blue~p~31pyk_01~160.jpg",
+      "PrimaryLarge": "https://wdd330-backend.onrender.com/images/sleepoutside/gregory-deva-60-l-a3-suspension-backpack-internal-frame-for-women-in-egyptian-blue~p~31pyk_01~320.jpg",
+      "PrimaryExtraLarge": "https://wdd330-backend.onrender.com/images/sleepoutside/gregory-deva-60-l-a3-suspension-backpack-internal-frame-for-women-in-egyptian-blue~p~31pyk_01~600.jpg",
+      "ExtraImages": [
+        {
+          "Title": "Alternate View",
+          "Src": "https://wdd330-backend.onrender.com/images/sleepoutside/gregory-deva-60-l-a3-suspension-backpack-internal-frame-for-women~a~31pyk_2~600.1.jpg"
+        },
+        {
+          "Title": "Alternate View",
+          "Src": "https://wdd330-backend.onrender.com/images/sleepoutside/gregory-deva-60-l-a3-suspension-backpack-internal-frame-for-women~a~31pyk_3~600.1.jpg"
+        },
+        {
+          "Title": "Alternate View",
+          "Src": "https://wdd330-backend.onrender.com/images/sleepoutside/gregory-deva-60-l-a3-suspension-backpack-internal-frame-for-women~a~31pyk_4~600.1.jpg"
+        }
+      ]
+    },
+    "SizesAvailable": {},
+    "Colors": [
+      {
+        "ColorCode": "01",
+        "ColorName": "Egyptian Blue",
+        "ColorChipImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/colorchip/31pyk-01.jpg",
+        "ColorPreviewImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/gregory-deva-60-l-a3-suspension-backpack-internal-frame-for-women-in-egyptian-blue~p~31pyk_01~160.jpg"
+      }
+    ],
+    "DescriptionHtmlSimple": "<strong><a class=\"glossaryTermLink\" href=\"/closeouts~g~2312\" title=\"Closeouts: - Closeouts are items that may be last year's model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.\">Closeouts</a></strong>. Designed specifically for the committed female backpacker, Gregory&#39;s Deva 60 L backpack features exclusive Response A3 Suspension technology, allowing you to fully customize your fit for maximum carrying comfort and stability with heavy loads.",
+    "SuggestedRetailPrice": 299.95,
+    "Brand": {
+      "Id": "7155",
+      "Url": "/brand/7155/",
+      "ProductsUrl": "/products?Brand=7155",
+      "LogoSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/brands/gregory~b~7155~160x100.jpg",
+      "Name": "Gregory"
+    },
+    "ListPrice": 199.99,
+    "FinalPrice": 199.99
+  },
+  {
+    "Id": "20CXC",
+    "Category": "backpacks",
+    "IsClearance": true,
+    "IsNew": false,
+    "Url": "/product/20cxc/",
+    "Reviews": {
+      "ReviewsUrl": "/reviewsbyproduct/20cxc/",
+      "ReviewCount": 0,
+      "AverageRating": 0
+    },
+    "NameWithoutBrand": "Borealis 28 L Backpack",
+    "Name": "The North Face Borealis 28 L Backpack",
+    "IsFamousBrand": false,
+    "Images": {
+      "PrimarySmall": "https://wdd330-backend.onrender.com/images/sleepoutside/the-north-face-borealis-28-l-backpack-in-tnf-black-light-directional-heather-tnf-yellow~p~20cxc_01~80.jpg",
+      "PrimaryMedium": "https://wdd330-backend.onrender.com/images/sleepoutside/the-north-face-borealis-28-l-backpack-in-tnf-black-light-directional-heather-tnf-yellow~p~20cxc_01~160.jpg",
+      "PrimaryLarge": "https://wdd330-backend.onrender.com/images/sleepoutside/the-north-face-borealis-28-l-backpack-in-tnf-black-light-directional-heather-tnf-yellow~p~20cxc_01~320.jpg",
+      "PrimaryExtraLarge": "https://wdd330-backend.onrender.com/images/sleepoutside/the-north-face-borealis-28-l-backpack-in-tnf-black-light-directional-heather-tnf-yellow~p~20cxc_01~600.jpg",
+      "ExtraImages": [
+        {
+          "Title": "Alternate View",
+          "Src": "https://wdd330-backend.onrender.com/images/sleepoutside/the-north-face-borealis-28-l-backpack~a~20cxc_2~600.1.jpg"
+        },
+        {
+          "Title": "Alternate View",
+          "Src": "https://wdd330-backend.onrender.com/images/sleepoutside/the-north-face-borealis-28-l-backpack~a~20cxc_3~600.1.jpg"
+        },
+        {
+          "Title": "Alternate View",
+          "Src": "https://wdd330-backend.onrender.com/images/sleepoutside/the-north-face-borealis-28-l-backpack~a~20cxc_4~600.1.jpg"
+        }
+      ]
+    },
+    "SizesAvailable": {},
+    "Colors": [
+      {
+        "ColorCode": "01",
+        "ColorName": "Tnf Black Light Directional Heather/Tnf Yellow",
+        "ColorChipImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/colorchip/20cxc-01.jpg",
+        "ColorPreviewImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/the-north-face-borealis-28-l-backpack-in-tnf-black-light-directional-heather-tnf-yellow~p~20cxc_01~160.jpg"
+      }
+    ],
+    "DescriptionHtmlSimple": "<strong><a class=\"glossaryTermLink\" href=\"/closeouts~g~2312\" title=\"Closeouts: - Closeouts are items that may be last year's model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.\">Closeouts</a></strong>. Streamlined and ready for action, The North Face Borealis backpack is perfect for daily activities and quick road trips. It has FlexVent padded shoulder straps, a padded back panel and lined compartments for your 15&quot; laptop and tablet computer.",
+    "SuggestedRetailPrice": 65,
+    "Brand": {
+      "Id": "1440",
+      "Url": "/brand/1440/",
+      "ProductsUrl": "/products?Brand=1440",
+      "LogoSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/brands/the-north-face~b~1440~160x100.jpg",
+      "Name": "The North Face"
+    },
+    "ListPrice": 39,
+    "FinalPrice": 39
+  },
+  {
+    "Id": "28UPR",
+    "Category": "backpacks",
+    "IsClearance": false,
+    "IsNew": false,
+    "Url": "/product/28upr/",
+    "Reviews": {
+      "ReviewsUrl": "/reviewsbyproduct/28upr/",
+      "ReviewCount": 0,
+      "AverageRating": 0
+    },
+    "NameWithoutBrand": "Scree 32 L Backpack",
+    "Name": "Mystery Ranch Scree 32 L Backpack",
+    "IsFamousBrand": false,
+    "Images": {
+      "PrimarySmall": "https://wdd330-backend.onrender.com/images/sleepoutside/mystery-ranch-scree-32-l-backpack-in-cargo~p~28upr_01~80.jpg",
+      "PrimaryMedium": "https://wdd330-backend.onrender.com/images/sleepoutside/mystery-ranch-scree-32-l-backpack-in-cargo~p~28upr_01~160.jpg",
+      "PrimaryLarge": "https://wdd330-backend.onrender.com/images/sleepoutside/mystery-ranch-scree-32-l-backpack-in-cargo~p~28upr_01~320.jpg",
+      "PrimaryExtraLarge": "https://wdd330-backend.onrender.com/images/sleepoutside/mystery-ranch-scree-32-l-backpack-in-cargo~p~28upr_01~600.jpg",
+      "ExtraImages": [
+        {
+          "Title": "Alternate View",
+          "Src": "https://wdd330-backend.onrender.com/images/sleepoutside/mystery-ranch-scree-32-l-backpack~a~28upr_2~600.2.jpg"
+        },
+        {
+          "Title": "Alternate View",
+          "Src": "https://wdd330-backend.onrender.com/images/sleepoutside/mystery-ranch-scree-32-l-backpack~a~28upr_3~600.1.jpg"
+        },
+        {
+          "Title": "Alternate View",
+          "Src": "https://wdd330-backend.onrender.com/images/sleepoutside/mystery-ranch-scree-32-l-backpack~a~28upr_4~600.1.jpg"
+        }
+      ]
+    },
+    "SizesAvailable": { "SIZE": ["L/XL"] },
+    "Colors": [
+      {
+        "ColorCode": "01",
+        "ColorName": "Cargo",
+        "ColorChipImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/colorchip/28upr-01.jpg",
+        "ColorPreviewImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/mystery-ranch-scree-32-l-backpack-in-cargo~p~28upr_01~160.jpg"
+      },
+      {
+        "ColorCode": "02",
+        "ColorName": "Galaxy",
+        "ColorChipImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/colorchip/28upr-02.jpg",
+        "ColorPreviewImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/mystery-ranch-scree-32-l-backpack-in-galaxy~p~28upr_02~160.jpg"
+      }
+    ],
+    "DescriptionHtmlSimple": "<strong>Excess</strong>. Mystery Ranch&#39;s Scree 32 L backpack is a spacious and comfortable daypack for all your outdoor hiking needs. The 3-ZIP design allows ready access to contents, and the removable Redirect waistbelt system secures in a natural, forward pull direction that requires less effort to tighten.",
+    "SuggestedRetailPrice": 170,
+    "Brand": {
+      "Id": "37083",
+      "Url": "/brand/37083/",
+      "ProductsUrl": "/products?Brand=37083",
+      "LogoSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/brands/mystery-ranch-logo.svg",
+      "Name": "Mystery Ranch"
+    },
+    "ListPrice": 119.99,
+    "FinalPrice": 119.99
+  },
+  {
+    "Id": "889KT",
+    "Category": "backpacks",
+    "IsClearance": false,
+    "IsNew": false,
+    "Url": "/product/889kt/",
+    "Reviews": {
+      "ReviewsUrl": "/reviewsbyproduct/889kt/",
+      "ReviewCount": 0,
+      "AverageRating": 0
+    },
+    "NameWithoutBrand": "Stout 65L Backpack",
+    "Name": "Gregory Stout 65L Backpack",
+    "IsFamousBrand": false,
+    "Images": {
+      "PrimarySmall": "https://wdd330-backend.onrender.com/images/sleepoutside/gregory-stout-65l-backpack-in-navy-blue~p~889kt_01~80.jpg",
+      "PrimaryMedium": "https://wdd330-backend.onrender.com/images/sleepoutside/gregory-stout-65l-backpack-in-navy-blue~p~889kt_01~160.jpg",
+      "PrimaryLarge": "https://wdd330-backend.onrender.com/images/sleepoutside/gregory-stout-65l-backpack-in-navy-blue~p~889kt_01~320.jpg",
+      "PrimaryExtraLarge": "https://wdd330-backend.onrender.com/images/sleepoutside/gregory-stout-65l-backpack-in-navy-blue~p~889kt_01~600.jpg",
+      "ExtraImages": [
+        {
+          "Title": "Alternate View",
+          "Src": "https://wdd330-backend.onrender.com/images/sleepoutside/gregory-stout-65l-backpack~a~889kt_2~600.1.jpg"
+        },
+        {
+          "Title": "Alternate View",
+          "Src": "https://wdd330-backend.onrender.com/images/sleepoutside/gregory-stout-65l-backpack~a~889kt_3~600.1.jpg"
+        }
+      ]
+    },
+    "SizesAvailable": {},
+    "Colors": [
+      {
+        "ColorCode": "01",
+        "ColorName": "Navy Blue",
+        "ColorChipImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/colorchip/889kt-01.jpg",
+        "ColorPreviewImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/gregory-stout-65l-backpack-in-navy-blue~p~889kt_01~160.jpg"
+      }
+    ],
+    "DescriptionHtmlSimple": "<strong><a class=\"glossaryTermLink\" href=\"/closeouts~g~2312\" title=\"Closeouts: - Closeouts are items that may be last year's model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.\">Closeouts</a></strong>.<strong> </strong>Built for multi-day trips and globe-trotting travel, the Gregory Stout 65L backpack has all the comfort, advanced pack technology and organizing features you expect from the backpack experts at Gregory.",
+    "SuggestedRetailPrice": 169.99,
+    "Brand": {
+      "Id": "7155",
+      "Url": "/brand/7155/",
+      "ProductsUrl": "/products?Brand=7155",
+      "LogoSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/brands/gregory~b~7155~160x100.jpg",
+      "Name": "Gregory"
+    },
+    "ListPrice": 129.99,
+    "FinalPrice": 129.99
+  },
+  {
+    "Id": "20DRP",
+    "Category": "backpacks",
+    "IsClearance": false,
+    "IsNew": false,
+    "Url": "/product/20drp/",
+    "Reviews": {
+      "ReviewsUrl": "/reviewsbyproduct/20drp/",
+      "ReviewCount": 0,
+      "AverageRating": 0
+    },
+    "NameWithoutBrand": "Terra 65 L Backpack",
+    "Name": "The North Face Terra 65 L Backpack",
+    "IsFamousBrand": false,
+    "Images": {
+      "PrimarySmall": "https://wdd330-backend.onrender.com/images/sleepoutside/the-north-face-terra-65-l-backpack-in-tnf-dark-grey-heather-new-taupe-green~p~20drp_02~80.jpg",
+      "PrimaryMedium": "https://wdd330-backend.onrender.com/images/sleepoutside/the-north-face-terra-65-l-backpack-in-tnf-dark-grey-heather-new-taupe-green~p~20drp_02~160.jpg",
+      "PrimaryLarge": "https://wdd330-backend.onrender.com/images/sleepoutside/the-north-face-terra-65-l-backpack-in-tnf-dark-grey-heather-new-taupe-green~p~20drp_02~320.jpg",
+      "PrimaryExtraLarge": "https://wdd330-backend.onrender.com/images/sleepoutside/the-north-face-terra-65-l-backpack-in-tnf-dark-grey-heather-new-taupe-green~p~20drp_02~600.jpg",
+      "ExtraImages": [
+        {
+          "Title": "Alternate View",
+          "Src": "https://wdd330-backend.onrender.com/images/sleepoutside/the-north-face-terra-65-l-backpack~a~20drp_2~600.1.jpg"
+        },
+        {
+          "Title": "Alternate View",
+          "Src": "https://wdd330-backend.onrender.com/images/sleepoutside/the-north-face-terra-65-l-backpack~a~20drp_3~600.1.jpg"
+        },
+        {
+          "Title": "Alternate View",
+          "Src": "https://wdd330-backend.onrender.com/images/sleepoutside/the-north-face-terra-65-l-backpack~a~20drp_4~600.1.jpg"
+        },
+        {
+          "Title": "Alternate View",
+          "Src": "https://wdd330-backend.onrender.com/images/sleepoutside/the-north-face-terra-65-l-backpack~a~20drp_5~600.1.jpg"
+        },
+        {
+          "Title": "Alternate View",
+          "Src": "https://wdd330-backend.onrender.com/images/sleepoutside/the-north-face-terra-65-l-backpack~a~20drp_6~600.1.jpg"
+        },
+        {
+          "Title": "Alternate View",
+          "Src": "https://wdd330-backend.onrender.com/images/sleepoutside/the-north-face-terra-65-l-backpack~a~20drp_7~600.1.jpg"
+        },
+        {
+          "Title": "Alternate View",
+          "Src": "https://wdd330-backend.onrender.com/images/sleepoutside/the-north-face-terra-65-l-backpack~a~20drp_8~600.1.jpg"
+        }
+      ]
+    },
+    "SizesAvailable": { "SIZE": ["L/XL", "S/M"] },
+    "Colors": [
+      {
+        "ColorCode": "02",
+        "ColorName": "Tnf Dark Grey Heather/New Taupe Green",
+        "ColorChipImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/colorchip/20drp-02.jpg",
+        "ColorPreviewImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/the-north-face-terra-65-l-backpack-in-tnf-dark-grey-heather-new-taupe-green~p~20drp_02~160.jpg"
+      },
+      {
+        "ColorCode": "03",
+        "ColorName": "Zion Orange/Shady Blue",
+        "ColorChipImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/colorchip/20drp-03.jpg",
+        "ColorPreviewImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/the-north-face-terra-65-l-backpack-in-zion-orange-shady-blue~p~20drp_03~160.jpg"
+      }
+    ],
+    "DescriptionHtmlSimple": "<strong><a class=\"glossaryTermLink\" href=\"/closeout~g~3281\" title=\"Closeout: - Closeout indicates an item may be last year's model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.\">Closeout</a></strong>. Built for all-day comfort on the trail, The North Face&#39;s Terra 65 L backpack features a lightweight design with a versatile floating lid, comfortable cushioned back, self-equalizing Dyno Lift System load lifters and a spacious interior to hold your gear.",
+    "SuggestedRetailPrice": 180,
+    "Brand": {
+      "Id": "1440",
+      "Url": "/brand/1440/",
+      "ProductsUrl": "/products?Brand=1440",
+      "LogoSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/brands/the-north-face~b~1440~160x100.jpg",
+      "Name": "The North Face"
+    },
+    "ListPrice": 129.99,
+    "FinalPrice": 129.99
+  },
+  {
+    "Id": "20DRD",
+    "Category": "backpacks",
+    "IsClearance": false,
+    "IsNew": false,
+    "Url": "/product/20drd/",
+    "Reviews": {
+      "ReviewsUrl": "/reviewsbyproduct/20drd/",
+      "ReviewCount": 0,
+      "AverageRating": 0
+    },
+    "NameWithoutBrand": "Terra 40 L Backpack (For Women)",
+    "Name": "The North Face Terra 40 L Backpack (For Women)",
+    "IsFamousBrand": false,
+    "Images": {
+      "PrimarySmall": "https://wdd330-backend.onrender.com/images/sleepoutside/the-north-face-terra-40-l-backpack-for-women-in-rabbit-grey-asphalt-grey~p~20drd_03~80.jpg",
+      "PrimaryMedium": "https://wdd330-backend.onrender.com/images/sleepoutside/the-north-face-terra-40-l-backpack-for-women-in-rabbit-grey-asphalt-grey~p~20drd_03~160.jpg",
+      "PrimaryLarge": "https://wdd330-backend.onrender.com/images/sleepoutside/the-north-face-terra-40-l-backpack-for-women-in-rabbit-grey-asphalt-grey~p~20drd_03~320.jpg",
+      "PrimaryExtraLarge": "https://wdd330-backend.onrender.com/images/sleepoutside/the-north-face-terra-40-l-backpack-for-women-in-rabbit-grey-asphalt-grey~p~20drd_03~600.jpg",
+      "ExtraImages": [
+        {
+          "Title": "Alternate View",
+          "Src": "https://wdd330-backend.onrender.com/images/sleepoutside/the-north-face-terra-40-l-backpack-for-women~a~20drd_2~600.2.jpg"
+        },
+        {
+          "Title": "Alternate View",
+          "Src": "https://wdd330-backend.onrender.com/images/sleepoutside/the-north-face-terra-40-l-backpack-for-women~a~20drd_3~600.2.jpg"
+        }
+      ]
+    },
+    "SizesAvailable": { "SIZE": ["M/L", "XS/S"] },
+    "Colors": [
+      {
+        "ColorCode": "03",
+        "ColorName": "Rabbit Grey/Asphalt Grey",
+        "ColorChipImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/colorchip/20drd-03.jpg",
+        "ColorPreviewImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/the-north-face-terra-40-l-backpack-for-women-in-rabbit-grey-asphalt-grey~p~20drd_03~160.jpg"
+      }
+    ],
+    "DescriptionHtmlSimple": "<strong><a class=\"glossaryTermLink\" href=\"/closeout~g~3281\" title=\"Closeout: - Closeout indicates an item may be last year's model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.\">Closeout</a></strong>. Built for all-day comfort on the trail, The North Face&#39;s Terra 40 L backpack features a lightweight design with a versatile floating lid, comfortable cushioned back, self-equalizing Dyno Lift System load lifters and a spacious interior to hold your gear.",
+    "SuggestedRetailPrice": 120,
+    "Brand": {
+      "Id": "1440",
+      "Url": "/brand/1440/",
+      "ProductsUrl": "/products?Brand=1440",
+      "LogoSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/brands/the-north-face~b~1440~160x100.jpg",
+      "Name": "The North Face"
+    },
+    "ListPrice": 79.99,
+    "FinalPrice": 79.99
+  }
+]

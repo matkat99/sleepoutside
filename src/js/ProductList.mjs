@@ -20,12 +20,23 @@ export default class ProductList {
     this.setTitle = () => {
       document.querySelector(".title").innerHTML = this.category;
     };
-    
+
     this.setTitle();
   }
 
   async init() {
-    const list = await this.dataSource.getData(this.category);
+    let list;
+    // Intenta cargar la lista desde el almacenamiento local
+    const storedList = localStorage.getItem(`${this.category}_product_list`);
+    if (storedList) {
+      list = JSON.parse(storedList);
+      console.log("Lista cargada desde el almacenamiento local:", list);
+    } else {
+      // Si no hay una lista almacenada, obtén la lista del dataSource
+      list = await this.dataSource.getData(this.category);
+      // Guarda la lista en el almacenamiento local
+      localStorage.setItem(`${this.category}_product_list`, JSON.stringify(list));
+    }
     this.renderList(list);
   }
 

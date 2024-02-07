@@ -1,0 +1,710 @@
+[
+  {
+    "Id": "989CH",
+    "Category": "tents",
+    "IsClearance": false,
+    "IsNew": false,
+    "Url": "/product/989ch/",
+    "Reviews": {
+      "ReviewsUrl": "/reviewsbyproduct/989ch/",
+      "ReviewCount": 0,
+      "AverageRating": 0
+    },
+    "NameWithoutBrand": "Assault Tent - 3-Person, 3-Season",
+    "Name": "The North Face Assault Tent - 3-Person, 3-Season",
+    "IsFamousBrand": false,
+    "Images": {
+      "PrimarySmall": "https://wdd330-backend.onrender.com/images/sleepoutside/the-north-face-assault-tent-3-person-3-season-in-summit-gold-asphalt-grey~p~989ch_01~80.jpg",
+      "PrimaryMedium": "https://wdd330-backend.onrender.com/images/sleepoutside/the-north-face-assault-tent-3-person-3-season-in-summit-gold-asphalt-grey~p~989ch_01~160.jpg",
+      "PrimaryLarge": "https://wdd330-backend.onrender.com/images/sleepoutside/the-north-face-assault-tent-3-person-3-season-in-summit-gold-asphalt-grey~p~989ch_01~320.jpg",
+      "PrimaryExtraLarge": "https://wdd330-backend.onrender.com/images/sleepoutside/the-north-face-assault-tent-3-person-3-season-in-summit-gold-asphalt-grey~p~989ch_01~600.jpg",
+      "ExtraImages": [
+        {
+          "Title": "Alternate View",
+          "Src": "https://wdd330-backend.onrender.com/images/sleepoutside/the-north-face-assault-tent-3-person-3-season~a~989ch_2~600.1.jpg"
+        },
+        {
+          "Title": "Alternate View",
+          "Src": "https://wdd330-backend.onrender.com/images/sleepoutside/the-north-face-assault-tent-3-person-3-season~a~989ch_3~600.1.jpg"
+        },
+        {
+          "Title": "Alternate View",
+          "Src": "https://wdd330-backend.onrender.com/images/sleepoutside/the-north-face-assault-tent-3-person-3-season~a~989ch_4~600.1.jpg"
+        }
+      ]
+    },
+    "SizesAvailable": {},
+    "Colors": [
+      {
+        "ColorCode": "01",
+        "ColorName": "Summit Gold/Asphalt Grey",
+        "ColorChipImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/colorchip/989ch-01.jpg",
+        "ColorPreviewImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/the-north-face-assault-tent-3-person-3-season-in-summit-gold-asphalt-grey~p~989ch_01~160.jpg"
+      }
+    ],
+    "DescriptionHtmlSimple": "<strong><a class=\"glossaryTermLink\" href=\"/closeout~g~3281\" title=\"Closeout: - Closeout indicates an item may be last year's model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.\">Closeout</a></strong>. Get a good night&#39;s rest on the trail with The North Face&#39;s Assault tent, featuring waterproof DryWall laminate construction with breathable top vents, plenty of hanging tabs and an advanced DAC <a class=\"glossaryTermLink\" href=\"/featherlite~g~1835\" title=\"Featherlite: - Unusually strong aluminum poles used for tents. DAC Featherlite tent poles use a system of three small metal sleeves to give the poles added strength and flex, while keeping them as lightweight as possible. Up to 15% lighter than aluminum poles of comparable strength, Featherlite poles are the strongest joint system built for tents.\">Featherlite</a> NSL pole system in a rugged, single-wall design perfect for high-altitudes camps.",
+    "SuggestedRetailPrice": 500,
+    "Brand": {
+      "Id": "1440",
+      "Url": "/brand/1440/",
+      "ProductsUrl": "/products?Brand=1440",
+      "LogoSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/brands/the-north-face~b~1440~160x100.jpg",
+      "Name": "The North Face"
+    },
+    "ListPrice": 349.99,
+    "FinalPrice": 349.99
+  },
+  {
+    "Id": "880RT",
+    "Category": "tents",
+    "IsClearance": false,
+    "IsNew": false,
+    "Url": "/product/880rt/",
+    "Reviews": {
+      "ReviewsUrl": "/reviewsbyproduct/880rt/",
+      "ReviewCount": 0,
+      "AverageRating": 0
+    },
+    "NameWithoutBrand": "Ajax Tent - 2-Person, 3-Season",
+    "Name": "Marmot Ajax Tent - 2-Person, 3-Season",
+    "IsFamousBrand": false,
+    "Images": {
+      "PrimarySmall": "https://wdd330-backend.onrender.com/images/sleepoutside/marmot-ajax-tent-2-person-3-season-in-pale-pumpkin-terracotta~p~880rt_01~80.jpg",
+      "PrimaryMedium": "https://wdd330-backend.onrender.com/images/sleepoutside/marmot-ajax-tent-2-person-3-season-in-pale-pumpkin-terracotta~p~880rt_01~160.jpg",
+      "PrimaryLarge": "https://wdd330-backend.onrender.com/images/sleepoutside/marmot-ajax-tent-2-person-3-season-in-pale-pumpkin-terracotta~p~880rt_01~320.jpg",
+      "PrimaryExtraLarge": "https://wdd330-backend.onrender.com/images/sleepoutside/marmot-ajax-tent-2-person-3-season-in-pale-pumpkin-terracotta~p~880rt_01~600.jpg",
+      "ExtraImages": [
+        {
+          "Title": "Alternate View",
+          "Src": "https://wdd330-backend.onrender.com/images/sleepoutside/marmot-ajax-tent-2-person-3-season~a~880rt_2~600.1.jpg"
+        },
+        {
+          "Title": "Alternate View",
+          "Src": "https://wdd330-backend.onrender.com/images/sleepoutside/marmot-ajax-tent-2-person-3-season~a~880rt_3~600.1.jpg"
+        }
+      ]
+    },
+    "SizesAvailable": {},
+    "Colors": [
+      {
+        "ColorCode": "01",
+        "ColorName": "Pale Pumpkin/Terracotta",
+        "ColorChipImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/colorchip/880rt-01.jpg",
+        "ColorPreviewImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/marmot-ajax-tent-2-person-3-season-in-pale-pumpkin-terracotta~p~880rt_01~160.jpg"
+      }
+    ],
+    "DescriptionHtmlSimple": "<strong>Excess</strong>. Get out and enjoy nature with Marmot&#39;s Ajax tent, featuring a smart design with durable, waterproof construction and two doors for easy access.",
+    "SuggestedRetailPrice": 275,
+    "Brand": {
+      "Id": "1308",
+      "Url": "/brand/1308/",
+      "ProductsUrl": "/products?Brand=1308/",
+      "LogoSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/brands/marmot~b~1308~160x100.jpg",
+      "Name": "Marmot"
+    },
+    "ListPrice": 179.99,
+    "FinalPrice": 179.99
+  },
+  {
+    "Id": "880RR",
+    "Category": "tents",
+    "IsClearance": false,
+    "IsNew": false,
+    "Url": "/product/880rr/",
+    "Reviews": {
+      "ReviewsUrl": "/reviewsbyproduct/880rr/",
+      "ReviewCount": 0,
+      "AverageRating": 0
+    },
+    "NameWithoutBrand": "Ajax Tent - 3-Person, 3-Season",
+    "Name": "Marmot Ajax Tent - 3-Person, 3-Season",
+    "IsFamousBrand": false,
+    "Images": {
+      "PrimarySmall": "https://wdd330-backend.onrender.com/images/sleepoutside/marmot-ajax-tent-3-person-3-season-in-pale-pumpkin-terracotta~p~880rr_01~80.jpg",
+      "PrimaryMedium": "https://wdd330-backend.onrender.com/images/sleepoutside/marmot-ajax-tent-3-person-3-season-in-pale-pumpkin-terracotta~p~880rr_01~160.jpg",
+      "PrimaryLarge": "https://wdd330-backend.onrender.com/images/sleepoutside/marmot-ajax-tent-3-person-3-season-in-pale-pumpkin-terracotta~p~880rr_01~320.jpg",
+      "PrimaryExtraLarge": "https://wdd330-backend.onrender.com/images/sleepoutside/marmot-ajax-tent-3-person-3-season-in-pale-pumpkin-terracotta~p~880rr_01~600.jpg",
+      "ExtraImages": [
+        {
+          "Title": "Alternate View",
+          "Src": "https://wdd330-backend.onrender.com/images/sleepoutside/marmot-ajax-tent-3-person-3-season~a~880rr_2~600.1.jpg"
+        },
+        {
+          "Title": "Alternate View",
+          "Src": "https://wdd330-backend.onrender.com/images/sleepoutside/marmot-ajax-tent-3-person-3-season~a~880rr_3~600.1.jpg"
+        }
+      ]
+    },
+    "SizesAvailable": {},
+    "Colors": [
+      {
+        "ColorCode": "01",
+        "ColorName": "Pale Pumpkin/Terracotta",
+        "ColorChipImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/colorchip/880rr-01.jpg",
+        "ColorPreviewImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/marmot-ajax-tent-3-person-3-season-in-pale-pumpkin-terracotta~p~880rr_01~160.jpg"
+      }
+    ],
+    "DescriptionHtmlSimple": "<strong>Excess</strong>. Get out and enjoy nature with Marmot&#39;s Ajax tent, featuring a smart design with durable, waterproof construction and two doors for easy access.",
+    "SuggestedRetailPrice": 300,
+    "Brand": {
+      "Id": "1308",
+      "Url": "/brand/1308/",
+      "ProductsUrl": "/products?Brand=1308/",
+      "LogoSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/brands/marmot~b~1308~160x100.jpg",
+      "Name": "Marmot"
+    },
+    "ListPrice": 199.99,
+    "FinalPrice": 199.99
+  },
+  {
+    "Id": "543DR",
+    "Category": "tents",
+    "IsClearance": false,
+    "IsNew": false,
+    "Url": "/product/543dr/",
+    "Reviews": {
+      "ReviewsUrl": "/reviewsbyproduct/543dr/",
+      "ReviewCount": 1,
+      "AverageRating": 5
+    },
+    "NameWithoutBrand": "Pop-Up System Tent - 3-Person, 3-Season",
+    "Name": "Cloudveil Pop-Up System Tent - 3-Person, 3-Season",
+    "IsFamousBrand": false,
+    "Images": {
+      "PrimarySmall": "https://wdd330-backend.onrender.com/images/sleepoutside/cloudveil-pop-up-system-tent-3-person-3-season-in-chevron~p~543dr_02~80.jpg",
+      "PrimaryMedium": "https://wdd330-backend.onrender.com/images/sleepoutside/cloudveil-pop-up-system-tent-3-person-3-season-in-chevron~p~543dr_02~160.jpg",
+      "PrimaryLarge": "https://wdd330-backend.onrender.com/images/sleepoutside/cloudveil-pop-up-system-tent-3-person-3-season-in-chevron~p~543dr_02~320.jpg",
+      "PrimaryExtraLarge": "https://wdd330-backend.onrender.com/images/sleepoutside/cloudveil-pop-up-system-tent-3-person-3-season-in-chevron~p~543dr_02~600.jpg",
+      "ExtraImages": [
+        {
+          "Title": "Alternate View",
+          "Src": "https://wdd330-backend.onrender.com/images/sleepoutside/cloudveil-pop-up-system-tent-3-person-3-season~a~543dr_2~600.3.jpg"
+        },
+        {
+          "Title": "Alternate View",
+          "Src": "https://wdd330-backend.onrender.com/images/sleepoutside/cloudveil-pop-up-system-tent-3-person-3-season~a~543dr_3~600.2.jpg"
+        },
+        {
+          "Title": "Alternate View",
+          "Src": "https://wdd330-backend.onrender.com/images/sleepoutside/cloudveil-pop-up-system-tent-3-person-3-season~a~543dr_5~600.1.jpg"
+        }
+      ]
+    },
+    "SizesAvailable": {},
+    "Colors": [
+      {
+        "ColorCode": "02",
+        "ColorName": "Chevron",
+        "ColorChipImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/colorchip/543dr-02.jpg",
+        "ColorPreviewImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/cloudveil-pop-up-system-tent-3-person-3-season-in-chevron~p~543dr_02~160.jpg"
+      },
+      {
+        "ColorCode": "01",
+        "ColorName": "Hemlock",
+        "ColorChipImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/colorchip/543dr-01.jpg",
+        "ColorPreviewImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/cloudveil-pop-up-system-tent-3-person-3-season-in-hemlock~p~543dr_01~160.jpg"
+      },
+      {
+        "ColorCode": "03",
+        "ColorName": "Scribble Tree",
+        "ColorChipImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/colorchip/543dr-03.jpg",
+        "ColorPreviewImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/cloudveil-pop-up-system-tent-3-person-3-season-in-scribble-tree~p~543dr_03~160.jpg"
+      }
+    ],
+    "DescriptionHtmlSimple": "<strong><a class=\"glossaryTermLink\" href=\"/closeouts~g~2312\" title=\"Closeouts: - Closeouts are items that may be last year's model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.\">Closeouts</a></strong>. Get ready for sleep without too much hassle -- Cloudveil&#39;s Pop-Up System tent is incredibly easy to setup with a pop-up design.",
+    "SuggestedRetailPrice": 69.99,
+    "Brand": {
+      "Id": "3204",
+      "Url": "/brand/3204/",
+      "ProductsUrl": "/products?Brand=3204",
+      "LogoSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/brands/cloudveil~b~3204~160x100.jpg",
+      "Name": "Cloudveil"
+    },
+    "ListPrice": 49.99,
+    "FinalPrice": 49.99
+  },
+  {
+    "Id": "985MD",
+    "Category": "tents",
+    "IsClearance": false,
+    "IsNew": false,
+    "Url": "/product/985md/",
+    "Reviews": {
+      "ReviewsUrl": "/reviewsbyproduct/985md/",
+      "ReviewCount": 0,
+      "AverageRating": 0
+    },
+    "NameWithoutBrand": "Homestead Shelter",
+    "Name": "The North Face Homestead Shelter",
+    "IsFamousBrand": false,
+    "Images": {
+      "PrimarySmall": "https://wdd330-backend.onrender.com/images/sleepoutside/the-north-face-homestead-shelter-in-shady-blue-papaya-orange~p~985md_03~80.jpg",
+      "PrimaryMedium": "https://wdd330-backend.onrender.com/images/sleepoutside/the-north-face-homestead-shelter-in-shady-blue-papaya-orange~p~985md_03~160.jpg",
+      "PrimaryLarge": "https://wdd330-backend.onrender.com/images/sleepoutside/the-north-face-homestead-shelter-in-shady-blue-papaya-orange~p~985md_03~320.jpg",
+      "PrimaryExtraLarge": "https://wdd330-backend.onrender.com/images/sleepoutside/the-north-face-homestead-shelter-in-shady-blue-papaya-orange~p~985md_03~600.jpg",
+      "ExtraImages": [
+        {
+          "Title": "Alternate View",
+          "Src": "https://wdd330-backend.onrender.com/images/sleepoutside/the-north-face-homestead-shelter~a~985md_2~600.1.jpg"
+        },
+        {
+          "Title": "Alternate View",
+          "Src": "https://wdd330-backend.onrender.com/images/sleepoutside/the-north-face-homestead-shelter~a~985md_3~600.1.jpg"
+        }
+      ]
+    },
+    "SizesAvailable": {},
+    "Colors": [
+      {
+        "ColorCode": "03",
+        "ColorName": "Shady Blue/Papaya Orange",
+        "ColorChipImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/colorchip/985md-03.jpg",
+        "ColorPreviewImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/the-north-face-homestead-shelter-in-shady-blue-papaya-orange~p~985md_03~160.jpg"
+      }
+    ],
+    "DescriptionHtmlSimple": "<strong><a class=\"glossaryTermLink\" href=\"/closeout~g~3281\" title=\"Closeout: - Closeout indicates an item may be last year's model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.\">Closeout</a></strong>. From your backyard to the campsite, you&#39;ll create the ultimate social hub with The North Face&#39;s Homestead shelter. It features an easy-pitch design with zip-off mesh doors and a wide opening so it can fit around a picnic table.",
+    "SuggestedRetailPrice": 299,
+    "Brand": {
+      "Id": "1440",
+      "Url": "/brand/1440/",
+      "ProductsUrl": "/products?Brand=1440",
+      "LogoSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/brands/the-north-face~b~1440~160x100.jpg",
+      "Name": "The North Face"
+    },
+    "ListPrice": 199.99,
+    "FinalPrice": 199.99
+  },
+  {
+    "Id": "344YK",
+    "Category": "tents",
+    "IsClearance": false,
+    "IsNew": false,
+    "Url": "/product/344yk/",
+    "Reviews": {
+      "ReviewsUrl": "/reviewsbyproduct/344yk/",
+      "ReviewCount": 3,
+      "AverageRating": 3.33
+    },
+    "NameWithoutBrand": "Rimrock Tent - 6-Person, 3-Season",
+    "Name": "Cedar Ridge Rimrock Tent - 6-Person, 3-Season",
+    "IsFamousBrand": false,
+    "Images": {
+      "PrimarySmall": "https://wdd330-backend.onrender.com/images/sleepoutside/cedar-ridge-rimrock-tent-6-person-3-season-in-rust-clay~p~344yk_01~80.jpg",
+      "PrimaryMedium": "https://wdd330-backend.onrender.com/images/sleepoutside/cedar-ridge-rimrock-tent-6-person-3-season-in-rust-clay~p~344yk_01~160.jpg",
+      "PrimaryLarge": "https://wdd330-backend.onrender.com/images/sleepoutside/cedar-ridge-rimrock-tent-6-person-3-season-in-rust-clay~p~344yk_01~320.jpg",
+      "PrimaryExtraLarge": "https://wdd330-backend.onrender.com/images/sleepoutside/cedar-ridge-rimrock-tent-6-person-3-season-in-rust-clay~p~344yk_01~600.jpg",
+      "ExtraImages": [
+        {
+          "Title": "Alternate View",
+          "Src": "https://wdd330-backend.onrender.com/images/sleepoutside/cedar-ridge-rimrock-tent-6-person-3-season~a~344yk_2~600.1.jpg"
+        }
+      ]
+    },
+    "SizesAvailable": {},
+    "Colors": [
+      {
+        "ColorCode": "01",
+        "ColorName": "Rust/Clay",
+        "ColorChipImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/colorchip/344yk-01.jpg",
+        "ColorPreviewImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/cedar-ridge-rimrock-tent-6-person-3-season-in-rust-clay~p~344yk_01~160.jpg"
+      }
+    ],
+    "DescriptionHtmlSimple": "<strong><a class=\"glossaryTermLink\" href=\"/closeouts~g~2312\" title=\"Closeouts: - Closeouts are items that may be last year's model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.\">Closeouts</a></strong>. Lightweight and ready for adventure, this Cedar Ridge Rimrock tent boasts a weather-ready design that includes a tub-style floor and factory-sealed <a class=\"glossaryTermLink\" href=\"/rain-fly~g~2021\" title=\"Rain Fly: - Rain fly is an additional piece of fabric (attached or unattached) that is placed over the top of the tent to provide weatherproofness. The rain fly is usually made of polyester or nylon and is sometimes coated for additional water repellency.\">rain fly</a>.",
+    "SuggestedRetailPrice": 159.99,
+    "Brand": {
+      "Id": "35027",
+      "Url": "/brand/35027/",
+      "ProductsUrl": "/products?Brand=35027",
+      "LogoSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/brands/cedar-ridge~b~35027~160x100.jpg",
+      "Name": "Cedar Ridge"
+    },
+    "ListPrice": 99.99,
+    "FinalPrice": 99.99
+  },
+  {
+    "Id": "985PR",
+    "Category": "tents",
+    "IsClearance": false,
+    "IsNew": false,
+    "Url": "/product/985pr/",
+    "Reviews": {
+      "ReviewsUrl": "/reviewsbyproduct/985pr/",
+      "ReviewCount": 0,
+      "AverageRating": 0
+    },
+    "NameWithoutBrand": "Alpine Guide Tent - 3-Person, 4-Season",
+    "Name": "The North Face Alpine Guide Tent - 3-Person, 4-Season",
+    "IsFamousBrand": false,
+    "Images": {
+      "PrimarySmall": "https://wdd330-backend.onrender.com/images/sleepoutside/the-north-face-alpine-guide-tent-3-person-4-season-in-canary-yellow-high-rise-grey~p~985pr_01~80.jpg",
+      "PrimaryMedium": "https://wdd330-backend.onrender.com/images/sleepoutside/the-north-face-alpine-guide-tent-3-person-4-season-in-canary-yellow-high-rise-grey~p~985pr_01~160.jpg",
+      "PrimaryLarge": "https://wdd330-backend.onrender.com/images/sleepoutside/the-north-face-alpine-guide-tent-3-person-4-season-in-canary-yellow-high-rise-grey~p~985pr_01~320.jpg",
+      "PrimaryExtraLarge": "https://wdd330-backend.onrender.com/images/sleepoutside/the-north-face-alpine-guide-tent-3-person-4-season-in-canary-yellow-high-rise-grey~p~985pr_01~600.jpg",
+      "ExtraImages": [
+        {
+          "Title": "Alternate View",
+          "Src": "https://wdd330-backend.onrender.com/images/sleepoutside/the-north-face-alpine-guide-tent-3-person-4-season~a~985pr_2~600.2.jpg"
+        },
+        {
+          "Title": "Alternate View",
+          "Src": "https://wdd330-backend.onrender.com/images/sleepoutside/the-north-face-alpine-guide-tent-3-person-4-season~a~985pr_3~600.2.jpg"
+        }
+      ]
+    },
+    "SizesAvailable": {},
+    "Colors": [
+      {
+        "ColorCode": "01",
+        "ColorName": "Canary Yellow/High Rise Grey",
+        "ColorChipImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/colorchip/985pr-01.jpg",
+        "ColorPreviewImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/the-north-face-alpine-guide-tent-3-person-4-season-in-canary-yellow-high-rise-grey~p~985pr_01~160.jpg"
+      }
+    ],
+    "DescriptionHtmlSimple": "<strong><a class=\"glossaryTermLink\" href=\"/closeout~g~3281\" title=\"Closeout: - Closeout indicates an item may be last year's model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.\">Closeout</a></strong>. Be ready for any outdoor adventure in low elevations and high-alpine environments alike with the hybrid design of The North Face&#39;s Alpine Guide four-season tent. It is made from durable, waterproof nylon ripstop with an advanced DAC&#174; <a class=\"glossaryTermLink\" href=\"/featherlite~g~1835\" title=\"Featherlite: - Unusually strong aluminum poles used for tents. DAC Featherlite tent poles use a system of three small metal sleeves to give the poles added strength and flex, while keeping them as lightweight as possible. Up to 15% lighter than aluminum poles of comparable strength, Featherlite poles are the strongest joint system built for tents.\">Featherlite</a> NSL pole system and an easy to pitch design.",
+    "SuggestedRetailPrice": 489,
+    "Brand": {
+      "Id": "1440",
+      "Url": "/brand/1440/",
+      "ProductsUrl": "/products?Brand=1440",
+      "LogoSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/brands/the-north-face~b~1440~160x100.jpg",
+      "Name": "The North Face"
+    },
+    "ListPrice": 349.99,
+    "FinalPrice": 349.99
+  },
+  {
+    "Id": "344YJ",
+    "Category": "tents",
+    "IsClearance": true,
+    "IsNew": false,
+    "Url": "/product/344yj/",
+    "Reviews": {
+      "ReviewsUrl": "/reviewsbyproduct/344yj/",
+      "ReviewCount": 1,
+      "AverageRating": 5
+    },
+    "NameWithoutBrand": "Rimrock Tent - 2-Person, 3-Season",
+    "Name": "Cedar Ridge Rimrock Tent - 2-Person, 3-Season",
+    "IsFamousBrand": false,
+    "Images": {
+      "PrimarySmall": "https://wdd330-backend.onrender.com/images/sleepoutside/cedar-ridge-rimrock-tent-2-person-3-season-in-rust-clay~p~344yj_01~80.jpg",
+      "PrimaryMedium": "https://wdd330-backend.onrender.com/images/sleepoutside/cedar-ridge-rimrock-tent-2-person-3-season-in-rust-clay~p~344yj_01~160.jpg",
+      "PrimaryLarge": "https://wdd330-backend.onrender.com/images/sleepoutside/cedar-ridge-rimrock-tent-2-person-3-season-in-rust-clay~p~344yj_01~320.jpg",
+      "PrimaryExtraLarge": "https://wdd330-backend.onrender.com/images/sleepoutside/cedar-ridge-rimrock-tent-2-person-3-season-in-rust-clay~p~344yj_01~600.jpg",
+      "ExtraImages": [
+        {
+          "Title": "Alternate View",
+          "Src": "https://wdd330-backend.onrender.com/images/sleepoutside/cedar-ridge-rimrock-tent-2-person-3-season~a~344yj_2~600.1.jpg"
+        }
+      ]
+    },
+    "SizesAvailable": {},
+    "Colors": [
+      {
+        "ColorCode": "01",
+        "ColorName": "Rust/Clay",
+        "ColorChipImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/colorchip/344yj-01.jpg",
+        "ColorPreviewImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/cedar-ridge-rimrock-tent-2-person-3-season-in-rust-clay~p~344yj_01~160.jpg"
+      }
+    ],
+    "DescriptionHtmlSimple": "<strong><a class=\"glossaryTermLink\" href=\"/closeouts~g~2312\" title=\"Closeouts: - Closeouts are items that may be last year's model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.\">Closeouts</a></strong>. Lightweight and ready for adventure, this Cedar Ridge Rimrock tent boasts a weather-ready design that includes a tub-style floor and factory-sealed <a class=\"glossaryTermLink\" href=\"/rain-fly~g~2021\" title=\"Rain Fly: - Rain fly is an additional piece of fabric (attached or unattached) that is placed over the top of the tent to provide weatherproofness. The rain fly is usually made of polyester or nylon and is sometimes coated for additional water repellency.\">rain fly</a>.",
+    "SuggestedRetailPrice": 89.99,
+    "Brand": {
+      "Id": "35027",
+      "Url": "/brand/35027/",
+      "ProductsUrl": "/products?Brand=35027",
+      "LogoSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/brands/cedar-ridge~b~35027~160x100.jpg",
+      "Name": "Cedar Ridge"
+    },
+    "ListPrice": 49,
+    "FinalPrice": 49
+  },
+  {
+    "Id": "989CG",
+    "Category": "tents",
+    "IsClearance": false,
+    "IsNew": false,
+    "Url": "/product/989cg/",
+    "Reviews": {
+      "ReviewsUrl": "/reviewsbyproduct/989cg/",
+      "ReviewCount": 0,
+      "AverageRating": 0
+    },
+    "NameWithoutBrand": "Talus Tent - 3-Person, 3-Season",
+    "Name": "The North Face Talus Tent - 3-Person, 3-Season",
+    "IsFamousBrand": false,
+    "Images": {
+      "PrimarySmall": "https://wdd330-backend.onrender.com/images/sleepoutside/the-north-face-talus-tent-3-person-3-season-in-golden-oak-saffron-yellow~p~989cg_01~80.jpg",
+      "PrimaryMedium": "https://wdd330-backend.onrender.com/images/sleepoutside/the-north-face-talus-tent-3-person-3-season-in-golden-oak-saffron-yellow~p~989cg_01~160.jpg",
+      "PrimaryLarge": "https://wdd330-backend.onrender.com/images/sleepoutside/the-north-face-talus-tent-3-person-3-season-in-golden-oak-saffron-yellow~p~989cg_01~320.jpg",
+      "PrimaryExtraLarge": "https://wdd330-backend.onrender.com/images/sleepoutside/the-north-face-talus-tent-3-person-3-season-in-golden-oak-saffron-yellow~p~989cg_01~600.jpg",
+      "ExtraImages": [
+        {
+          "Title": "Alternate View",
+          "Src": "https://wdd330-backend.onrender.com/images/sleepoutside/the-north-face-talus-tent-3-person-3-season~a~989cg_2~600.1.jpg"
+        },
+        {
+          "Title": "Alternate View",
+          "Src": "https://wdd330-backend.onrender.com/images/sleepoutside/the-north-face-talus-tent-3-person-3-season~a~989cg_3~600.1.jpg"
+        }
+      ]
+    },
+    "SizesAvailable": {},
+    "Colors": [
+      {
+        "ColorCode": "01",
+        "ColorName": "Golden Oak/Saffron Yellow",
+        "ColorChipImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/colorchip/989cg-01.jpg",
+        "ColorPreviewImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/the-north-face-talus-tent-3-person-3-season-in-golden-oak-saffron-yellow~p~989cg_01~160.jpg"
+      }
+    ],
+    "DescriptionHtmlSimple": "<strong><a class=\"glossaryTermLink\" href=\"/closeout~g~3281\" title=\"Closeout: - Closeout indicates an item may be last year's model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.\">Closeout</a></strong>. Enjoy a fun night under stars with your favorite people in The North Face&#39;s Talus three-person tent, featuring durable construction with a roomy interior, an advanced DAC <a class=\"glossaryTermLink\" href=\"/featherlite~g~1835\" title=\"Featherlite: - Unusually strong aluminum poles used for tents. DAC Featherlite tent poles use a system of three small metal sleeves to give the poles added strength and flex, while keeping them as lightweight as possible. Up to 15% lighter than aluminum poles of comparable strength, Featherlite poles are the strongest joint system built for tents.\">Featherlite</a> NSL pole system and an easy to pitch design.",
+    "SuggestedRetailPrice": 270,
+    "Brand": {
+      "Id": "1440",
+      "Url": "/brand/1440/",
+      "ProductsUrl": "/products?Brand=1440",
+      "LogoSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/brands/the-north-face~b~1440~160x100.jpg",
+      "Name": "The North Face"
+    },
+    "ListPrice": 179.99,
+    "FinalPrice": 179.99
+  },
+  {
+    "Id": "985KU",
+    "Category": "tents",
+    "IsClearance": false,
+    "IsNew": true,
+    "Url": "/product/985ku/",
+    "Reviews": {
+      "ReviewsUrl": "/reviewsbyproduct/985ku/",
+      "ReviewCount": 0,
+      "AverageRating": 0
+    },
+    "NameWithoutBrand": "Homestead Sun Shade",
+    "Name": "The North Face Homestead Sun Shade",
+    "IsFamousBrand": false,
+    "Images": {
+      "PrimarySmall": "https://wdd330-backend.onrender.com/images/sleepoutside/the-north-face-homestead-sun-shade-in-vintage-white-desert-floral-print~p~985ku_02~80.jpg",
+      "PrimaryMedium": "https://wdd330-backend.onrender.com/images/sleepoutside/the-north-face-homestead-sun-shade-in-vintage-white-desert-floral-print~p~985ku_02~160.jpg",
+      "PrimaryLarge": "https://wdd330-backend.onrender.com/images/sleepoutside/the-north-face-homestead-sun-shade-in-vintage-white-desert-floral-print~p~985ku_02~320.jpg",
+      "PrimaryExtraLarge": "https://wdd330-backend.onrender.com/images/sleepoutside/the-north-face-homestead-sun-shade-in-vintage-white-desert-floral-print~p~985ku_02~600.jpg",
+      "ExtraImages": null
+    },
+    "SizesAvailable": {},
+    "Colors": [
+      {
+        "ColorCode": "02",
+        "ColorName": "Vintage White Desert Floral Print",
+        "ColorChipImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/colorchip/985ku-02.jpg",
+        "ColorPreviewImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/the-north-face-homestead-sun-shade-in-vintage-white-desert-floral-print~p~985ku_02~160.jpg"
+      },
+      {
+        "ColorCode": "03",
+        "ColorName": "Shady Blue/Papaya Orange",
+        "ColorChipImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/colorchip/985ku-03.jpg",
+        "ColorPreviewImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/the-north-face-homestead-sun-shade-in-shady-blue-papaya-orange~p~985ku_03~160.jpg"
+      },
+      {
+        "ColorCode": "01",
+        "ColorName": "Zinnia Orange Low Poly",
+        "ColorChipImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/colorchip/985ku-01.jpg",
+        "ColorPreviewImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/the-north-face-homestead-sun-shade-in-zinnia-orange-low-poly~p~985ku_01~160.jpg"
+      }
+    ],
+    "DescriptionHtmlSimple": "<strong><a class=\"glossaryTermLink\" href=\"/closeout~g~3281\" title=\"Closeout: - Closeout indicates an item may be last year's model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.\">Closeout</a></strong>. Stay cool and comfortable at the campsite or beach with The North Face&#39;s Homestead sun shade. It&#39;s made from durable <a class=\"glossaryTermLink\" href=\"/polyester~g~2001\" title=\"Polyester: - Polyester is a man-made fiber that is second only to cotton in worldwide use. Polyester is strong; resists wrinkling, stretching and shrinking; and has high resistance to abrasion. It dries quickly, is one of the most popular wicking fabrics and is woven with many other fabrics to add strength and durability.\">polyester</a> with a PU coating that shields you from the sun and rain, and its large vaulted opening offers easy entry and exit.",
+    "SuggestedRetailPrice": 159,
+    "Brand": {
+      "Id": "1440",
+      "Url": "/brand/1440/",
+      "ProductsUrl": "/products?Brand=1440",
+      "LogoSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/brands/the-north-face~b~1440~160x100.jpg",
+      "Name": "The North Face"
+    },
+    "ListPrice": 119.99,
+    "FinalPrice": 119.99
+  },
+  {
+    "Id": "15UHG",
+    "Category": "tents",
+    "IsClearance": true,
+    "IsNew": false,
+    "Url": "/product/15uhg/",
+    "Reviews": {
+      "ReviewsUrl": "/reviewsbyproduct/15uhg/",
+      "ReviewCount": 0,
+      "AverageRating": 0
+    },
+    "NameWithoutBrand": "Ballyhoo Tent - 2-Person, 3-Season",
+    "Name": "Wenzel Ballyhoo Tent - 2-Person, 3-Season",
+    "IsFamousBrand": false,
+    "Images": {
+      "PrimarySmall": "https://wdd330-backend.onrender.com/images/sleepoutside/wenzel-ballyhoo-tent-2-person-3-season-in-red-buffalo-plaid~p~15uhg_01~80.jpg",
+      "PrimaryMedium": "https://wdd330-backend.onrender.com/images/sleepoutside/wenzel-ballyhoo-tent-2-person-3-season-in-red-buffalo-plaid~p~15uhg_01~160.jpg",
+      "PrimaryLarge": "https://wdd330-backend.onrender.com/images/sleepoutside/wenzel-ballyhoo-tent-2-person-3-season-in-red-buffalo-plaid~p~15uhg_01~320.jpg",
+      "PrimaryExtraLarge": "https://wdd330-backend.onrender.com/images/sleepoutside/wenzel-ballyhoo-tent-2-person-3-season-in-red-buffalo-plaid~p~15uhg_01~600.jpg",
+      "ExtraImages": [
+        {
+          "Title": "Alternate View",
+          "Src": "https://wdd330-backend.onrender.com/images/sleepoutside/wenzel-ballyhoo-tent-2-person-3-season~a~15uhg_2~600.1.jpg"
+        }
+      ]
+    },
+    "SizesAvailable": {},
+    "Colors": [
+      {
+        "ColorCode": "01",
+        "ColorName": "Red Buffalo Plaid",
+        "ColorChipImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/colorchip/15uhg-01.jpg",
+        "ColorPreviewImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/wenzel-ballyhoo-tent-2-person-3-season-in-red-buffalo-plaid~p~15uhg_01~160.jpg"
+      }
+    ],
+    "DescriptionHtmlSimple": "<strong><a class=\"glossaryTermLink\" href=\"/closeout~g~3281\" title=\"Closeout: - Closeout indicates an item may be last year's model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.\">Closeout</a></strong>. Wenzel&#39;s Ballyhoo tent has a large front awning that protects you from moisture or bright sun during entry or while relaxing in your pop-up shelter.",
+    "SuggestedRetailPrice": 70,
+    "Brand": {
+      "Id": "23037",
+      "Url": "/brand/23037/",
+      "ProductsUrl": "/products?Brand=23037",
+      "LogoSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/brands/wenzel~b~23037~160x100.jpg",
+      "Name": "Wenzel"
+    },
+    "ListPrice": 39,
+    "FinalPrice": 39
+  },
+  {
+    "Id": "15UGY",
+    "Category": "tents",
+    "IsClearance": true,
+    "IsNew": false,
+    "Url": "/product/15ugy/",
+    "Reviews": {
+      "ReviewsUrl": "/reviewsbyproduct/15ugy/",
+      "ReviewCount": 0,
+      "AverageRating": 0
+    },
+    "NameWithoutBrand": "5-Person Tent - 10x8’, 3-Season",
+    "Name": "Wenzel 5-Person Tent - 10x8’, 3-Season",
+    "IsFamousBrand": false,
+    "Images": {
+      "PrimarySmall": "https://wdd330-backend.onrender.com/images/sleepoutside/wenzel-5-person-tent-10x8-3-season-in-see-photo~p~15ugy_99~80.jpg",
+      "PrimaryMedium": "https://wdd330-backend.onrender.com/images/sleepoutside/wenzel-5-person-tent-10x8-3-season-in-see-photo~p~15ugy_99~160.jpg",
+      "PrimaryLarge": "https://wdd330-backend.onrender.com/images/sleepoutside/wenzel-5-person-tent-10x8-3-season-in-see-photo~p~15ugy_99~320.jpg",
+      "PrimaryExtraLarge": "https://wdd330-backend.onrender.com/images/sleepoutside/wenzel-5-person-tent-10x8-3-season-in-see-photo~p~15ugy_99~600.jpg",
+      "ExtraImages": [
+        {
+          "Title": "Alternate View",
+          "Src": "https://wdd330-backend.onrender.com/images/sleepoutside/wenzel-5-person-tent-10x8-3-season~a~15ugy_2~600.1.jpg"
+        }
+      ]
+    },
+    "SizesAvailable": {},
+    "Colors": [
+      {
+        "ColorCode": "99",
+        "ColorName": "See Photo",
+        "ColorChipImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/colorchip/see-detail.gif",
+        "ColorPreviewImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/wenzel-5-person-tent-10x8-3-season-in-see-photo~p~15ugy_99~160.jpg"
+      }
+    ],
+    "DescriptionHtmlSimple": "<strong><a class=\"glossaryTermLink\" href=\"/closeouts~g~2312\" title=\"Closeouts: - Closeouts are items that may be last year's model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.\">Closeouts</a></strong>. When space is an issue, take along this Northcrest tent, roomy enough to sleep up to five people, and featuring mesh windows, utility pockets and a <a class=\"glossaryTermLink\" href=\"/gear-loft~g~1852\" title=\"Gear Loft: - An overhead storage shelf used in tents. Gear lofts are typically made of lightweight mesh to minimize their impact on the overall weight of the tent. Gear lofts are a good place to stash damp items, particularly when the tent has a roof vent, so socks, hats and T-shirts that were used during the day can dry overnight and be ready to wear in the morning.\">gear loft</a> for storage.",
+    "SuggestedRetailPrice": 120,
+    "Brand": {
+      "Id": "23037",
+      "Url": "/brand/23037/",
+      "ProductsUrl": "/products?Brand=23037",
+      "LogoSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/brands/wenzel~b~23037~160x100.jpg",
+      "Name": "Wenzel"
+    },
+    "ListPrice": 69,
+    "FinalPrice": 69
+  },
+  {
+    "Id": "543DT",
+    "Category": "tents",
+    "IsClearance": false,
+    "IsNew": true,
+    "Url": "/product/543dt/",
+    "Reviews": {
+      "ReviewsUrl": "/reviewsbyproduct/543dt/",
+      "ReviewCount": 1,
+      "AverageRating": 4
+    },
+    "NameWithoutBrand": "Pop-Up System Tent - 2-Person, 3-Season",
+    "Name": "Cloudveil Pop-Up System Tent - 2-Person, 3-Season",
+    "IsFamousBrand": false,
+    "Images": {
+      "PrimarySmall": "https://wdd330-backend.onrender.com/images/sleepoutside/cloudveil-pop-up-system-tent-2-person-3-season-in-branches~p~543dt_05~80.jpg",
+      "PrimaryMedium": "https://wdd330-backend.onrender.com/images/sleepoutside/cloudveil-pop-up-system-tent-2-person-3-season-in-branches~p~543dt_05~160.jpg",
+      "PrimaryLarge": "https://wdd330-backend.onrender.com/images/sleepoutside/cloudveil-pop-up-system-tent-2-person-3-season-in-branches~p~543dt_05~320.jpg",
+      "PrimaryExtraLarge": "https://wdd330-backend.onrender.com/images/sleepoutside/cloudveil-pop-up-system-tent-2-person-3-season-in-branches~p~543dt_05~600.jpg",
+      "ExtraImages": [
+        {
+          "Title": "Alternate View",
+          "Src": "https://wdd330-backend.onrender.com/images/sleepoutside/cloudveil-pop-up-system-tent-2-person-3-season~a~543dt_2~600.1.jpg"
+        }
+      ]
+    },
+    "SizesAvailable": {},
+    "Colors": [
+      {
+        "ColorCode": "05",
+        "ColorName": "Branches",
+        "ColorChipImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/colorchip/543dt-05.jpg",
+        "ColorPreviewImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/cloudveil-pop-up-system-tent-2-person-3-season-in-branches~p~543dt_05~160.jpg"
+      }
+    ],
+    "DescriptionHtmlSimple": "<strong><a class=\"glossaryTermLink\" href=\"/closeouts~g~2312\" title=\"Closeouts: - Closeouts are items that may be last year's model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.\">Closeouts</a></strong>. Get ready for sleep without too much hassle -- Cloudveil&#39;s Pop-Up System tent is incredibly easy to setup with a pop-up design.",
+    "SuggestedRetailPrice": 59.99,
+    "Brand": {
+      "Id": "3204",
+      "Url": "/brand/3204/",
+      "ProductsUrl": "/products?Brand=3204",
+      "LogoSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/brands/cloudveil~b~3204~160x100.jpg",
+      "Name": "Cloudveil"
+    },
+    "ListPrice": 39.99,
+    "FinalPrice": 39.99
+  },
+  {
+    "Id": "20DRU",
+    "Category": "tents",
+    "IsClearance": true,
+    "IsNew": false,
+    "Url": "/product/20dru/",
+    "Reviews": {
+      "ReviewsUrl": "/reviewsbyproduct/20dru/",
+      "ReviewCount": 0,
+      "AverageRating": 0
+    },
+    "NameWithoutBrand": "Alpine Guide 3 Tent Footprint",
+    "Name": "The North Face Alpine Guide 3 Tent Footprint",
+    "IsFamousBrand": false,
+    "Images": {
+      "PrimarySmall": "https://wdd330-backend.onrender.com/images/sleepoutside/the-north-face-alpine-guide-3-tent-footprint-in-asphalt-grey~p~20dru_01~80.jpg",
+      "PrimaryMedium": "https://wdd330-backend.onrender.com/images/sleepoutside/the-north-face-alpine-guide-3-tent-footprint-in-asphalt-grey~p~20dru_01~160.jpg",
+      "PrimaryLarge": "https://wdd330-backend.onrender.com/images/sleepoutside/the-north-face-alpine-guide-3-tent-footprint-in-asphalt-grey~p~20dru_01~320.jpg",
+      "PrimaryExtraLarge": "https://wdd330-backend.onrender.com/images/sleepoutside/the-north-face-alpine-guide-3-tent-footprint-in-asphalt-grey~p~20dru_01~600.jpg",
+      "ExtraImages": null
+    },
+    "SizesAvailable": {},
+    "Colors": [
+      {
+        "ColorCode": "01",
+        "ColorName": "Asphalt Grey",
+        "ColorChipImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/colorchip/20dru-01.jpg",
+        "ColorPreviewImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/the-north-face-alpine-guide-3-tent-footprint-in-asphalt-grey~p~20dru_01~160.jpg"
+      }
+    ],
+    "DescriptionHtmlSimple": "<strong><a class=\"glossaryTermLink\" href=\"/closeouts~g~2312\" title=\"Closeouts: - Closeouts are items that may be last year's model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.\">Closeouts</a></strong>. Prolong the life of your tent&#39;s floor with The North Face&#39;s Alpine Guide 3 tent footprint.",
+    "SuggestedRetailPrice": 30,
+    "Brand": {
+      "Id": "1440",
+      "Url": "/brand/1440/",
+      "ProductsUrl": "/products?Brand=1440",
+      "LogoSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/brands/the-north-face~b~1440~160x100.jpg",
+      "Name": "The North Face"
+    },
+    "ListPrice": 15,
+    "FinalPrice": 15
+  }
+]

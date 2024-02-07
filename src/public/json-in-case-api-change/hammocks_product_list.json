@@ -1,0 +1,659 @@
+[
+  {
+    "Id": "12TGM",
+    "Category": "hammocks",
+    "IsClearance": false,
+    "IsNew": false,
+    "Url": "/product/12tgm/",
+    "Reviews": {
+      "ReviewsUrl": "/reviewsbyproduct/12tgm/",
+      "ReviewCount": 0,
+      "AverageRating": 0
+    },
+    "NameWithoutBrand": "DoubleDeluxe Hammock",
+    "Name": "ENO DoubleDeluxe Hammock",
+    "IsFamousBrand": false,
+    "Images": {
+      "PrimarySmall": "https://wdd330-backend.onrender.com/images/sleepoutside/eno-doubledeluxe-hammock-in-orange-grey~p~12tgm_01~80.jpg",
+      "PrimaryMedium": "https://wdd330-backend.onrender.com/images/sleepoutside/eno-doubledeluxe-hammock-in-orange-grey~p~12tgm_01~160.jpg",
+      "PrimaryLarge": "https://wdd330-backend.onrender.com/images/sleepoutside/eno-doubledeluxe-hammock-in-orange-grey~p~12tgm_01~320.jpg",
+      "PrimaryExtraLarge": "https://wdd330-backend.onrender.com/images/sleepoutside/eno-doubledeluxe-hammock-in-orange-grey~p~12tgm_01~600.jpg",
+      "ExtraImages": null
+    },
+    "SizesAvailable": {},
+    "Colors": [
+      {
+        "ColorCode": "01",
+        "ColorName": "Orange/Grey",
+        "ColorChipImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/colorchip/12tgm-01.jpg",
+        "ColorPreviewImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/eno-doubledeluxe-hammock-in-orange-grey~p~12tgm_01~160.jpg"
+      }
+    ],
+    "DescriptionHtmlSimple": "<strong><a class=\"glossaryTermLink\" href=\"/closeout~g~3281\" title=\"Closeout: - Closeout indicates an item may be last year's model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.\">Closeout</a></strong>. Hanging out in Eno&#39;s DoubleDeluxe hammock keeps you and your hammock pal swaying in relaxing comfort. With its high-strength <a class=\"glossaryTermLink\" href=\"/nylon~g~1957\" title=\"Nylon: - First developed by DuPont®, nylon is a synthetic fiber with exceptional strength, abrasion resistance, stain repellency and flexibility. Used in applications from outdoor clothing and apparel to household items, nylon is frequently blended with other synthetic and natural fibers to increase durability.\">nylon</a> ripstop construction and wider design, it&#39;s sure to be a welcome addition at your favorite outdoor spot.",
+    "SuggestedRetailPrice": 80,
+    "Brand": {
+      "Id": "2525",
+      "Url": "/brand/2525/",
+      "ProductsUrl": "/products?Brand=2525/",
+      "LogoSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/brands/eno~b~2525~160x100.jpg",
+      "Name": "ENO"
+    },
+    "ListPrice": 39.99,
+    "FinalPrice": 39.99
+  },
+  {
+    "Id": "483VU",
+    "Category": "hammocks",
+    "IsClearance": false,
+    "IsNew": false,
+    "Url": "/product/483vu/",
+    "Reviews": {
+      "ReviewsUrl": "/reviewsbyproduct/483vu/",
+      "ReviewCount": 3,
+      "AverageRating": 4.67
+    },
+    "NameWithoutBrand": "SingleNest Hammock",
+    "Name": "ENO SingleNest Hammock",
+    "IsFamousBrand": false,
+    "Images": {
+      "PrimarySmall": "https://wdd330-backend.onrender.com/images/sleepoutside/eno-singlenest-hammock-in-black-yellow~p~483vu_01~80.jpg",
+      "PrimaryMedium": "https://wdd330-backend.onrender.com/images/sleepoutside/eno-singlenest-hammock-in-black-yellow~p~483vu_01~160.jpg",
+      "PrimaryLarge": "https://wdd330-backend.onrender.com/images/sleepoutside/eno-singlenest-hammock-in-black-yellow~p~483vu_01~320.jpg",
+      "PrimaryExtraLarge": "https://wdd330-backend.onrender.com/images/sleepoutside/eno-singlenest-hammock-in-black-yellow~p~483vu_01~600.jpg",
+      "ExtraImages": [
+        {
+          "Title": "Alternate View",
+          "Src": "https://wdd330-backend.onrender.com/images/sleepoutside/eno-singlenest-hammock~a~483vu_2~600.2.jpg"
+        },
+        {
+          "Title": "Alternate View",
+          "Src": "https://wdd330-backend.onrender.com/images/sleepoutside/eno-singlenest-hammock~a~483vu_3~600.2.jpg"
+        }
+      ]
+    },
+    "SizesAvailable": {},
+    "Colors": [
+      {
+        "ColorCode": "01",
+        "ColorName": "Black/Yellow",
+        "ColorChipImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/colorchip/483vu-01.jpg",
+        "ColorPreviewImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/eno-singlenest-hammock-in-black-yellow~p~483vu_01~160.jpg"
+      },
+      {
+        "ColorCode": "03",
+        "ColorName": "Rasta",
+        "ColorChipImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/colorchip/483vu-03.jpg",
+        "ColorPreviewImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/eno-singlenest-hammock-in-rasta~p~483vu_03~160.jpg"
+      }
+    ],
+    "DescriptionHtmlSimple": "<strong><a class=\"glossaryTermLink\" href=\"/closeouts~g~2312\" title=\"Closeouts: - Closeouts are items that may be last year's model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.\">Closeouts</a></strong>. Relax the day or night away in ENO&#39;s SingleNest hammock, an easy-to-pack hammock made from lightweight yet highly durable <a class=\"glossaryTermLink\" href=\"/nylon~g~1957\" title=\"Nylon: - First developed by DuPont®, nylon is a synthetic fiber with exceptional strength, abrasion resistance, stain repellency and flexibility. Used in applications from outdoor clothing and apparel to household items, nylon is frequently blended with other synthetic and natural fibers to increase durability.\">nylon</a> with reinforced stitching and nautical-grade line for a reliable hold.",
+    "SuggestedRetailPrice": 41.95,
+    "Brand": {
+      "Id": "2525",
+      "Url": "/brand/2525/",
+      "ProductsUrl": "/products?Brand=2525/",
+      "LogoSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/brands/eno~b~2525~160x100.jpg",
+      "Name": "ENO"
+    },
+    "ListPrice": 24.99,
+    "FinalPrice": 24.99
+  },
+  {
+    "Id": "15YAH",
+    "Category": "hammocks",
+    "IsClearance": false,
+    "IsNew": false,
+    "Url": "/product/15yah/",
+    "Reviews": {
+      "ReviewsUrl": "/reviewsbyproduct/15yah/",
+      "ReviewCount": 0,
+      "AverageRating": 0
+    },
+    "NameWithoutBrand": "CamoNest SingleNest Hammock",
+    "Name": "ENO CamoNest SingleNest Hammock",
+    "IsFamousBrand": false,
+    "Images": {
+      "PrimarySmall": "https://wdd330-backend.onrender.com/images/sleepoutside/eno-camonest-singlenest-hammock-in-retro-camo~p~15yah_03~80.jpg",
+      "PrimaryMedium": "https://wdd330-backend.onrender.com/images/sleepoutside/eno-camonest-singlenest-hammock-in-retro-camo~p~15yah_03~160.jpg",
+      "PrimaryLarge": "https://wdd330-backend.onrender.com/images/sleepoutside/eno-camonest-singlenest-hammock-in-retro-camo~p~15yah_03~320.jpg",
+      "PrimaryExtraLarge": "https://wdd330-backend.onrender.com/images/sleepoutside/eno-camonest-singlenest-hammock-in-retro-camo~p~15yah_03~600.jpg",
+      "ExtraImages": null
+    },
+    "SizesAvailable": {},
+    "Colors": [
+      {
+        "ColorCode": "03",
+        "ColorName": "Retro Camo",
+        "ColorChipImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/colorchip/15yah-03.jpg",
+        "ColorPreviewImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/eno-camonest-singlenest-hammock-in-retro-camo~p~15yah_03~160.jpg"
+      },
+      {
+        "ColorCode": "02",
+        "ColorName": "Urban Camo",
+        "ColorChipImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/colorchip/15yah-02.jpg",
+        "ColorPreviewImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/eno-camonest-singlenest-hammock-in-urban-camo~p~15yah_02~160.jpg"
+      },
+      {
+        "ColorCode": "01",
+        "ColorName": "Forest Camo",
+        "ColorChipImageSrc": "https://s.stpost.com/eccstorefront/colorchip/15yah-01.jpg",
+        "ColorPreviewImageSrc": "https://i.stpost.com/eno-camonest-singlenest-hammock-in-forest-camo~p~15yah_01~160.jpg"
+      }
+    ],
+    "DescriptionHtmlSimple": "<strong>Excess</strong>. Relax the day or night away in ENO&#39;s CamoNest SingleNest hammock, an easy-to-pack hammock made from lightweight yet highly durable <a class=\"glossaryTermLink\" href=\"/nylon~g~1957\" title=\"Nylon: - First developed by DuPont®, nylon is a synthetic fiber with exceptional strength, abrasion resistance, stain repellency and flexibility. Used in applications from outdoor clothing and apparel to household items, nylon is frequently blended with other synthetic and natural fibers to increase durability.\">nylon</a> with reinforced stitching and nautical-grade line for a reliable hold.",
+    "SuggestedRetailPrice": 60,
+    "Brand": {
+      "Id": "2525",
+      "Url": "/brand/2525/",
+      "ProductsUrl": "/products?Brand=2525/",
+      "LogoSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/brands/eno~b~2525~160x100.jpg",
+      "Name": "ENO"
+    },
+    "ListPrice": 39.99,
+    "FinalPrice": 39.99
+  },
+  {
+    "Id": "697YC",
+    "Category": "hammocks",
+    "IsClearance": false,
+    "IsNew": false,
+    "Url": "/product/697yc/",
+    "Reviews": {
+      "ReviewsUrl": "/reviewsbyproduct/697yc/",
+      "ReviewCount": 1,
+      "AverageRating": 5
+    },
+    "NameWithoutBrand": "DoubleNest LED Hammock",
+    "Name": "ENO DoubleNest LED Hammock",
+    "IsFamousBrand": false,
+    "Images": {
+      "PrimarySmall": "https://wdd330-backend.onrender.com/images/sleepoutside/eno-doublenest-led-hammock-in-grey-neon~p~697yc_02~80.jpg",
+      "PrimaryMedium": "https://wdd330-backend.onrender.com/images/sleepoutside/eno-doublenest-led-hammock-in-grey-neon~p~697yc_02~160.jpg",
+      "PrimaryLarge": "https://wdd330-backend.onrender.com/images/sleepoutside/eno-doublenest-led-hammock-in-grey-neon~p~697yc_02~320.jpg",
+      "PrimaryExtraLarge": "https://wdd330-backend.onrender.com/images/sleepoutside/eno-doublenest-led-hammock-in-grey-neon~p~697yc_02~600.jpg",
+      "ExtraImages": [
+        {
+          "Title": "Alternate View",
+          "Src": "https://wdd330-backend.onrender.com/images/sleepoutside/eno-doublenest-led-hammock~a~697yc_2~600.1.jpg"
+        }
+      ]
+    },
+    "SizesAvailable": {},
+    "Colors": [
+      {
+        "ColorCode": "02",
+        "ColorName": "Grey/Neon",
+        "ColorChipImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/colorchip/697yc-02.jpg",
+        "ColorPreviewImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/eno-doublenest-led-hammock-in-grey-neon~p~697yc_02~160.jpg"
+      },
+      {
+        "ColorCode": "01",
+        "ColorName": "Orange/Grey",
+        "ColorChipImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/colorchip/697yc-01.jpg",
+        "ColorPreviewImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/eno-doublenest-led-hammock-in-orange-grey~p~697yc_01~160.jpg"
+      }
+    ],
+    "DescriptionHtmlSimple": "<strong><a class=\"glossaryTermLink\" href=\"/closeout~g~3281\" title=\"Closeout: - Closeout indicates an item may be last year's model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.\">Closeout</a></strong>. Spacious enough for two people, ENO&#39;s DoubleNest LED hammock allows you and a friend or loved one to rest, relax and enjoy the beautiful views together! The fun and festive integrated light strand -- with bright, dim and strobe functions -- injects a good time into any hammock sesh.",
+    "SuggestedRetailPrice": 79.99,
+    "Brand": {
+      "Id": "2525",
+      "Url": "/brand/2525/",
+      "ProductsUrl": "/products?Brand=2525/",
+      "LogoSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/brands/eno~b~2525~160x100.jpg",
+      "Name": "ENO"
+    },
+    "ListPrice": 49.99,
+    "FinalPrice": 49.99
+  },
+  {
+    "Id": "627YP",
+    "Category": "hammocks",
+    "IsClearance": true,
+    "IsNew": false,
+    "Url": "/product/627yp/",
+    "Reviews": {
+      "ReviewsUrl": "/reviewsbyproduct/627yp/",
+      "ReviewCount": 0,
+      "AverageRating": 0
+    },
+    "NameWithoutBrand": "Double Parachute Printed Nylon Hammock",
+    "Name": "Grand Trunk Double Parachute Printed Nylon Hammock",
+    "IsFamousBrand": false,
+    "Images": {
+      "PrimarySmall": "https://wdd330-backend.onrender.com/images/sleepoutside/grand-trunk-double-parachute-printed-nylon-hammock-in-rasta~p~627yp_05~80.jpg",
+      "PrimaryMedium": "https://wdd330-backend.onrender.com/images/sleepoutside/grand-trunk-double-parachute-printed-nylon-hammock-in-rasta~p~627yp_05~160.jpg",
+      "PrimaryLarge": "https://wdd330-backend.onrender.com/images/sleepoutside/grand-trunk-double-parachute-printed-nylon-hammock-in-rasta~p~627yp_05~320.jpg",
+      "PrimaryExtraLarge": "https://wdd330-backend.onrender.com/images/sleepoutside/grand-trunk-double-parachute-printed-nylon-hammock-in-rasta~p~627yp_05~600.jpg",
+      "ExtraImages": null
+    },
+    "SizesAvailable": {},
+    "Colors": [
+      {
+        "ColorCode": "05",
+        "ColorName": "Rasta",
+        "ColorChipImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/colorchip/627yp-05.jpg",
+        "ColorPreviewImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/grand-trunk-double-parachute-printed-nylon-hammock-in-rasta~p~627yp_05~160.jpg"
+      },
+      {
+        "ColorCode": "04",
+        "ColorName": "Bubblegum",
+        "ColorChipImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/colorchip/627yp-04.jpg",
+        "ColorPreviewImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/grand-trunk-double-parachute-printed-nylon-hammock-in-bubblegum~p~627yp_04~160.jpg"
+      },
+      {
+        "ColorCode": "09",
+        "ColorName": "Teton Mountain",
+        "ColorChipImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/colorchip/627yp-09.jpg",
+        "ColorPreviewImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/grand-trunk-double-parachute-printed-nylon-hammock-in-teton-mountain~p~627yp_09~160.jpg"
+      },
+      {
+        "ColorCode": "08",
+        "ColorName": "Spanish Floral",
+        "ColorChipImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/colorchip/627yp-08.jpg",
+        "ColorPreviewImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/grand-trunk-double-parachute-printed-nylon-hammock-in-spanish-floral~p~627yp_08~160.jpg"
+      },
+      {
+        "ColorCode": "03",
+        "ColorName": "Palm",
+        "ColorChipImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/colorchip/627yp-03.jpg",
+        "ColorPreviewImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/grand-trunk-double-parachute-printed-nylon-hammock-in-palm~p~627yp_03~160.jpg"
+      }
+    ],
+    "DescriptionHtmlSimple": "<strong><a class=\"glossaryTermLink\" href=\"/closeout~g~3281\" title=\"Closeout: - Closeout indicates an item may be last year's model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.\">Closeout</a></strong>. Grand Trunk&#39;s Double Parachute Printed <a class=\"glossaryTermLink\" href=\"/nylon~g~1957\" title=\"Nylon: - First developed by DuPont®, nylon is a synthetic fiber with exceptional strength, abrasion resistance, stain repellency and flexibility. Used in applications from outdoor clothing and apparel to household items, nylon is frequently blended with other synthetic and natural fibers to increase durability.\">nylon</a> hammock is designed to hang anywhere there&#39;s two posts or trees close by. It&#39;s big enough to hold two and is durable, lightweight and comfortable, too!",
+    "SuggestedRetailPrice": 59.99,
+    "Brand": {
+      "Id": "3457",
+      "Url": "/brand/3457/",
+      "ProductsUrl": "/products?Brand=3457",
+      "LogoSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/brands/grand-trunk~b~3457~160x100.jpg",
+      "Name": "Grand Trunk"
+    },
+    "ListPrice": 29,
+    "FinalPrice": 29
+  },
+  {
+    "Id": "880VP",
+    "Category": "hammocks",
+    "IsClearance": true,
+    "IsNew": false,
+    "Url": "/product/880vp/",
+    "Reviews": {
+      "ReviewsUrl": "/reviewsbyproduct/880vp/",
+      "ReviewCount": 1,
+      "AverageRating": 5
+    },
+    "NameWithoutBrand": "Honeymoon Hammock - 2-Person",
+    "Name": "TICKET TO THE MOON Honeymoon Hammock - 2-Person",
+    "IsFamousBrand": false,
+    "Images": {
+      "PrimarySmall": "https://wdd330-backend.onrender.com/images/sleepoutside/ticket-to-the-moon-honeymoon-hammock-2-person-in-burgundy-dark-yellow~p~880vp_05~80.jpg",
+      "PrimaryMedium": "https://wdd330-backend.onrender.com/images/sleepoutside/ticket-to-the-moon-honeymoon-hammock-2-person-in-burgundy-dark-yellow~p~880vp_05~160.jpg",
+      "PrimaryLarge": "https://wdd330-backend.onrender.com/images/sleepoutside/ticket-to-the-moon-honeymoon-hammock-2-person-in-burgundy-dark-yellow~p~880vp_05~320.jpg",
+      "PrimaryExtraLarge": "https://wdd330-backend.onrender.com/images/sleepoutside/ticket-to-the-moon-honeymoon-hammock-2-person-in-burgundy-dark-yellow~p~880vp_05~600.jpg",
+      "ExtraImages": [
+        {
+          "Title": "Alternate View",
+          "Src": "https://wdd330-backend.onrender.com/images/sleepoutside/ticket-to-the-moon-honeymoon-hammock-2-person~a~880vp_2~600.1.jpg"
+        },
+        {
+          "Title": "Alternate View",
+          "Src": "https://wdd330-backend.onrender.com/images/sleepoutside/ticket-to-the-moon-honeymoon-hammock-2-person~a~880vp_3~600.1.jpg"
+        },
+        {
+          "Title": "Alternate View",
+          "Src": "https://wdd330-backend.onrender.com/images/sleepoutside/ticket-to-the-moon-honeymoon-hammock-2-person~a~880vp_4~600.1.jpg"
+        }
+      ]
+    },
+    "SizesAvailable": {},
+    "Colors": [
+      {
+        "ColorCode": "05",
+        "ColorName": "Burgundy/Dark Yellow",
+        "ColorChipImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/colorchip/880vp-05.jpg",
+        "ColorPreviewImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/ticket-to-the-moon-honeymoon-hammock-2-person-in-burgundy-dark-yellow~p~880vp_05~160.jpg"
+      },
+      {
+        "ColorCode": "06",
+        "ColorName": "Orange/Dark Grey",
+        "ColorChipImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/colorchip/880vp-06.jpg",
+        "ColorPreviewImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/ticket-to-the-moon-honeymoon-hammock-2-person-in-orange-dark-grey~p~880vp_06~160.jpg"
+      },
+      {
+        "ColorCode": "03",
+        "ColorName": "Army Green/Brown",
+        "ColorChipImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/colorchip/880vp-03.jpg",
+        "ColorPreviewImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/ticket-to-the-moon-honeymoon-hammock-2-person-in-army-green-brown~p~880vp_03~160.jpg"
+      }
+    ],
+    "DescriptionHtmlSimple": "<strong>Excess</strong>. TICKET TO THE MOON&#39;s Honeymoon hammock is a spacious space for you and a friend or loved one to rest, relax and enjoy a warm summer day. Tough parachute <a class=\"glossaryTermLink\" href=\"/nylon~g~1957\" title=\"Nylon: - First developed by DuPont®, nylon is a synthetic fiber with exceptional strength, abrasion resistance, stain repellency and flexibility. Used in applications from outdoor clothing and apparel to household items, nylon is frequently blended with other synthetic and natural fibers to increase durability.\">nylon</a> fabric is flexible, breathable, hypoallergenic, and of course, comfortable.",
+    "SuggestedRetailPrice": 150,
+    "Brand": {
+      "Id": "38562",
+      "Url": "/brand/38562/",
+      "ProductsUrl": "/products?Brand=38562",
+      "LogoSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/brands/ticket-to-the-moon~b~38562~160x100.jpg",
+      "Name": "TICKET TO THE MOON"
+    },
+    "ListPrice": 75,
+    "FinalPrice": 75
+  },
+  {
+    "Id": "880VC",
+    "Category": "hammocks",
+    "IsClearance": false,
+    "IsNew": false,
+    "Url": "/product/880vc/",
+    "Reviews": {
+      "ReviewsUrl": "/reviewsbyproduct/880vc/",
+      "ReviewCount": 0,
+      "AverageRating": 0
+    },
+    "NameWithoutBrand": "Original Hammock",
+    "Name": "TICKET TO THE MOON Original Hammock",
+    "IsFamousBrand": false,
+    "Images": {
+      "PrimarySmall": "https://wdd330-backend.onrender.com/images/sleepoutside/ticket-to-the-moon-original-hammock-in-orange-dark-grey~p~880vc_07~80.jpg",
+      "PrimaryMedium": "https://wdd330-backend.onrender.com/images/sleepoutside/ticket-to-the-moon-original-hammock-in-orange-dark-grey~p~880vc_07~160.jpg",
+      "PrimaryLarge": "https://wdd330-backend.onrender.com/images/sleepoutside/ticket-to-the-moon-original-hammock-in-orange-dark-grey~p~880vc_07~320.jpg",
+      "PrimaryExtraLarge": "https://wdd330-backend.onrender.com/images/sleepoutside/ticket-to-the-moon-original-hammock-in-orange-dark-grey~p~880vc_07~600.jpg",
+      "ExtraImages": null
+    },
+    "SizesAvailable": {},
+    "Colors": [
+      {
+        "ColorCode": "07",
+        "ColorName": "Orange/Dark Grey",
+        "ColorChipImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/colorchip/880vc-07.jpg",
+        "ColorPreviewImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/ticket-to-the-moon-original-hammock-in-orange-dark-grey~p~880vc_07~160.jpg"
+      },
+      {
+        "ColorCode": "05",
+        "ColorName": "Royal Blue/Orange",
+        "ColorChipImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/colorchip/880vc-05.jpg",
+        "ColorPreviewImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/ticket-to-the-moon-original-hammock-in-royal-blue-orange~p~880vc_05~160.jpg"
+      },
+      {
+        "ColorCode": "02",
+        "ColorName": "Aqua/Pink",
+        "ColorChipImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/colorchip/880vc-02.jpg",
+        "ColorPreviewImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/ticket-to-the-moon-original-hammock-in-aqua-pink~p~880vc_02~160.jpg"
+      }
+    ],
+    "DescriptionHtmlSimple": "<strong>Excess</strong>. You can relax at your campsite or in your own backyard with TICKET TO THE MOON&#39;s original hammock, made with high-grade parachute <a class=\"glossaryTermLink\" href=\"/nylon~g~1957\" title=\"Nylon: - First developed by DuPont®, nylon is a synthetic fiber with exceptional strength, abrasion resistance, stain repellency and flexibility. Used in applications from outdoor clothing and apparel to household items, nylon is frequently blended with other synthetic and natural fibers to increase durability.\">nylon</a> and skin-friendly dyes.",
+    "SuggestedRetailPrice": 55,
+    "Brand": {
+      "Id": "38562",
+      "Url": "/brand/38562/",
+      "ProductsUrl": "/products?Brand=38562",
+      "LogoSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/brands/ticket-to-the-moon~b~38562~160x100.jpg",
+      "Name": "TICKET TO THE MOON"
+    },
+    "ListPrice": 34.99,
+    "FinalPrice": 34.99
+  },
+  {
+    "Id": "827MP",
+    "Category": "hammocks",
+    "IsClearance": true,
+    "IsNew": false,
+    "Url": "/product/827mp/",
+    "Reviews": {
+      "ReviewsUrl": "/reviewsbyproduct/827mp/",
+      "ReviewCount": 0,
+      "AverageRating": 0
+    },
+    "NameWithoutBrand": "Refuge 2 Hammock",
+    "Name": "Peregrine Refuge 2 Hammock",
+    "IsFamousBrand": false,
+    "Images": {
+      "PrimarySmall": "https://wdd330-backend.onrender.com/images/sleepoutside/peregrine-refuge-2-hammock-in-mango~p~827mp_02~80.jpg",
+      "PrimaryMedium": "https://wdd330-backend.onrender.com/images/sleepoutside/peregrine-refuge-2-hammock-in-mango~p~827mp_02~160.jpg",
+      "PrimaryLarge": "https://wdd330-backend.onrender.com/images/sleepoutside/peregrine-refuge-2-hammock-in-mango~p~827mp_02~320.jpg",
+      "PrimaryExtraLarge": "https://wdd330-backend.onrender.com/images/sleepoutside/peregrine-refuge-2-hammock-in-mango~p~827mp_02~600.jpg",
+      "ExtraImages": null
+    },
+    "SizesAvailable": {},
+    "Colors": [
+      {
+        "ColorCode": "02",
+        "ColorName": "Mango",
+        "ColorChipImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/colorchip/827mp-02.jpg",
+        "ColorPreviewImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/peregrine-refuge-2-hammock-in-mango~p~827mp_02~160.jpg"
+      },
+      {
+        "ColorCode": "03",
+        "ColorName": "Tomato",
+        "ColorChipImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/colorchip/827mp-03.jpg",
+        "ColorPreviewImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/peregrine-refuge-2-hammock-in-tomato~p~827mp_03~160.jpg"
+      }
+    ],
+    "DescriptionHtmlSimple": "<strong><a class=\"glossaryTermLink\" href=\"/closeout~g~3281\" title=\"Closeout: - Closeout indicates an item may be last year's model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.\">Closeout</a></strong>. Enjoy relaxation alone or with a partner wherever your travels take you with the breathable, lightweight fabric and integrated suspension of this Peregrine&#39;s Refuge 2 hammock.",
+    "SuggestedRetailPrice": 55,
+    "Brand": {
+      "Id": "35321",
+      "Url": "/brand/35321/",
+      "ProductsUrl": "/products?Brand=35321",
+      "LogoSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/brands/peregrine~b~35321~160x100.jpg",
+      "Name": "Peregrine"
+    },
+    "ListPrice": 29,
+    "FinalPrice": 29
+  },
+  {
+    "Id": "17YTY",
+    "Category": "hammocks",
+    "IsClearance": false,
+    "IsNew": false,
+    "Url": "/product/17yty/",
+    "Reviews": {
+      "ReviewsUrl": "/reviewsbyproduct/17yty/",
+      "ReviewCount": 0,
+      "AverageRating": 0
+    },
+    "NameWithoutBrand": "DoubleNest Hammock",
+    "Name": "ENO DoubleNest Hammock",
+    "IsFamousBrand": false,
+    "Images": {
+      "PrimarySmall": "https://wdd330-backend.onrender.com/images/sleepoutside/eno-doublenest-hammock-in-fuschia-neon~p~17yty_01~80.jpg",
+      "PrimaryMedium": "https://wdd330-backend.onrender.com/images/sleepoutside/eno-doublenest-hammock-in-fuschia-neon~p~17yty_01~160.jpg",
+      "PrimaryLarge": "https://wdd330-backend.onrender.com/images/sleepoutside/eno-doublenest-hammock-in-fuschia-neon~p~17yty_01~320.jpg",
+      "PrimaryExtraLarge": "https://wdd330-backend.onrender.com/images/sleepoutside/eno-doublenest-hammock-in-fuschia-neon~p~17yty_01~600.jpg",
+      "ExtraImages": null
+    },
+    "SizesAvailable": {},
+    "Colors": [
+      {
+        "ColorCode": "01",
+        "ColorName": "Fuschia/Neon",
+        "ColorChipImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/colorchip/17yty-01.jpg",
+        "ColorPreviewImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/eno-doublenest-hammock-in-fuschia-neon~p~17yty_01~160.jpg"
+      }
+    ],
+    "DescriptionHtmlSimple": "<strong>Excess</strong>. Spacious enough for two people, ENO&#39;s DoubleNest hammock allows you and a friend or loved one to rest, relax and enjoy the beautiful views together! The light-yet-strong <a class=\"glossaryTermLink\" href=\"/nylon~g~1957\" title=\"Nylon: - First developed by DuPont®, nylon is a synthetic fiber with exceptional strength, abrasion resistance, stain repellency and flexibility. Used in applications from outdoor clothing and apparel to household items, nylon is frequently blended with other synthetic and natural fibers to increase durability.\">nylon</a> supports up to 400 pounds and has triple interlock stitching to boost support and durability.",
+    "SuggestedRetailPrice": 60,
+    "Brand": {
+      "Id": "2525",
+      "Url": "/brand/2525/",
+      "ProductsUrl": "/products?Brand=2525/",
+      "LogoSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/brands/eno~b~2525~160x100.jpg",
+      "Name": "ENO"
+    },
+    "ListPrice": 29.99,
+    "FinalPrice": 29.99
+  },
+  {
+    "Id": "26HTN",
+    "Category": "hammocks",
+    "IsClearance": true,
+    "IsNew": false,
+    "Url": "/product/26htn/",
+    "Reviews": {
+      "ReviewsUrl": "/reviewsbyproduct/26htn/",
+      "ReviewCount": 0,
+      "AverageRating": 0
+    },
+    "NameWithoutBrand": "Single Hammock",
+    "Name": "NorEast Outdoors Single Hammock",
+    "IsFamousBrand": false,
+    "Images": {
+      "PrimarySmall": "https://wdd330-backend.onrender.com/images/sleepoutside/noreast-outdoors-single-hammock-in-azure-light-blue~p~26htn_01~80.jpg",
+      "PrimaryMedium": "https://wdd330-backend.onrender.com/images/sleepoutside/noreast-outdoors-single-hammock-in-azure-light-blue~p~26htn_01~160.jpg",
+      "PrimaryLarge": "https://wdd330-backend.onrender.com/images/sleepoutside/noreast-outdoors-single-hammock-in-azure-light-blue~p~26htn_01~320.jpg",
+      "PrimaryExtraLarge": "https://wdd330-backend.onrender.com/images/sleepoutside/noreast-outdoors-single-hammock-in-azure-light-blue~p~26htn_01~600.jpg",
+      "ExtraImages": null
+    },
+    "SizesAvailable": {},
+    "Colors": [
+      {
+        "ColorCode": "01",
+        "ColorName": "Azure/Light Blue",
+        "ColorChipImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/colorchip/26htn-01.jpg",
+        "ColorPreviewImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/noreast-outdoors-single-hammock-in-azure-light-blue~p~26htn_01~160.jpg"
+      }
+    ],
+    "DescriptionHtmlSimple": "<strong><a class=\"glossaryTermLink\" href=\"/closeout~g~3281\" title=\"Closeout: - Closeout indicates an item may be last year's model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.\">Closeout</a></strong>. Kick back and relax in this NorEast Single hammock, made from strong 230T Poly Tech fabric in a design that is lightweight enough for backpacking and durable enough for everyday use.",
+    "SuggestedRetailPrice": 35,
+    "Brand": {
+      "Id": "37930",
+      "Url": "/brand/37930/",
+      "ProductsUrl": "/products?Brand=37930",
+      "LogoSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/brands/noreast-outdoors~b~37930~160x100.jpg",
+      "Name": "NorEast Outdoors"
+    },
+    "ListPrice": 15,
+    "FinalPrice": 15
+  },
+  {
+    "Id": "26HTK",
+    "Category": "hammocks",
+    "IsClearance": true,
+    "IsNew": false,
+    "Url": "/product/26htk/",
+    "Reviews": {
+      "ReviewsUrl": "/reviewsbyproduct/26htk/",
+      "ReviewCount": 0,
+      "AverageRating": 0
+    },
+    "NameWithoutBrand": "Single Hammock",
+    "Name": "NorEast Outdoors Single Hammock",
+    "IsFamousBrand": false,
+    "Images": {
+      "PrimarySmall": "https://wdd330-backend.onrender.com/images/sleepoutside/noreast-outdoors-single-hammock-in-orange-navy~p~26htk_01~80.jpg",
+      "PrimaryMedium": "https://wdd330-backend.onrender.com/images/sleepoutside/noreast-outdoors-single-hammock-in-orange-navy~p~26htk_01~160.jpg",
+      "PrimaryLarge": "https://wdd330-backend.onrender.com/images/sleepoutside/noreast-outdoors-single-hammock-in-orange-navy~p~26htk_01~320.jpg",
+      "PrimaryExtraLarge": "https://wdd330-backend.onrender.com/images/sleepoutside/noreast-outdoors-single-hammock-in-orange-navy~p~26htk_01~600.jpg",
+      "ExtraImages": null
+    },
+    "SizesAvailable": {},
+    "Colors": [
+      {
+        "ColorCode": "01",
+        "ColorName": "Orange/Navy",
+        "ColorChipImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/colorchip/26htk-01.jpg",
+        "ColorPreviewImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/noreast-outdoors-single-hammock-in-orange-navy~p~26htk_01~160.jpg"
+      }
+    ],
+    "DescriptionHtmlSimple": "<strong><a class=\"glossaryTermLink\" href=\"/closeout~g~3281\" title=\"Closeout: - Closeout indicates an item may be last year's model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.\">Closeout</a></strong>. Kick back and relax in this NorEast Single hammock, made from strong 230T Poly Tech fabric in a design that is lightweight enough for backpacking and durable enough for everyday use.",
+    "SuggestedRetailPrice": 35,
+    "Brand": {
+      "Id": "37930",
+      "Url": "/brand/37930/",
+      "ProductsUrl": "/products?Brand=37930",
+      "LogoSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/brands/noreast-outdoors~b~37930~160x100.jpg",
+      "Name": "NorEast Outdoors"
+    },
+    "ListPrice": 15,
+    "FinalPrice": 15
+  },
+  {
+    "Id": "15YXH",
+    "Category": "hammocks",
+    "IsClearance": false,
+    "IsNew": false,
+    "Url": "/product/15yxh/",
+    "Reviews": {
+      "ReviewsUrl": "/reviewsbyproduct/15yxh/",
+      "ReviewCount": 0,
+      "AverageRating": 0
+    },
+    "NameWithoutBrand": "Sport Double Hammock",
+    "Name": "NorEast Outdoors Sport Double Hammock",
+    "IsFamousBrand": false,
+    "Images": {
+      "PrimarySmall": "https://wdd330-backend.onrender.com/images/sleepoutside/noreast-outdoors-sport-double-hammock-in-red-slate~p~15yxh_03~80.jpg",
+      "PrimaryMedium": "https://wdd330-backend.onrender.com/images/sleepoutside/noreast-outdoors-sport-double-hammock-in-red-slate~p~15yxh_03~160.jpg",
+      "PrimaryLarge": "https://wdd330-backend.onrender.com/images/sleepoutside/noreast-outdoors-sport-double-hammock-in-red-slate~p~15yxh_03~320.jpg",
+      "PrimaryExtraLarge": "https://wdd330-backend.onrender.com/images/sleepoutside/noreast-outdoors-sport-double-hammock-in-red-slate~p~15yxh_03~600.jpg",
+      "ExtraImages": null
+    },
+    "SizesAvailable": {},
+    "Colors": [
+      {
+        "ColorCode": "03",
+        "ColorName": "Red/Slate",
+        "ColorChipImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/colorchip/15yxh-03.jpg",
+        "ColorPreviewImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/noreast-outdoors-sport-double-hammock-in-red-slate~p~15yxh_03~160.jpg"
+      },
+      {
+        "ColorCode": "01",
+        "ColorName": "Azure/Light Blue",
+        "ColorChipImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/colorchip/15yxh-01.jpg",
+        "ColorPreviewImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/noreast-outdoors-sport-double-hammock-in-azure-light-blue~p~15yxh_01~160.jpg"
+      }
+    ],
+    "DescriptionHtmlSimple": "<strong><a class=\"glossaryTermLink\" href=\"/closeout~g~3281\" title=\"Closeout: - Closeout indicates an item may be last year's model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.\">Closeout</a></strong>. Kick back and relax with your favorite person in this NorEast Outdoors Sport double hammock, made from strong 230T Poly Tech fabric in a design that is lightweight enough for backpacking and durable enough for everyday use.",
+    "SuggestedRetailPrice": 45,
+    "Brand": {
+      "Id": "37930",
+      "Url": "/brand/37930/",
+      "ProductsUrl": "/products?Brand=37930",
+      "LogoSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/brands/noreast-outdoors~b~37930~160x100.jpg",
+      "Name": "NorEast Outdoors"
+    },
+    "ListPrice": 24.99,
+    "FinalPrice": 24.99
+  },
+  {
+    "Id": "22YVD",
+    "Category": "hammocks",
+    "IsClearance": true,
+    "IsNew": false,
+    "Url": "/product/22yvd/",
+    "Reviews": {
+      "ReviewsUrl": "/reviewsbyproduct/22yvd/",
+      "ReviewCount": 0,
+      "AverageRating": 0
+    },
+    "NameWithoutBrand": "Ultralight Single Hammock Underquilt",
+    "Name": "Avalanche Outdoors Ultralight Single Hammock Underquilt",
+    "IsFamousBrand": false,
+    "Images": {
+      "PrimarySmall": "https://wdd330-backend.onrender.com/images/sleepoutside/avalanche-outdoors-ultralight-single-hammock-underquilt-in-red-grey~p~22yvd_01~80.jpg",
+      "PrimaryMedium": "https://wdd330-backend.onrender.com/images/sleepoutside/avalanche-outdoors-ultralight-single-hammock-underquilt-in-red-grey~p~22yvd_01~160.jpg",
+      "PrimaryLarge": "https://wdd330-backend.onrender.com/images/sleepoutside/avalanche-outdoors-ultralight-single-hammock-underquilt-in-red-grey~p~22yvd_01~320.jpg",
+      "PrimaryExtraLarge": "https://wdd330-backend.onrender.com/images/sleepoutside/avalanche-outdoors-ultralight-single-hammock-underquilt-in-red-grey~p~22yvd_01~600.jpg",
+      "ExtraImages": null
+    },
+    "SizesAvailable": {},
+    "Colors": [
+      {
+        "ColorCode": "01",
+        "ColorName": "Red/Grey",
+        "ColorChipImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/colorchip/22yvd-01.jpg",
+        "ColorPreviewImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/avalanche-outdoors-ultralight-single-hammock-underquilt-in-red-grey~p~22yvd_01~160.jpg"
+      }
+    ],
+    "DescriptionHtmlSimple": "<strong><a class=\"glossaryTermLink\" href=\"/closeout~g~3281\" title=\"Closeout: - Closeout indicates an item may be last year's model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.\">Closeout</a></strong>. Avalanche&#39;s Ultralight Single Hammock Underquilt lends extra warmth underneath you while you&#39;re relaxing on the hammock to prevent you from getting too chilly in cool weather.",
+    "SuggestedRetailPrice": 40,
+    "Brand": {
+      "Id": "38304",
+      "Url": "/brand/38304/",
+      "ProductsUrl": "/products?Brand=38304",
+      "LogoSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/brands/avalanche-outdoors~b~38304~160x100.jpg",
+      "Name": "Avalanche Outdoors"
+    },
+    "ListPrice": 22,
+    "FinalPrice": 22
+  }
+]
