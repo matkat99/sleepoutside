@@ -3,7 +3,10 @@ import { getLocalStorage } from './utils.mjs';
 function renderCartContents() {
   const cartItems = getLocalStorage('so-cart');
   const htmlItems = cartItems.map((item) => cartItemTemplate(item));
+  const total = getCartTotal(cartItems);
+  const cartTotalHTML = cartTotalTemplate(total);
   document.querySelector('.product-list').innerHTML = htmlItems.join('');
+  document.querySelector('section.products').insertAdjacentHTML('beforeend', cartTotalHTML);
 }
 
 function cartItemTemplate(item) {
@@ -23,6 +26,19 @@ function cartItemTemplate(item) {
 </li>`;
 
   return newItem;
+}
+
+function getCartTotal(cartItems) {
+
+  let total = 0;
+  cartItems.forEach((item)=>{
+    total += item.FinalPrice;
+  })
+  return total;
+}
+
+function cartTotalTemplate(total) {
+  return `<div> Your total is going to be: ${total} </div>`
 }
 
 renderCartContents();
