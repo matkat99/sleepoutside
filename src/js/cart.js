@@ -38,7 +38,7 @@ function getCartTotal(cartItems) {
 }
 
 function cartTotalTemplate(total) {
-  return `<div> You total is going to be: ${total} </div>`
+  return `<div> Your total is going to be: ${total} </div>`
 }
 
 renderCartContents();
