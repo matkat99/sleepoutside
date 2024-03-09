@@ -1,12 +1,14 @@
 import { getLocalStorage } from './utils.mjs';
 
 function renderCartContents() {
-  const cartItems = getLocalStorage('so-cart');
-  const htmlItems = cartItems.map((item) => cartItemTemplate(item));
-  const total = getCartTotal(cartItems);
-  const cartTotalHTML = cartTotalTemplate(total);
-  document.querySelector('.product-list').innerHTML = htmlItems.join('');
-  document.querySelector('section.products').insertAdjacentHTML('beforeend', cartTotalHTML);
+  if (localStorage.getItem('so-cart') !== null) { 
+    const cartItems = getLocalStorage('so-cart');
+    const htmlItems = cartItems.map((item) => cartItemTemplate(item));
+    const total = getCartTotal(cartItems);
+    const cartTotalHTML = cartTotalTemplate(total);
+    document.querySelector('.product-list').innerHTML = htmlItems.join('');
+    document.querySelector('section.products').insertAdjacentHTML('beforeend', cartTotalHTML);
+    }
 }
 
 function cartItemTemplate(item) {
