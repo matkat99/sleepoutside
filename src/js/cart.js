@@ -6,7 +6,7 @@ function renderCartContents() {
   const total = getCartTotal(cartItems);
   const totalDiv = document.querySelector('.total');
 
-  totalDiv.innerHTML = total === 0 ? '' : cartTotalTemplate(total);
+  totalDiv.innerHTML = total === 0 ? '' : cartTotalTemplate(total); // correcting my adding to cart in a new branch
   totalDiv.classList.toggle('hide', total === 0);
 
   document.querySelector('.product-list').innerHTML = htmlItems.join('');
