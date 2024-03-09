@@ -4,9 +4,12 @@ function renderCartContents() {
   const cartItems = getLocalStorage('so-cart');
   const htmlItems = cartItems.map((item) => cartItemTemplate(item));
   const total = getCartTotal(cartItems);
-  const cartTotalHTML = cartTotalTemplate(total);
+  const totalDiv = document.querySelector('.total');
+
+  totalDiv.innerHTML = total === 0 ? '' : cartTotalTemplate(total); // correcting my adding to cart in a new branch
+  totalDiv.classList.toggle('hide', total === 0);
+
   document.querySelector('.product-list').innerHTML = htmlItems.join('');
-  document.querySelector('section.products').insertAdjacentHTML('beforeend', cartTotalHTML);
 }
 
 function cartItemTemplate(item) {
