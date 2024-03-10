@@ -27,11 +27,8 @@ export function getParam(param){
   return urlParams.get(param);
 }
 
-export function renderListWithTemplate(
-  templateFn, parentElement, list, postion = "afterBegin", clear = "false") {
-    const htmlStrings = list.map(templateFn);
-    if (clear) {
-      parentElement.innerHTML = "";
-    }
-    parentElement.insertAdjacentHTML(postion, htmlStrings.join(""));
-  }
+export function renderListWithTemplate(templateFn, parentElement, list, position='afterbegin', clear=false){
+  const htmlItems = list.map(templateFn);
+  if(clear) listTarget.clear();
+  parentElement.insertAdjacentHTML(position, htmlItems.join(""));
+}
