@@ -1,6 +1,7 @@
 import { getLocalStorage, setLocalStorage } from './utils.mjs';
 
 function renderCartContents() {
+  if (localStorage.getItem('so-cart') !== null) { 
   const cartItems = getLocalStorage('so-cart');
   const htmlItems = cartItems.map((item) => cartItemTemplate(item));
   const total = getCartTotal(cartItems);
@@ -16,6 +17,7 @@ function renderCartContents() {
       removeFromCart(event.target.dataset.id);
     });
   })
+ }
 }
 
 function cartItemTemplate(item) {
