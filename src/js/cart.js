@@ -1,4 +1,4 @@
-import { getLocalStorage, setLocalStorage } from './utils.mjs';
+import { getLocalStorage, setLocalStorage, showCountItemsInCart, updateCountItemsInCart } from './utils.mjs';
 
 function renderCartContents() {
   if (localStorage.getItem('so-cart') !== null) { 
@@ -64,8 +64,10 @@ function removeFromCart(id){
 
   setLocalStorage('so-cart',cartItems);
   renderCartContents();
+  updateCountItemsInCart()
 }
 
-renderCartContents();
 
+renderCartContents();
+showCountItemsInCart();
 
