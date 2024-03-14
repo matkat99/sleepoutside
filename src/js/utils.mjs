@@ -57,4 +57,3 @@ export function convertToJson(res) {
     throw new Error("Bad Response");
   }
 }
-
