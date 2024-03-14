@@ -11,7 +11,7 @@ function productDetailsTemplate(product){
         src="${product.Image}"
         alt="${product.NameWithoutBrand}"
       />
-
+      <p class="product-msrp__price">MSRP: $${product.SuggestedRetailPrice}</p>
       <p class="product-card__price">$${product.FinalPrice}</p>
 
       <p class="product__color">${product.Colors[0].ColorName}</p>
