@@ -229,6 +229,23 @@ footer {
   padding: 1em;
 }
 
+.categories-list{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.categories-list li{
+  list-style-type: none;
+  text-align: center;
+}
+.categories-list img{
+  width: 200px;
+}
+section{
+  padding: 9px;
+}
+
 header .cart{
   position: relative;
 }
