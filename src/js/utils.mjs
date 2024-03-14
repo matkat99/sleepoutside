@@ -32,3 +32,29 @@ export function renderListWithTemplate(templateFn, parentElement, list, position
   if(clear) listTarget.clear();
   parentElement.insertAdjacentHTML(position, htmlItems.join(""));
 }
+
+export function showCountItemsInCart(){
+  let cartCount = getLocalStorage('so-cart').length;
+  if(cartCount > 0){
+    let html = cartCountTemplate(cartCount);
+    let element = document.querySelector('header .cart');
+    element.insertAdjacentHTML('afterbegin', html);
+  }
+}
+export function updateCountItemsInCart(){
+  const cartItems = getLocalStorage('so-cart');
+  let cartCount = cartItems.length;
+  document.querySelector('header .cart .superscript').innerHTML = cartCount;
+}
+function cartCountTemplate(cartCount){
+  return `<div class="superscript">${cartCount}</div>`;
+}
+
+export function convertToJson(res) {
+  if (res.ok) {
+    return res.json();
+  } else {
+    throw new Error("Bad Response");
+  }
+}
+

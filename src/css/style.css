@@ -223,3 +223,24 @@ footer {
   font-size: var(--small-font);
   padding: 1em;
 }
+
+header .cart{
+  position: relative;
+}
+.superscript{
+  position:absolute;
+  top: 5px;
+  right: -5px;
+  font-size: x-small;
+  background-color: #ffffff;
+  border: 2px solid var(--primary-color);
+  border-radius: 50%;
+  padding: 3px 5px;
+}
+.background-darkblue{
+  background-color: #333399;
+}
+.foreground-white{
+  color: #ffffff;
+}
+
