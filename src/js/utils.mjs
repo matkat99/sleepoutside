@@ -48,6 +48,7 @@ export function updateCountItemsInCart(){
 }
 function cartCountTemplate(cartCount){
   return `<div class="superscript">${cartCount}</div>`;
+
 }
 
 export function convertToJson(res) {
@@ -57,4 +58,3 @@ export function convertToJson(res) {
     throw new Error("Bad Response");
   }
 }
-
