@@ -48,7 +48,7 @@ export function showCountItemsInCart(){
   let cart = getLocalStorage('so-cart');
   if(cart){
     if(cart.length > 0){
-      let html = cartCountTemplate(cartCount);
+      let html = cartCountTemplate(cart.count);
       let element = document.querySelector('header .cart');
       element.insertAdjacentHTML('afterbegin', html);
     }
