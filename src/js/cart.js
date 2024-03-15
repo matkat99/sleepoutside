@@ -1,4 +1,4 @@
-import { getLocalStorage, setLocalStorage, showCountItemsInCart, updateCountItemsInCart } from './utils.mjs';
+import { getLocalStorage, setLocalStorage, showCountItemsInCart, updateCountItemsInCart, loadHeaderFooter } from './utils.mjs';
 
 function renderCartContents() {
   if (localStorage.getItem('so-cart') !== null) { 
@@ -6,7 +6,7 @@ function renderCartContents() {
   const htmlItems = cartItems.map((item) => cartItemTemplate(item));
   const total = getCartTotal(cartItems);
   const totalDiv = document.querySelector('.total');
-
+  loadHeaderFooter();
   totalDiv.innerHTML = total === 0 ? '' : cartTotalTemplate(total); // correcting my adding to cart in a new branch
   totalDiv.classList.toggle('hide', total === 0);
 
