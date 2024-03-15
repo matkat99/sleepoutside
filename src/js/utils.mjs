@@ -48,7 +48,7 @@ export function showCountItemsInCart(){
   let cart = getLocalStorage('so-cart');
   if(cart){
     if(cart.length > 0){
-      let html = cartCountTemplate(cart.count);
+      let html = cartCountTemplate(cart.length);
       let element = document.querySelector('header .cart');
       element.insertAdjacentHTML('afterbegin', html);
     }
@@ -57,7 +57,14 @@ export function showCountItemsInCart(){
 export function updateCountItemsInCart(){
   const cartItems = getLocalStorage('so-cart');
   let cartCount = cartItems.length;
-  document.querySelector('header .cart .superscript').innerHTML = cartCount;
+  let cartCountElement = document.querySelector('header .cart .superscript');
+  if(cartCountElement){
+    cartCountElement.innerHTML = cartCount;
+  }else{
+    let html = cartCountTemplate(cartCount);
+      let element = document.querySelector('header .cart');
+      element.insertAdjacentHTML('afterbegin', html);
+  }
 }
 function cartCountTemplate(cartCount){
   return `<div class="superscript">${cartCount}</div>`;
