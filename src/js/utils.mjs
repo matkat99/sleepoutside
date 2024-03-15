@@ -45,11 +45,13 @@ export function renderWithTemplate(template, parentElement, data = null, callbac
 }
 
 export function showCountItemsInCart(){
-  let cartCount = getLocalStorage('so-cart').length;
-  if(cartCount > 0){
-    let html = cartCountTemplate(cartCount);
-    let element = document.querySelector('header .cart');
-    element.insertAdjacentHTML('afterbegin', html);
+  let cart = getLocalStorage('so-cart');
+  if(cart){
+    if(cart.length > 0){
+      let html = cartCountTemplate(cartCount);
+      let element = document.querySelector('header .cart');
+      element.insertAdjacentHTML('afterbegin', html);
+    }
   }
 }
 export function updateCountItemsInCart(){
