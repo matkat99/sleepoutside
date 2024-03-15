@@ -11,9 +11,9 @@ function renderCartContents() {
   totalDiv.classList.toggle('hide', total === 0);
 
   document.querySelector('.product-list').innerHTML = htmlItems.join('');
-  document.querySelectorAll('.remove-from-cart').forEach((item, e)=>{
+  document.querySelectorAll('.remove-from-cart').forEach((item)=>{
     item.addEventListener('click', (event)=>{
-      console.log(event.target.dataset.id);
+      //console.log(event.target.dataset.id);
       removeFromCart(event.target.dataset.id);
     });
   })

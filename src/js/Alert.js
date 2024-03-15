@@ -1,4 +1,4 @@
-import {convertToJson, renderListWithTemplate} from "./utils.mjs";
+import {convertToJson} from './utils.mjs';
 
 function alertTemplate(alert) {
     return `
@@ -20,7 +20,7 @@ export default class Alert {
     }
     async getAlertsHtml() { // Mark as async
         let alerts = await this.getData();
-        let alertsHTML = "";
+        let alertsHTML = '';
         if(alerts){
             
             alerts.forEach((alert) => {
@@ -32,9 +32,9 @@ export default class Alert {
     async renderAlerts(){ // Mark as async
         const element = document.querySelector('main');
         let alertsHtml = await this.getAlertsHtml();
-        let html = `<section class="alert-list">`+alertsHtml+`</section>`; // Fixed missing backtick
+        let html = `<section class="alert-list">` + alertsHtml + `</section>`; // Fixed missing backtick
         element.insertAdjacentHTML(
-        "afterBegin",
+        'afterBegin',
         html
         );
     }

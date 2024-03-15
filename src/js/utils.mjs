@@ -29,8 +29,19 @@ export function getParam(param){
 
 export function renderListWithTemplate(templateFn, parentElement, list, position='afterbegin', clear=false){
   const htmlItems = list.map(templateFn);
-  if(clear) listTarget.clear();
+  if(clear) parentElement.clear();
   parentElement.insertAdjacentHTML(position, htmlItems.join(""));
+}
+
+export function renderWithTemplate(template, parentElement, data = null, callback = null){
+  //const html = templateFn(data);
+  //if(clear) parentElement.clear();
+  parentElement.insertAdjacentHTML('afterbegin', template);
+
+  //literally zero clue why this is being done, also data is never actually used in this function, so why pass it with the template????
+  if(callback) {
+    callback(data);
+  }
 }
 
 export function showCountItemsInCart(){
@@ -56,4 +67,20 @@ export function convertToJson(res) {
   } else {
     throw new Error("Bad Response");
   }
+}
+export async function loadHeaderFooter(){
+  const headerTemplate = await loadTemplate('../partials/header.html');
+  const footerTemplate = await loadTemplate('../partials/footer.html');
+  const headerElem = document.getElementById("header");
+  const footerElem = document.getElementById("footer");
+  renderWithTemplate(headerTemplate, headerElem);
+  renderWithTemplate(footerTemplate, footerElem);
+
+
+}
+
+async function loadTemplate(path) {
+  const result = await fetch(path);
+  const template = await result.text();
+  return template;
 }
