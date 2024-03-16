@@ -27,6 +27,7 @@ export default class ProductList{
         //let filterList = this.filterProductList(list)
         //this.renderList(filterList);
         this.renderList(list);
+        document.querySelector('.title').innerHTML = this.category;
     }
     renderList(productList){
         renderListWithTemplate(productCardTemplate,this.listElement,productList);
