@@ -265,4 +265,7 @@ header .cart{
 .foreground-white{
   color: #ffffff;
 }
+.title {
+  text-transform: capitalize;
+}
 
