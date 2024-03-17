@@ -13,6 +13,14 @@
     <main class="divider">
         <section class="products">
             <h2>Top Products: <span class="title"></span></h2>
+            <form id="sort-page">
+              <label for="sortProd">Sort by:</label>
+              <select name="sortProd" class="sProd">
+                <option value="name">Name</option>
+                <option value="price">Price</option>
+              </select>
+            </form>
+            <div class="sort"></div>
             <ul class="product-list">
             </ul>
           </section>
