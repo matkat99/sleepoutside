@@ -78,10 +78,10 @@ export function convertToJson(res) {
   }
 }
 export async function loadHeaderFooter(callback){
-  const headerTemplate = await loadTemplate('/public/partials/header.html');
+  const headerTemplate = await loadTemplate('../public/partials/header.html');
   const headerElem = document.getElementById("header");
 
-  const footerTemplate = await loadTemplate('/public/partials/footer.html');
+  const footerTemplate = await loadTemplate('../public/partials/footer.html');
   const footerElem = document.getElementById("footer");
 
   renderWithTemplate(headerTemplate, headerElem);
