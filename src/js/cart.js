@@ -125,5 +125,4 @@ function addItemToCart(Id) {
 }
 
 renderCartContents();
-showCountItemsInCart();
 
