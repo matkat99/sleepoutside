@@ -1,4 +1,4 @@
-import { getParam, showCountItemsInCart, loadHeaderFooter } from './utils.mjs';
+import { getParam, showCountItemsInCart} from './utils.mjs';
 import ProductData from './ProductData.mjs';
 import ProductDetails from './ProductDetails.mjs';
 

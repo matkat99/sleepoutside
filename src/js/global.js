@@ -6,8 +6,7 @@ loadHeaderFooter(() => {
     document.querySelector('.search form').addEventListener('submit', function(event) {
         event.preventDefault();
         var searchQuery = this.querySelector('input[type="text"]').value;
-        console.log('Search query submitted:', searchQuery);
-        window.location.href = '/product-listing/index.html?search='+searchQuery;
+        window.location.href = '/product-listing/index.html?search=' + searchQuery;
     });
 });
 //
