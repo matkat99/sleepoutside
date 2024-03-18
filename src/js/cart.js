@@ -1,5 +1,4 @@
-import { getLocalStorage, setLocalStorage, showCountItemsInCart, updateCountItemsInCart, loadHeaderFooter } from './utils.mjs';
-loadHeaderFooter();
+import { getLocalStorage, setLocalStorage, showCountItemsInCart, updateCountItemsInCart} from './utils.mjs';
 function renderCartContents() {
   if (localStorage.getItem('so-cart') !== null) { 
   const cartItems = getLocalStorage('so-cart');
@@ -126,5 +125,4 @@ function addItemToCart(Id) {
 }
 
 renderCartContents();
-showCountItemsInCart();
 

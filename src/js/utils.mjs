@@ -48,9 +48,9 @@ export function showCountItemsInCart(){
   let cart = getLocalStorage('so-cart');
   if(cart){
     if(cart.length > 0){
-      let html = cartCountTemplate(cart.length);
-      let element = document.querySelector('header .cart');
-      element.insertAdjacentHTML('afterbegin', html);
+      const html = cartCountTemplate(cart.length);
+      const cartElement =  document.querySelector('header .cart');
+      cartElement.insertAdjacentHTML('afterbegin', html);
     }
   }
 }
@@ -77,14 +77,18 @@ export function convertToJson(res) {
     throw new Error("Bad Response");
   }
 }
-export async function loadHeaderFooter(){
-  const headerTemplate = await loadTemplate('../partials/header.html');
-  const footerTemplate = await loadTemplate('../partials/footer.html');
+export async function loadHeaderFooter(callback){
+  const headerTemplate = await loadTemplate('/public/partials/header.html');
   const headerElem = document.getElementById("header");
+
+  const footerTemplate = await loadTemplate('/public/partials/footer.html');
   const footerElem = document.getElementById("footer");
+
   renderWithTemplate(headerTemplate, headerElem);
   renderWithTemplate(footerTemplate, footerElem);
-
+  if(callback){
+    callback();
+  }
 
 }
 
