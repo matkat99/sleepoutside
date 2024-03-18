@@ -30,12 +30,11 @@ export default class Alert {
         return alertsHTML;
     }
     async renderAlerts(){ // Mark as async
-        const element = document.querySelector('main');
-        let alertsHtml = await this.getAlertsHtml();
-        let html = `<section class="alert-list">` + alertsHtml + `</section>`; // Fixed missing backtick
+        const element = document.querySelector('.alert-list');
+        const alertsHtml = await this.getAlertsHtml();
         element.insertAdjacentHTML(
         'afterBegin',
-        html
+        alertsHtml
         );
     }
 }

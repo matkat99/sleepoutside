@@ -266,3 +266,17 @@ header .cart{
   color: #ffffff;
 }
 
+.headMenu div{
+  display:inline-block;
+  vertical-align: middle;
+}
+.search {
+  margin-right: 16px;
+}
+.search svg {
+  padding-top: 6px;
+  vertical-align: bottom;
+}
+.headMenu .search input{
+  margin-top: 20px;
+}
