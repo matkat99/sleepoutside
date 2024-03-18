@@ -15,18 +15,19 @@ function productCardTemplate(product){
     `
 }
 
-
 export default class ProductList{
-    constructor(category, dataSource, listElement) {
+    constructor(category, dataSource, listElement, sort) {
       this.category = category;
+      this.sort = sort;
       this.dataSource = dataSource;
       this.listElement = listElement;
     }
     async init() {
-        const list = await this.dataSource.getData(this.category);
+        const list = await this.dataSource.getData(this.category, this.sort);
         //let filterList = this.filterProductList(list)
         //this.renderList(filterList);
         this.renderList(list);
+        document.querySelector('.title').innerHTML = this.category;
     }
     renderList(productList){
         renderListWithTemplate(productCardTemplate,this.listElement,productList);
@@ -37,4 +38,5 @@ export default class ProductList{
             return ['880RR', '985RF', '985PR', '344YJ'].includes(item.Id);
         });
     }
-  }
+    
+}
