@@ -210,6 +210,11 @@ button {
 .hide {
   display: none;
 }
+
+#checkout {
+  margin-bottom: 10px;
+}
+
 @media screen and (min-width: 500px) {
   body {
     max-width: 1080px;
@@ -249,6 +254,34 @@ section{
 header .cart{
   position: relative;
 }
+
+.checkout {
+  padding: 0.5em;
+}
+
+.checkout label {
+  display: block;
+}
+
+.checkout input {
+  width: 100%;
+  font-size: 1.2em;
+}
+
+.summary > ul {
+  padding-left: 0;
+  list-style-type: none;
+}
+.summary li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.summary input {
+  width: 25%;
+  font-size: 1em;
+}
+
 .superscript{
   position:absolute;
   top: 5px;
