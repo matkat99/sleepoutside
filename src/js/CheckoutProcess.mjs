@@ -89,6 +89,11 @@ export default class CheckoutProcess {
         try {
             const res = await service.checkout(json);
             console.log(res);
+
+            if(res.orderId) {
+                document.querySelector('.h2-thankyou').textContent = `Thank You!`;
+                document.querySelector('.form-checkout').innerHTML = `<div class='orderplaced'>Your Order has successfully been placed. Order ID #${res.orderId}</div>`;
+            }
         } catch (err) {
             console.log(err);
         }

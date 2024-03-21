@@ -11,7 +11,7 @@
     <header id="header" class="divider">
     </header>
     <main class="divider checkout">
-        <h2>Review & Place your Order</h2>
+        <h2 class="h2-thankyou">Review & Place your Order</h2>
           <section class="form-checkout">
             <form name="checkout">
               <fieldset>
@@ -23,24 +23,24 @@
                 <input name="lname" required>
               </div>
               <div class="address-info">
-                <label for="streetn">Street Address</label>
-                <input name="streetn" required>
-                <label for="cityn">City</label>
-                <input name="cityn" required>
-                <label for="staten">State</label>
-                <input name="staten" required>
-                <label for="zipn">Zip Code</label>
-                <input name="zipn" id="zipn" required>
+                <label for="street">Street Address</label>
+                <input name="street" required>
+                <label for="city">City</label>
+                <input name="city" required>
+                <label for="state">State</label>
+                <input name="state" required>
+                <label for="zip">Zip Code</label>
+                <input name="zip" id="zipn" required>
               </div>
             </fieldset>
             <fieldset>
               <legend>Payment</legend>
               <label for="credCN">Credit Card Number:</label>
-              <input type="text" name="credCN" required>
+              <input type="text" name="cardNumber" required>
               <label for="expiration">Expiration: </label>
               <input type="text" name="expiration" required>
               <label for="secCode">Security Code:</label>
-              <input type="password" name="secCode" required>
+              <input type="password" name="code" required>
             </fieldset>
               <button id="checkSubmit" type="submit">Place Order</button>
             <fieldset class="summary">
