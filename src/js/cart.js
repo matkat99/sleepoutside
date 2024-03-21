@@ -34,6 +34,11 @@ function renderCartContents() {
       removeQuantityFromCart(event.target.dataset.id);
     });
   })
+
+  document.getElementById('checkout').addEventListener('click', function() {
+
+    window.location.href = '/checkout/index.html';
+  });
  }
 }
 
@@ -125,4 +130,3 @@ function addItemToCart(Id) {
 }
 
 renderCartContents();
-
