@@ -1,4 +1,4 @@
-import { getLocalStorage } from "./utils.mjs";
+import { alertMessage, getLocalStorage, removeAllAlerts } from "./utils.mjs";
 import ExternalServices from "./ExternalServices.mjs";
 
 const service = new ExternalServices();
@@ -76,6 +76,7 @@ export default class CheckoutProcess {
 
     async checkout() {
         const formElement = document.forms["checkout"];
+        formElement.checkValidity();
         const json = formDataToJSON(formElement);
 
         json.orderDate = new Date();
@@ -95,7 +96,12 @@ export default class CheckoutProcess {
                 document.querySelector('.form-checkout').innerHTML = `<div class='orderplaced'>Your Order has successfully been placed. Order ID #${res.orderId}</div>`;
             }
         } catch (err) {
+
+            removeAllAlerts();
+            alertMessage(err.message);
+
             console.log(err);
-        }
+        } 
     }
+    
 }
