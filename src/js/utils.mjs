@@ -117,5 +117,5 @@ export function alertMessage(message, scroll = true, duration = 3000) {
 
 export function removeAllAlerts() {
   const alerts = document.querySelectorAll(".alert");
-  alerts.forEach((alert) => document.querySelector("main").removeChild(alert));
+  alerts.forEach((alert) => alert.parentNode.removeChild(alert));
 }

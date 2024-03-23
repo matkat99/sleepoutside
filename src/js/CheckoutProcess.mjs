@@ -1,4 +1,4 @@
-import { alertMessage, getLocalStorage, removeAllAlerts } from "./utils.mjs";
+import { getLocalStorage, alertMessage, removeAllAlerts } from "./utils.mjs";
 import ExternalServices from "./ExternalServices.mjs";
 
 const service = new ExternalServices();
@@ -98,8 +98,9 @@ export default class CheckoutProcess {
         } catch (err) {
 
             removeAllAlerts();
-            alertMessage(err.message);
-
+            for (let message in err.message) {
+                alertMessage(err.message[message]);
+            }
             console.log(err);
         } 
     }
