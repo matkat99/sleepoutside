@@ -1,4 +1,4 @@
-import { loadHeaderFooter } from "./utils.mjs";
+import { loadHeaderFooter, alertMessage } from "./utils.mjs";
 import CheckoutProcess from "./CheckoutProcess.mjs";
 
 loadHeaderFooter();
@@ -10,14 +10,13 @@ document
   .querySelector("#zipn")
   .addEventListener("blur", myCheckout.calculateOrderTotal.bind(myCheckout));
 
-document.querySelector("#checkSubmit").addEventListener("click", (e) => {
+document.querySelector("#checkSubmit").addEventListener("click", async (e) => {
   e.preventDefault();
-
   myCheckout.checkout();
 });
 
 document.forms['checkout']
 .addEventListener('submit', (e) => {
   e.preventDefault();
-   myCheckout.checkout();
+  myCheckout.checkout();
 });
