@@ -344,3 +344,42 @@ header .cart{
 .headMenu .search input{
   margin-top: 20px;
 }
+/* Carousel */
+.myImage {
+  display: none;
+}
+/* Next and Previous buttons */
+.previous, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -10px;
+  padding: 16px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 25%;
+  border-radius: 3px 0 0 3px;
+}
+
+.previous {
+  left: 25%;
+}
+
+.numTest {
+  font-size: 14px;
+  padding: 8px 12px;
+  text-align: center;
+}
+
+.previous:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
