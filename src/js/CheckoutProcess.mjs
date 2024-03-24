@@ -50,7 +50,7 @@ export default class CheckoutProcess {
 
         const amounts = this.list.map((item) => item.FinalPrice);
         this.itemTotal = amounts.reduce((sum, item) => sum + item);
-        summary.innerText = "$" + this.itemTotal;
+        summary.innerText = "$" + this.itemTotal.toFixed(2);
     }
   
     calculateOrderTotal() {
