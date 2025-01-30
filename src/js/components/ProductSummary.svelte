@@ -1,5 +1,5 @@
 <script>
-  export let product = {};
+  let { product } = $props();
 </script>
 
 <section>
