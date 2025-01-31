@@ -2,8 +2,8 @@
   import { getOrders } from "../externalServices.mjs";
   import { checkLogin } from "../auth.mjs";
   import { onMount } from "svelte";
-  export let token = "";
-  let orders = [];
+  let { token } = $props();
+  let orders = $state([]);
   async function init() {
     try {
       orders = await getOrders(token);
@@ -15,7 +15,6 @@
   onMount(init);
 </script>
 
-<p />
 <table>
   <thead>
     <tr>
@@ -31,7 +30,7 @@
       <tr>
         <td>{order.id}</td>
         <td>{new Date(order.orderDate).toLocaleDateString("en-US")}</td>
-        <td>{order.items.length}</td>
+        <td>{order.items?.length}</td>
         <td>${Number(order.orderTotal).toFixed(2)}</td>
       </tr>
     {/each}
