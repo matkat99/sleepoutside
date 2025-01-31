@@ -1,5 +1,5 @@
 import { findProductById } from "./externalServices.mjs";
-import { cartCount } from "./stores.mjs";
+import { cartState } from "./components/state.svelte.js";
 import { setLocalStorage, getLocalStorage, alertMessage } from "./utils.mjs";
 
 let product = {};
@@ -23,7 +23,7 @@ function addToCart() {
   cartContents.push(product);
   setLocalStorage("so-cart", cartContents);
   // update the visible cartCount
-  cartCount.set(cartContents.length);
+  cartState.count = cartContents.length;
   alertMessage(`${product.NameWithoutBrand} added to cart!`);
 }
 

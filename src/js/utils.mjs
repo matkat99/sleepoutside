@@ -1,6 +1,7 @@
 import MainFooter from "./components/MainFooter.svelte";
 import MainHeader from "./components/MainHeader.svelte";
 import AlertMessage from "./components/AlertMessage.svelte";
+import { mount } from "svelte";
 
 // wrapper for querySelector...returns matching element
 export function qs(selector, parent = document) {
@@ -36,11 +37,11 @@ export function getCartCount() {
   return count;
 }
 export function loadHeaderFooter() {
-  new MainHeader({
+  const header = mount(MainHeader, {
     target: document.querySelector("#main-header"),
-    props: { cartCount: getCartCount() },
+    // props: { cartCount: getCartCount() },
   });
-  new MainFooter({
+  const footer = mount(MainFooter, {
     target: document.querySelector("#main-footer"),
   });
 }
@@ -56,7 +57,7 @@ export function formDataToJSON(formElement) {
   return convertedJSON;
 }
 export function alertMessage(message, scroll = true, duration = 3000) {
-  const alert = new AlertMessage({
+  const alert = mount(AlertMessage, {
     target: document.querySelector("body"),
     anchor: document.querySelector("main"),
     props: {

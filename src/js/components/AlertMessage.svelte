@@ -1,13 +1,13 @@
 <script>
-  export let message = "";
+  let { message = "" } = $props();
   function handleClick(e) {
     document.body.removeChild(this.parentElement);
   }
 </script>
 
-<div class="alert">
+<div class="alert" role="alert">
   <p>{message}</p>
-  <span on:click={handleClick}>X</span>
+  <button aria-label="Close alert" onclick={handleClick}>X</button>
 </div>
 
 <style>
@@ -21,8 +21,14 @@
   }
   .alert > p {
     margin: 0;
+    flex: 1 0 auto;
   }
-  .alert > span {
+  .alert > button {
     cursor: pointer;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    flex: 0 0 100px;
+    color: var(--secondary-color);
   }
 </style>
