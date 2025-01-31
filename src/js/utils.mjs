@@ -57,7 +57,7 @@ export function formDataToJSON(formElement) {
   return convertedJSON;
 }
 export function alertMessage(message, scroll = true, duration = 3000) {
-  const alert = new AlertMessage({
+  const alert = mount(AlertMessage, {
     target: document.querySelector("body"),
     anchor: document.querySelector("main"),
     props: {

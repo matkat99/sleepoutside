@@ -1,5 +1,5 @@
 <script>
-  export let message = "";
+  let { message = "" } = $props();
   function handleClick(e) {
     document.body.removeChild(this.parentElement);
   }
@@ -7,7 +7,7 @@
 
 <div class="alert">
   <p>{message}</p>
-  <span on:click={handleClick}>X</span>
+  <span onclick={handleClick}>X</span>
 </div>
 
 <style>
