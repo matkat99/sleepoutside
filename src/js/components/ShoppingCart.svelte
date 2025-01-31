@@ -1,6 +1,7 @@
 <script>
   import { getLocalStorage } from "../utils.mjs";
-  const cartItems = getLocalStorage("so-cart") || [];
+
+  const cartItems = $state(getLocalStorage("so-cart") || []);
   let total = calculateListTotal(cartItems);
 
   function calculateListTotal(list) {
