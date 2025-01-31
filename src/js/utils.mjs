@@ -1,5 +1,6 @@
 import MainFooter from "./components/MainFooter.svelte";
 import MainHeader from "./components/MainHeader.svelte";
+import { mount } from "svelte";
 
 // wrapper for querySelector...returns matching element
 export function qs(selector, parent = document) {
@@ -35,11 +36,11 @@ export function getCartCount() {
   return count;
 }
 export function loadHeaderFooter() {
-  new MainHeader({
+  const header = mount(MainHeader, {
     target: document.querySelector("#main-header"),
-    props: { cartCount: getCartCount() },
+    // props: { cartCount: getCartCount() },
   });
-  new MainFooter({
+  const footer = mount(MainFooter, {
     target: document.querySelector("#main-footer"),
   });
 }

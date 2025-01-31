@@ -1,5 +1,5 @@
 <script>
-  import { cartCount } from "../stores.mjs";
+  import { cartState } from "./state.svelte.js";
   //export let cartCount = 0;
 </script>
 
@@ -28,6 +28,6 @@
       <path
         d="M60.1 71.4v3.3h-5.2v-3.4c-1.7-0.3-3.3-0.7-4.6-1 -0.9 6.8-1.1 13.3-0.3 14.5 0.4 0.3 2.9 1.1 8 1.1h0c5 0 8.8-0.7 9.7-1.3 0.8-1.3 0.6-7.7-0.4-14.4C65.5 70.5 62.7 71.1 60.1 71.4z"
       />
-    </svg><sup>{$cartCount > 0 ? $cartCount : ""}</sup>
+    </svg><sup>{cartState.count > 0 ? cartState.count : ""}</sup>
   </a>
 </div>
