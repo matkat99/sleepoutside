@@ -1,0 +1,703 @@
+[
+  {
+    "Id": "14GVF",
+    "IsClearance": false,
+    "Category": "sleeping-bags",
+    "IsNew": false,
+    "Url": "/product/14gvf/",
+    "Reviews": {
+      "ReviewsUrl": "/reviewsbyproduct/14gvf/",
+      "ReviewCount": 0,
+      "AverageRating": 0
+    },
+    "NameWithoutBrand": "5°F Rampart Down Sleeping Bag - 650 Fill, Mummy (For Men and Women)",
+    "Name": "Marmot 5°F Rampart Down Sleeping Bag - 650 Fill, Mummy (For Men and Women)",
+    "Images": {
+      "PrimarySmall": "https://wdd330-backend.onrender.com/images/sleepoutside/marmot-5-f-rampart-down-sleeping-bag-650-fill-mummy-for-men-and-women-in-rusted-orange-mahogany~p~14gvf_01~80.jpg",
+      "PrimaryMedium": "https://wdd330-backend.onrender.com/images/sleepoutside/marmot-5-f-rampart-down-sleeping-bag-650-fill-mummy-for-men-and-women-in-rusted-orange-mahogany~p~14gvf_01~160.jpg",
+      "PrimaryLarge": "https://wdd330-backend.onrender.com/images/sleepoutside/marmot-5-f-rampart-down-sleeping-bag-650-fill-mummy-for-men-and-women-in-rusted-orange-mahogany~p~14gvf_01~320.jpg",
+      "PrimaryExtraLarge": "https://wdd330-backend.onrender.com/images/sleepoutside/marmot-5-f-rampart-down-sleeping-bag-650-fill-mummy-for-men-and-women-in-rusted-orange-mahogany~p~14gvf_01~600.jpg",
+      "ExtraImages": [
+        {
+          "Title": "Alternate View",
+          "Src": "https://wdd330-backend.onrender.com/images/sleepoutside/marmot-5-f-rampart-down-sleeping-bag-650-fill-mummy-for-men-and-women~a~14gvf_2~600.1.jpg"
+        }
+      ]
+    },
+    "SizesAvailable": { "ZIPPER": ["L"] },
+    "Colors": [
+      {
+        "ColorCode": "01",
+        "ColorName": "Rusted Orange/Mahogany",
+        "ColorChipImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/colorchip/14gvf-01.jpg",
+        "ColorPreviewImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/marmot-5-f-rampart-down-sleeping-bag-650-fill-mummy-for-men-and-women-in-rusted-orange-mahogany~p~14gvf_01~160.jpg"
+      }
+    ],
+    "DescriptionHtmlSimple": "<strong><a class=\"glossaryTermLink\" href=\"/closeouts~g~2312\" title=\"Closeouts: - Closeouts are items that may be last year's model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.\">Closeouts</a></strong>. Sleep under the stars with Marmot&#39;s Rampart sleeping bag, fortified with 650 <a class=\"glossaryTermLink\" href=\"/fill-power~g~1840\" title=\"Fill Power: - The number of cubic inches one ounce of down insulation occupies; also, a measurement of the down’s loft (fluffiness). The higher the fill power, the warmer it is. Choose the type of fill and use the fill power as a guideline to how warm or lofty you like your bedding.  Lightweight warmth has a 500-550 fill power. 550-600 fill power offers medium warmth and 600+ fill power is very warm.\">fill power</a> down insulation for ultimate comfort and warmth.",
+    "SuggestedRetailPrice": 315,
+    "Brand": {
+      "Id": "1308",
+      "Url": "/brand/1308/",
+      "ProductsUrl": "/products?Brand=1308/",
+      "LogoSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/brands/marmot~b~1308~160x100.jpg",
+      "Name": "Marmot"
+    },
+    "ListPrice": 229.99,
+    "FinalPrice": 229.99
+  },
+  {
+    "Id": "21KMF",
+    "IsClearance": false,
+    "Category": "sleeping-bags",
+    "IsNew": false,
+    "Url": "/product/21kmf/",
+    "Reviews": {
+      "ReviewsUrl": "/api/1.0/reviewsbyproduct/21kmf/",
+      "ReviewCount": 0,
+      "AverageRating": 0
+    },
+    "NameWithoutBrand": "30°F Mavericks Double Wide Sleeping Bag - Square",
+    "Name": "Marmot 30°F Mavericks Double Wide Sleeping Bag - Square",
+    "Images": {
+      "PrimarySmall": "https://wdd330-backend.onrender.com/images/sleepoutside/marmot-30-f-mavericks-double-wide-sleeping-bag-square-in-golden-copper-dark-olive~p~21kmf_01~80.jpg",
+      "PrimaryMedium": "https://wdd330-backend.onrender.com/images/sleepoutside/marmot-30-f-mavericks-double-wide-sleeping-bag-square-in-golden-copper-dark-olive~p~21kmf_01~160.jpg",
+      "PrimaryLarge": "https://wdd330-backend.onrender.com/images/sleepoutside/marmot-30-f-mavericks-double-wide-sleeping-bag-square-in-golden-copper-dark-olive~p~21kmf_01~320.jpg",
+      "PrimaryExtraLarge": "https://wdd330-backend.onrender.com/images/sleepoutside/marmot-30-f-mavericks-double-wide-sleeping-bag-square-in-golden-copper-dark-olive~p~21kmf_01~600.jpg",
+      "ExtraImages": [
+        {
+          "Title": "Alternate View",
+          "Src": "https://wdd330-backend.onrender.com/images/sleepoutside/marmot-30-f-mavericks-double-wide-sleeping-bag-square~a~21kmf_2~600.1.jpg"
+        }
+      ]
+    },
+    "SizesAvailable": { "ZIPPER": ["LH"] },
+    "Colors": [
+      {
+        "ColorCode": "01",
+        "ColorName": "Golden Copper/Dark Olive",
+        "ColorChipImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/colorchip/21kmf-01.jpg",
+        "ColorPreviewImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/marmot-30-f-mavericks-double-wide-sleeping-bag-square-in-golden-copper-dark-olive~p~21kmf_01~160.jpg"
+      }
+    ],
+    "DescriptionHtmlSimple": "<strong><a class=\"glossaryTermLink\" href=\"/closeout~g~3281\" title=\"Closeout: - Closeout indicates an item may be last year's model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.\">Closeout</a></strong>. Designed to share with your special someone, this Marmot Mavericks double wide sleeping bag also zips apart to become two individual bags. Fortified with SpiraFil synthetic insulation for optimal warmth and comfort on chilly nights.",
+    "SuggestedRetailPrice": 212,
+    "Brand": {
+      "Id": "1308",
+      "Url": "/brand/1308/",
+      "ProductsUrl": "/products?Brand=1308/",
+      "LogoSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/brands/marmot~b~1308~160x100.jpg",
+      "Name": "Marmot"
+    },
+    "ListPrice": 149.99,
+    "FinalPrice": 149.99
+  },
+  {
+    "Id": "14GVH",
+    "IsClearance": false,
+    "Category": "sleeping-bags",
+    "IsNew": false,
+    "Url": "/product/14gvh/",
+    "Reviews": {
+      "ReviewsUrl": "/reviewsbyproduct/14gvh/",
+      "ReviewCount": 0,
+      "AverageRating": 0
+    },
+    "NameWithoutBrand": "20°F Kenosha Down Sleeping Bag - 650 Fill Power, Mummy (For Men and Women)",
+    "Name": "Marmot 20°F Kenosha Down Sleeping Bag - 650 Fill Power, Mummy (For Men and Women)",
+    "Images": {
+      "PrimarySmall": "https://wdd330-backend.onrender.com/images/sleepoutside/marmot-20-f-kenosha-down-sleeping-bag-650-fill-power-mummy-for-men-and-women-in-green-lichen-green-gulch~p~14gvh_01~80.jpg",
+      "PrimaryMedium": "https://wdd330-backend.onrender.com/images/sleepoutside/marmot-20-f-kenosha-down-sleeping-bag-650-fill-power-mummy-for-men-and-women-in-green-lichen-green-gulch~p~14gvh_01~160.jpg",
+      "PrimaryLarge": "https://wdd330-backend.onrender.com/images/sleepoutside/marmot-20-f-kenosha-down-sleeping-bag-650-fill-power-mummy-for-men-and-women-in-green-lichen-green-gulch~p~14gvh_01~320.jpg",
+      "PrimaryExtraLarge": "https://wdd330-backend.onrender.com/images/sleepoutside/marmot-20-f-kenosha-down-sleeping-bag-650-fill-power-mummy-for-men-and-women-in-green-lichen-green-gulch~p~14gvh_01~600.jpg",
+      "ExtraImages": [
+        {
+          "Title": "Alternate View",
+          "Src": "https://wdd330-backend.onrender.com/images/sleepoutside/marmot-20-f-kenosha-down-sleeping-bag-650-fill-power-mummy-for-men-and-women~a~14gvh_2~600.1.jpg"
+        }
+      ]
+    },
+    "SizesAvailable": { "ZIPPER": ["L"] },
+    "Colors": [
+      {
+        "ColorCode": "01",
+        "ColorName": "Green Lichen/Green Gulch",
+        "ColorChipImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/colorchip/14gvh-01.jpg",
+        "ColorPreviewImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/marmot-20-f-kenosha-down-sleeping-bag-650-fill-power-mummy-for-men-and-women-in-green-lichen-green-gulch~p~14gvh_01~160.jpg"
+      }
+    ],
+    "DescriptionHtmlSimple": "<strong><a class=\"glossaryTermLink\" href=\"/closeouts~g~2312\" title=\"Closeouts: - Closeouts are items that may be last year's model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.\">Closeouts</a></strong>. Sleep under the stars with Marmot&#39;s Kenosha sleeping bag, fortified with 650 <a class=\"glossaryTermLink\" href=\"/fill-power~g~1840\" title=\"Fill Power: - The number of cubic inches one ounce of down insulation occupies; also, a measurement of the down’s loft (fluffiness). The higher the fill power, the warmer it is. Choose the type of fill and use the fill power as a guideline to how warm or lofty you like your bedding.  Lightweight warmth has a 500-550 fill power. 550-600 fill power offers medium warmth and 600+ fill power is very warm.\">fill power</a> down insulation for ultimate comfort and warmth.",
+    "SuggestedRetailPrice": 260,
+    "Brand": {
+      "Id": "1308",
+      "Url": "/brand/1308/",
+      "ProductsUrl": "/products?Brand=1308/",
+      "LogoSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/brands/marmot~b~1308~160x100.jpg",
+      "Name": "Marmot"
+    },
+    "ListPrice": 189.99,
+    "FinalPrice": 189.99
+  },
+  {
+    "Id": "16PWY",
+    "IsClearance": false,
+    "Category": "sleeping-bags",
+    "IsNew": false,
+    "Url": "/product/16pwy/",
+    "Reviews": {
+      "ReviewsUrl": "/api/1.0/reviewsbyproduct/16pwy/",
+      "ReviewCount": 0,
+      "AverageRating": 0
+    },
+    "NameWithoutBrand": "Static V2 Sleeping Pad - Inflatable",
+    "Name": "Klymit Static V2 Sleeping Pad - Inflatable",
+    "Images": {
+      "PrimarySmall": "https://wdd330-backend.onrender.com/images/sleepoutside/klymit-static-v2-sleeping-pad-inflatable-in-green~p~16pwy_01~80.jpg",
+      "PrimaryMedium": "https://wdd330-backend.onrender.com/images/sleepoutside/klymit-static-v2-sleeping-pad-inflatable-in-green~p~16pwy_01~160.jpg",
+      "PrimaryLarge": "https://wdd330-backend.onrender.com/images/sleepoutside/klymit-static-v2-sleeping-pad-inflatable-in-green~p~16pwy_01~320.jpg",
+      "PrimaryExtraLarge": "https://wdd330-backend.onrender.com/images/sleepoutside/klymit-static-v2-sleeping-pad-inflatable-in-green~p~16pwy_01~600.jpg",
+      "ExtraImages": [
+        {
+          "Title": "Alternate View",
+          "Src": "https://wdd330-backend.onrender.com/images/sleepoutside/klymit-static-v2-sleeping-pad-inflatable~a~16pwy_2~600.1.jpg"
+        }
+      ]
+    },
+    "SizesAvailable": {},
+    "Colors": [
+      {
+        "ColorCode": "01",
+        "ColorName": "Green",
+        "ColorChipImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/colorchip/16pwy-01.jpg",
+        "ColorPreviewImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/klymit-static-v2-sleeping-pad-inflatable-in-green~p~16pwy_01~160.jpg"
+      }
+    ],
+    "DescriptionHtmlSimple": "<strong><a class=\"glossaryTermLink\" href=\"/closeout~g~3281\" title=\"Closeout: - Closeout indicates an item may be last year's model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.\">Closeout</a></strong>. Rest comfortably on the trail with Klymit&#39;s Static V2 sleeping pad, featuring a lightweight, compact design with ergonomic V-chambers that support your pressure points and maximize warmth.",
+    "SuggestedRetailPrice": 55,
+    "Brand": {
+      "Id": "4173",
+      "Url": "/brand/4173/",
+      "ProductsUrl": "/products/klymit?Brand=4173",
+      "LogoSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/brands/klymit~b~4173~160x100.jpg",
+      "Name": "Klymit"
+    },
+    "ListPrice": 39.99,
+    "FinalPrice": 39.99
+  },
+  {
+    "Id": "861PY",
+    "IsClearance": false,
+    "Category": "sleeping-bags",
+    "IsNew": false,
+    "Url": "/product/861py/",
+    "Reviews": {
+      "ReviewsUrl": "/reviewsbyproduct/861py/",
+      "ReviewCount": 0,
+      "AverageRating": 0
+    },
+    "NameWithoutBrand": "50°F Rambler Sleeping Bag - Semi-Rectangular (For Men and Women)",
+    "Name": "Kelty 50°F Rambler Sleeping Bag - Semi-Rectangular (For Men and Women)",
+    "Images": {
+      "PrimarySmall": "https://wdd330-backend.onrender.com/images/sleepoutside/kelty-50-f-rambler-sleeping-bag-semi-rectangular-for-men-and-women-in-red-sand~p~861py_04~80.jpg",
+      "PrimaryMedium": "https://wdd330-backend.onrender.com/images/sleepoutside/kelty-50-f-rambler-sleeping-bag-semi-rectangular-for-men-and-women-in-red-sand~p~861py_04~160.jpg",
+      "PrimaryLarge": "https://wdd330-backend.onrender.com/images/sleepoutside/kelty-50-f-rambler-sleeping-bag-semi-rectangular-for-men-and-women-in-red-sand~p~861py_04~320.jpg",
+      "PrimaryExtraLarge": "https://wdd330-backend.onrender.com/images/sleepoutside/kelty-50-f-rambler-sleeping-bag-semi-rectangular-for-men-and-women-in-red-sand~p~861py_04~600.jpg",
+      "ExtraImages": [
+        {
+          "Title": "Alternate View",
+          "Src": "https://wdd330-backend.onrender.com/images/sleepoutside/kelty-50-f-rambler-sleeping-bag-semi-rectangular-for-men-and-women~a~861py_2~600.3.jpg"
+        },
+        {
+          "Title": "Alternate View",
+          "Src": "https://wdd330-backend.onrender.com/images/sleepoutside/kelty-50-f-rambler-sleeping-bag-semi-rectangular-for-men-and-women~a~861py_3~600.3.jpg"
+        },
+        {
+          "Title": "Alternate View",
+          "Src": "https://wdd330-backend.onrender.com/images/sleepoutside/kelty-50-f-rambler-sleeping-bag-semi-rectangular-for-men-and-women~a~861py_4~600.2.jpg"
+        }
+      ]
+    },
+    "SizesAvailable": { "LENGTH": ["REG"], "ZIPPER": ["R"] },
+    "Colors": [
+      {
+        "ColorCode": "04",
+        "ColorName": "Red Sand",
+        "ColorChipImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/colorchip/861py-04.jpg",
+        "ColorPreviewImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/kelty-50-f-rambler-sleeping-bag-semi-rectangular-for-men-and-women-in-red-sand~p~861py_04~160.jpg"
+      },
+      {
+        "ColorCode": "02",
+        "ColorName": "Fire Orange",
+        "ColorChipImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/colorchip/861py-02.jpg",
+        "ColorPreviewImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/kelty-50-f-rambler-sleeping-bag-semi-rectangular-for-men-and-women-in-fire-orange~p~861py_02~160.jpg"
+      },
+      {
+        "ColorCode": "03",
+        "ColorName": "Green Apple",
+        "ColorChipImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/colorchip/861py-03.jpg",
+        "ColorPreviewImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/kelty-50-f-rambler-sleeping-bag-semi-rectangular-for-men-and-women-in-green-apple~p~861py_03~160.jpg"
+      },
+      {
+        "ColorCode": "01",
+        "ColorName": "Paradise Blue",
+        "ColorChipImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/colorchip/861py-01.jpg",
+        "ColorPreviewImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/kelty-50-f-rambler-sleeping-bag-semi-rectangular-for-men-and-women-in-paradise-blue~p~861py_01~160.jpg"
+      }
+    ],
+    "DescriptionHtmlSimple": "<strong><a class=\"glossaryTermLink\" href=\"/closeout~g~3281\" title=\"Closeout: - Closeout indicates an item may be last year's model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.\">Closeout</a></strong>. Kelty&#39;s 50&#176;F Rambler sleeping bag features a semi-rectangular design that keeps you comfortably warm (or cool) in mild temperatures.",
+    "SuggestedRetailPrice": 50,
+    "Brand": {
+      "Id": "1105",
+      "Url": "/brand/1105/",
+      "ProductsUrl": "/products?Brand=1105",
+      "LogoSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/brands/kelty~b~1105~160x100.jpg",
+      "Name": "Kelty"
+    },
+    "ListPrice": 34.99,
+    "FinalPrice": 34.99
+  },
+  {
+    "Id": "14GVG",
+    "IsClearance": false,
+    "Category": "sleeping-bags",
+    "IsNew": false,
+    "Url": "/product/14gvg/",
+    "Reviews": {
+      "ReviewsUrl": "/reviewsbyproduct/14gvg/",
+      "ReviewCount": 0,
+      "AverageRating": 0
+    },
+    "NameWithoutBrand": "20°F Sawatch Down Sleeping Bag - 650 Fill Power, Mummy (For Women)",
+    "Name": "Marmot 20°F Sawatch Down Sleeping Bag - 650 Fill Power, Mummy (For Women)",
+    "Images": {
+      "PrimarySmall": "https://wdd330-backend.onrender.com/images/sleepoutside/marmot-20-f-sawatch-down-sleeping-bag-650-fill-power-mummy-for-women-in-ocean-sea-scape~p~14gvg_01~80.jpg",
+      "PrimaryMedium": "https://wdd330-backend.onrender.com/images/sleepoutside/marmot-20-f-sawatch-down-sleeping-bag-650-fill-power-mummy-for-women-in-ocean-sea-scape~p~14gvg_01~160.jpg",
+      "PrimaryLarge": "https://wdd330-backend.onrender.com/images/sleepoutside/marmot-20-f-sawatch-down-sleeping-bag-650-fill-power-mummy-for-women-in-ocean-sea-scape~p~14gvg_01~320.jpg",
+      "PrimaryExtraLarge": "https://wdd330-backend.onrender.com/images/sleepoutside/marmot-20-f-sawatch-down-sleeping-bag-650-fill-power-mummy-for-women-in-ocean-sea-scape~p~14gvg_01~600.jpg",
+      "ExtraImages": [
+        {
+          "Title": "Alternate View",
+          "Src": "https://wdd330-backend.onrender.com/images/sleepoutside/marmot-20-f-sawatch-down-sleeping-bag-650-fill-power-mummy-for-women~a~14gvg_2~600.1.jpg"
+        }
+      ]
+    },
+    "SizesAvailable": { "ZIPPER": ["L"] },
+    "Colors": [
+      {
+        "ColorCode": "01",
+        "ColorName": "Ocean/Sea Scape",
+        "ColorChipImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/colorchip/14gvg-01.jpg",
+        "ColorPreviewImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/marmot-20-f-sawatch-down-sleeping-bag-650-fill-power-mummy-for-women-in-ocean-sea-scape~p~14gvg_01~160.jpg"
+      }
+    ],
+    "DescriptionHtmlSimple": "<strong><a class=\"glossaryTermLink\" href=\"/closeouts~g~2312\" title=\"Closeouts: - Closeouts are items that may be last year's model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.\">Closeouts</a></strong>. Sleep under the stars with Marmot&#39;s Sawatch sleeping bag, fortified with 650 <a class=\"glossaryTermLink\" href=\"/fill-power~g~1840\" title=\"Fill Power: - The number of cubic inches one ounce of down insulation occupies; also, a measurement of the down’s loft (fluffiness). The higher the fill power, the warmer it is. Choose the type of fill and use the fill power as a guideline to how warm or lofty you like your bedding.  Lightweight warmth has a 500-550 fill power. 550-600 fill power offers medium warmth and 600+ fill power is very warm.\">fill power</a> down insulation for ultimate comfort and warmth.",
+    "SuggestedRetailPrice": 260,
+    "Brand": {
+      "Id": "1308",
+      "Url": "/brand/1308/",
+      "ProductsUrl": "/products?Brand=1308/",
+      "LogoSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/brands/marmot~b~1308~160x100.jpg",
+      "Name": "Marmot"
+    },
+    "ListPrice": 189.99,
+    "FinalPrice": 189.99
+  },
+  {
+    "Id": "15KKP",
+    "IsClearance": false,
+    "Category": "sleeping-bags",
+    "IsNew": false,
+    "Url": "/product/15kkp/",
+    "Reviews": {
+      "ReviewsUrl": "/api/1.0/reviewsbyproduct/15kkp/",
+      "ReviewCount": 0,
+      "AverageRating": 0
+    },
+    "NameWithoutBrand": "40°F Cosmic DriDown® Sleeping Bag - 600 Fill Power, Mummy",
+    "Name": "Kelty 40°F Cosmic DriDown® Sleeping Bag - 600 Fill Power, Mummy",
+    "Images": {
+      "PrimarySmall": "https://wdd330-backend.onrender.com/images/sleepoutside/kelty-40-f-cosmic-dridown-sleeping-bag-600-fill-power-mummy-in-see-photo~p~15kkp_99~80.jpg",
+      "PrimaryMedium": "https://wdd330-backend.onrender.com/images/sleepoutside/kelty-40-f-cosmic-dridown-sleeping-bag-600-fill-power-mummy-in-see-photo~p~15kkp_99~160.jpg",
+      "PrimaryLarge": "https://wdd330-backend.onrender.com/images/sleepoutside/kelty-40-f-cosmic-dridown-sleeping-bag-600-fill-power-mummy-in-see-photo~p~15kkp_99~320.jpg",
+      "PrimaryExtraLarge": "https://wdd330-backend.onrender.com/images/sleepoutside/kelty-40-f-cosmic-dridown-sleeping-bag-600-fill-power-mummy-in-see-photo~p~15kkp_99~600.jpg",
+      "ExtraImages": [
+        {
+          "Title": "Alternate View",
+          "Src": "https://wdd330-backend.onrender.com/images/sleepoutside/kelty-40-f-cosmic-dridown-sleeping-bag-600-fill-power-mummy~a~15kkp_2~600.1.jpg"
+        }
+      ]
+    },
+    "SizesAvailable": { "ZIPPER": ["R"] },
+    "Colors": [
+      {
+        "ColorCode": "99",
+        "ColorName": "See Photo",
+        "ColorChipImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/colorchip/15kkp-99.jpg",
+        "ColorPreviewImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/kelty-40-f-cosmic-dridown-sleeping-bag-600-fill-power-mummy-in-see-photo~p~15kkp_99~160.jpg"
+      }
+    ],
+    "DescriptionHtmlSimple": "<strong><a class=\"glossaryTermLink\" href=\"/closeout~g~3281\" title=\"Closeout: - Closeout indicates an item may be last year's model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.\">Closeout</a></strong>. Snuggle up under the stars with Kelty&#39;s 40&#176;F Cosmic sleeping bag, made from nylon taffeta with a DWR finish, toasty 600 <a class=\"glossaryTermLink\" href=\"/fill-power~g~1840\" title=\"Fill Power: - The number of cubic inches one ounce of down insulation occupies; also, a measurement of the down’s loft (fluffiness). The higher the fill power, the warmer it is. Choose the type of fill and use the fill power as a guideline to how warm or lofty you like your bedding.  Lightweight warmth has a 500-550 fill power. 550-600 fill power offers medium warmth and 600+ fill power is very warm.\">fill power</a> DriDown&#174; insulation and a cozy <a class=\"glossaryTermLink\" href=\"/mummy~g~1946\" title=\"Mummy: - Mummy refers to the shape of sleeping bags designed to provide maximum warmth. Mummy-shaped bags taper from the head to the foot, reducing their volume and surface area, improving overall heat-retention properties. Mummy bags are typically more lightweight and take up less space than rectangular bags, which makes them ideal for backpacking.\">mummy</a> shape.",
+    "SuggestedRetailPrice": 140,
+    "Brand": {
+      "Id": "1105",
+      "Url": "/brand/1105/",
+      "ProductsUrl": "/products?Brand=1105",
+      "LogoSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/brands/kelty~b~1105~160x100.jpg",
+      "Name": "Kelty"
+    },
+    "ListPrice": 99.99,
+    "FinalPrice": 99.99
+  },
+  {
+    "Id": "832UC",
+    "IsClearance": false,
+    "Category": "sleeping-bags",
+    "IsNew": false,
+    "Url": "/product/832uc/",
+    "Reviews": {
+      "ReviewsUrl": "/api/1.0/reviewsbyproduct/832uc/",
+      "ReviewCount": 0,
+      "AverageRating": 0
+    },
+    "NameWithoutBrand": "Armored V Sleeping Pad - Inflatable",
+    "Name": "Klymit Armored V Sleeping Pad - Inflatable",
+    "Images": {
+      "PrimarySmall": "https://wdd330-backend.onrender.com/images/sleepoutside/klymit-armored-v-sleeping-pad-inflatable-in-lake-blue-black~p~832uc_01~80.jpg",
+      "PrimaryMedium": "https://wdd330-backend.onrender.com/images/sleepoutside/klymit-armored-v-sleeping-pad-inflatable-in-lake-blue-black~p~832uc_01~160.jpg",
+      "PrimaryLarge": "https://wdd330-backend.onrender.com/images/sleepoutside/klymit-armored-v-sleeping-pad-inflatable-in-lake-blue-black~p~832uc_01~320.jpg",
+      "PrimaryExtraLarge": "https://wdd330-backend.onrender.com/images/sleepoutside/klymit-armored-v-sleeping-pad-inflatable-in-lake-blue-black~p~832uc_01~600.jpg",
+      "ExtraImages": null
+    },
+    "SizesAvailable": {},
+    "Colors": [
+      {
+        "ColorCode": "01",
+        "ColorName": "Lake Blue/Black",
+        "ColorChipImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/colorchip/832uc-01.jpg",
+        "ColorPreviewImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/klymit-armored-v-sleeping-pad-inflatable-in-lake-blue-black~p~832uc_01~160.jpg"
+      }
+    ],
+    "DescriptionHtmlSimple": "<strong><a class=\"glossaryTermLink\" href=\"/closeout~g~3281\" title=\"Closeout: - Closeout indicates an item may be last year's model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.\">Closeout</a></strong>. The adventure-proof pad made for catching shut-eye anywhere, Klymit&#39;s Armored V sleeping pad combines generous comfort with unmatched durability for the most rugged expeditions. on your agenda",
+    "SuggestedRetailPrice": 180,
+    "Brand": {
+      "Id": "4173",
+      "Url": "/brand/4173/",
+      "ProductsUrl": "/products/klymit?Brand=4173",
+      "LogoSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/brands/klymit~b~4173~160x100.jpg",
+      "Name": "Klymit"
+    },
+    "ListPrice": 119.99,
+    "FinalPrice": 119.99
+  },
+  {
+    "Id": "14HDF",
+    "IsClearance": false,
+    "Category": "sleeping-bags",
+    "IsNew": false,
+    "Url": "/product/14hdf/",
+    "Reviews": {
+      "ReviewsUrl": "/api/1.0/reviewsbyproduct/14hdf/",
+      "ReviewCount": 0,
+      "AverageRating": 0
+    },
+    "NameWithoutBrand": "20° F Sorcerer Sleeping Bag - Mummy (For Women)",
+    "Name": "Marmot 20° F Sorcerer Sleeping Bag - Mummy (For Women)",
+    "Images": {
+      "PrimarySmall": "https://wdd330-backend.onrender.com/images/sleepoutside/marmot-20-f-sorcerer-sleeping-bag-mummy-for-women-in-patina-green~p~14hdf_01~80.jpg",
+      "PrimaryMedium": "https://wdd330-backend.onrender.com/images/sleepoutside/marmot-20-f-sorcerer-sleeping-bag-mummy-for-women-in-patina-green~p~14hdf_01~160.jpg",
+      "PrimaryLarge": "https://wdd330-backend.onrender.com/images/sleepoutside/marmot-20-f-sorcerer-sleeping-bag-mummy-for-women-in-patina-green~p~14hdf_01~320.jpg",
+      "PrimaryExtraLarge": "https://wdd330-backend.onrender.com/images/sleepoutside/marmot-20-f-sorcerer-sleeping-bag-mummy-for-women-in-patina-green~p~14hdf_01~600.jpg",
+      "ExtraImages": [
+        {
+          "Title": "Alternate View",
+          "Src": "https://wdd330-backend.onrender.com/images/sleepoutside/marmot-20-f-sorcerer-sleeping-bag-mummy-for-women~a~14hdf_2~600.1.jpg"
+        }
+      ]
+    },
+    "SizesAvailable": { "ZIPPER": ["L"] },
+    "Colors": [
+      {
+        "ColorCode": "01",
+        "ColorName": "Patina Green",
+        "ColorChipImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/colorchip/14hdf-01.jpg",
+        "ColorPreviewImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/marmot-20-f-sorcerer-sleeping-bag-mummy-for-women-in-patina-green~p~14hdf_01~160.jpg"
+      }
+    ],
+    "DescriptionHtmlSimple": "<strong><a class=\"glossaryTermLink\" href=\"/closeout~g~3281\" title=\"Closeout: - Closeout indicates an item may be last year's model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.\">Closeout</a></strong>. So lofty, you might just wonder if it&#39;s down. Marmot&#39;s 20&#176;F Sorcerer sleeping bag overlaps waves of cozy Thermaclime insulation to eliminate cold spots. And unlike down, the quality synthetic fill insulates and dries quickly when it gets wet.",
+    "SuggestedRetailPrice": 135,
+    "Brand": {
+      "Id": "1308",
+      "Url": "/brand/1308/",
+      "ProductsUrl": "/products?Brand=1308/",
+      "LogoSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/brands/marmot~b~1308~160x100.jpg",
+      "Name": "Marmot"
+    },
+    "ListPrice": 99.99,
+    "FinalPrice": 99.99
+  },
+  {
+    "Id": "640GX",
+    "IsClearance": false,
+    "Category": "sleeping-bags",
+    "IsNew": false,
+    "Url": "/product/640gx/",
+    "Reviews": {
+      "ReviewsUrl": "/reviewsbyproduct/640gx/",
+      "ReviewCount": 1,
+      "AverageRating": 5
+    },
+    "NameWithoutBrand": "SpeedValve NeoAir® Trekker SV Sleeping Pad - Inflatable, Rectangular",
+    "Name": "Therm-a-Rest SpeedValve NeoAir® Trekker SV Sleeping Pad - Inflatable, Rectangular",
+    "Images": {
+      "PrimarySmall": "https://wdd330-backend.onrender.com/images/sleepoutside/therm-a-rest-speedvalve-neoair-trekker-sv-sleeping-pad-inflatable-rectangular-in-green~p~640gx_01~80.jpg",
+      "PrimaryMedium": "https://wdd330-backend.onrender.com/images/sleepoutside/therm-a-rest-speedvalve-neoair-trekker-sv-sleeping-pad-inflatable-rectangular-in-green~p~640gx_01~160.jpg",
+      "PrimaryLarge": "https://wdd330-backend.onrender.com/images/sleepoutside/therm-a-rest-speedvalve-neoair-trekker-sv-sleeping-pad-inflatable-rectangular-in-green~p~640gx_01~320.jpg",
+      "PrimaryExtraLarge": "https://wdd330-backend.onrender.com/images/sleepoutside/therm-a-rest-speedvalve-neoair-trekker-sv-sleeping-pad-inflatable-rectangular-in-green~p~640gx_01~600.jpg",
+      "ExtraImages": null
+    },
+    "SizesAvailable": {},
+    "Colors": [
+      {
+        "ColorCode": "01",
+        "ColorName": "Green",
+        "ColorChipImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/colorchip/640gx-01.jpg",
+        "ColorPreviewImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/therm-a-rest-speedvalve-neoair-trekker-sv-sleeping-pad-inflatable-rectangular-in-green~p~640gx_01~160.jpg"
+      }
+    ],
+    "DescriptionHtmlSimple": "<strong><a class=\"glossaryTermLink\" href=\"/closeouts~g~2312\" title=\"Closeouts: - Closeouts are items that may be last year's model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.\">Closeouts</a></strong>. Exceptionally compact, lightweight and with ultra-fast inflation and deflation, the Therm-A-Rest SpeedValve Trekker SV sleeping pad is a cozy all-season camper with NeoAir&#174; construction for added warmth and stability.",
+    "SuggestedRetailPrice": 119.99,
+    "Brand": {
+      "Id": "3177",
+      "Url": "/brand/3177/",
+      "ProductsUrl": "/api/1.0/products/therm-a-rest~b~3177/",
+      "LogoSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/brands/therm-a-rest~b~3177~160x100.jpg",
+      "Name": "Therm-a-Rest"
+    },
+    "ListPrice": 79.99,
+    "FinalPrice": 79.99
+  },
+  {
+    "Id": "14HDH",
+    "IsClearance": false,
+    "Category": "sleeping-bags",
+    "IsNew": false,
+    "Url": "/product/14hdh/",
+    "Reviews": {
+      "ReviewsUrl": "/reviewsbyproduct/14hdh/",
+      "ReviewCount": 0,
+      "AverageRating": 0
+    },
+    "NameWithoutBrand": "20° F Sorcerer Sleeping Bag - Mummy (For Women)",
+    "Name": "Marmot 20° F Sorcerer Sleeping Bag - Mummy (For Women)",
+    "Images": {
+      "PrimarySmall": "https://wdd330-backend.onrender.com/images/sleepoutside/marmot-20-f-sorcerer-sleeping-bag-mummy-for-women-in-arctic-navy~p~14hdh_01~80.jpg",
+      "PrimaryMedium": "https://wdd330-backend.onrender.com/images/sleepoutside/marmot-20-f-sorcerer-sleeping-bag-mummy-for-women-in-arctic-navy~p~14hdh_01~160.jpg",
+      "PrimaryLarge": "https://wdd330-backend.onrender.com/images/sleepoutside/marmot-20-f-sorcerer-sleeping-bag-mummy-for-women-in-arctic-navy~p~14hdh_01~320.jpg",
+      "PrimaryExtraLarge": "https://wdd330-backend.onrender.com/images/sleepoutside/marmot-20-f-sorcerer-sleeping-bag-mummy-for-women-in-arctic-navy~p~14hdh_01~600.jpg",
+      "ExtraImages": [
+        {
+          "Title": "Alternate View",
+          "Src": "https://wdd330-backend.onrender.com/images/sleepoutside/marmot-20-f-sorcerer-sleeping-bag-mummy-for-women~a~14hdh_2~600.1.jpg"
+        }
+      ]
+    },
+    "SizesAvailable": { "ZIPPER": ["L"] },
+    "Colors": [
+      {
+        "ColorCode": "01",
+        "ColorName": "Arctic Navy",
+        "ColorChipImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/colorchip/14hdh-01.jpg",
+        "ColorPreviewImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/marmot-20-f-sorcerer-sleeping-bag-mummy-for-women-in-arctic-navy~p~14hdh_01~160.jpg"
+      }
+    ],
+    "DescriptionHtmlSimple": "<strong><a class=\"glossaryTermLink\" href=\"/closeout~g~3281\" title=\"Closeout: - Closeout indicates an item may be last year's model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.\">Closeout</a></strong>. So lofty, you might just wonder if it&#39;s down. Marmot&#39;s 20&#176;F Sorcerer sleeping bag overlaps waves of cozy Thermaclime insulation to eliminate cold spots. And unlike down, the quality synthetic fill insulates and dries quickly when it gets wet.",
+    "SuggestedRetailPrice": 135,
+    "Brand": {
+      "Id": "1308",
+      "Url": "/brand/1308/",
+      "ProductsUrl": "/products?Brand=1308/",
+      "LogoSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/brands/marmot~b~1308~160x100.jpg",
+      "Name": "Marmot"
+    },
+    "ListPrice": 99.99,
+    "FinalPrice": 99.99
+  },
+  {
+    "Id": "16PWV",
+    "IsClearance": false,
+    "Category": "sleeping-bags",
+    "IsNew": false,
+    "Url": "/product/16pwv/",
+    "Reviews": {
+      "ReviewsUrl": "/reviewsbyproduct/16pwv/",
+      "ReviewCount": 0,
+      "AverageRating": 0
+    },
+    "NameWithoutBrand": "Insulated Static V Sleeping Pad - Inflatable",
+    "Name": "Klymit Insulated Static V Sleeping Pad - Inflatable",
+    "Images": {
+      "PrimarySmall": "https://wdd330-backend.onrender.com/images/sleepoutside/klymit-insulated-static-v-sleeping-pad-inflatable-in-recon~p~16pwv_02~80.jpg",
+      "PrimaryMedium": "https://wdd330-backend.onrender.com/images/sleepoutside/klymit-insulated-static-v-sleeping-pad-inflatable-in-recon~p~16pwv_02~160.jpg",
+      "PrimaryLarge": "https://wdd330-backend.onrender.com/images/sleepoutside/klymit-insulated-static-v-sleeping-pad-inflatable-in-recon~p~16pwv_02~320.jpg",
+      "PrimaryExtraLarge": "https://wdd330-backend.onrender.com/images/sleepoutside/klymit-insulated-static-v-sleeping-pad-inflatable-in-recon~p~16pwv_02~600.jpg",
+      "ExtraImages": [
+        {
+          "Title": "Alternate View",
+          "Src": "https://wdd330-backend.onrender.com/images/sleepoutside/klymit-insulated-static-v-sleeping-pad-inflatable~a~16pwv_2~600.2.jpg"
+        }
+      ]
+    },
+    "SizesAvailable": {},
+    "Colors": [
+      {
+        "ColorCode": "02",
+        "ColorName": "Recon",
+        "ColorChipImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/colorchip/16pwv-02.jpg",
+        "ColorPreviewImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/klymit-insulated-static-v-sleeping-pad-inflatable-in-recon~p~16pwv_02~160.jpg"
+      }
+    ],
+    "DescriptionHtmlSimple": "<strong><a class=\"glossaryTermLink\" href=\"/closeout~g~3281\" title=\"Closeout: - Closeout indicates an item may be last year's model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.\">Closeout</a></strong>. Unwind under the stars any time of year with Klymit&#39;s Insulated Static V sleeping pad, made from durable materials with supportive raised V-chambers and 4.4 R-value warmth.",
+    "SuggestedRetailPrice": 85,
+    "Brand": {
+      "Id": "4173",
+      "Url": "/brand/4173/",
+      "ProductsUrl": "/products/klymit?Brand=4173",
+      "LogoSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/brands/klymit~b~4173~160x100.jpg",
+      "Name": "Klymit"
+    },
+    "ListPrice": 59.99,
+    "FinalPrice": 59.99
+  },
+  {
+    "Id": "20GCC",
+    "IsClearance": false,
+    "Category": "sleeping-bags",
+    "IsNew": true,
+    "Url": "/product/20gcc/",
+    "Reviews": {
+      "ReviewsUrl": "/reviewsbyproduct/20gcc/",
+      "ReviewCount": 0,
+      "AverageRating": 0
+    },
+    "NameWithoutBrand": "15°F Hyper Kazoo Down Sleeping Bag - 800 Fill Power",
+    "Name": "The North Face 15°F Hyper Kazoo Down Sleeping Bag - 800 Fill Power",
+    "Images": {
+      "PrimarySmall": "https://wdd330-backend.onrender.com/images/sleepoutside/the-north-face-15-f-hyper-kazoo-down-sleeping-bag-800-fill-power-in-tnf-black-saxony-blue~p~20gcc_01~80.jpg",
+      "PrimaryMedium": "https://wdd330-backend.onrender.com/images/sleepoutside/the-north-face-15-f-hyper-kazoo-down-sleeping-bag-800-fill-power-in-tnf-black-saxony-blue~p~20gcc_01~160.jpg",
+      "PrimaryLarge": "https://wdd330-backend.onrender.com/images/sleepoutside/the-north-face-15-f-hyper-kazoo-down-sleeping-bag-800-fill-power-in-tnf-black-saxony-blue~p~20gcc_01~320.jpg",
+      "PrimaryExtraLarge": "https://wdd330-backend.onrender.com/images/sleepoutside/the-north-face-15-f-hyper-kazoo-down-sleeping-bag-800-fill-power-in-tnf-black-saxony-blue~p~20gcc_01~600.jpg",
+      "ExtraImages": [
+        {
+          "Title": "Alternate View",
+          "Src": "https://wdd330-backend.onrender.com/images/sleepoutside/the-north-face-15-f-hyper-kazoo-down-sleeping-bag-800-fill-power~a~20gcc_2~600.1.jpg"
+        }
+      ]
+    },
+    "SizesAvailable": { "ZIPPER": ["RH"] },
+    "Colors": [
+      {
+        "ColorCode": "01",
+        "ColorName": "Tnf Black/Saxony Blue",
+        "ColorChipImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/colorchip/20gcc-01.jpg",
+        "ColorPreviewImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/the-north-face-15-f-hyper-kazoo-down-sleeping-bag-800-fill-power-in-tnf-black-saxony-blue~p~20gcc_01~160.jpg"
+      }
+    ],
+    "DescriptionHtmlSimple": "<strong><a class=\"glossaryTermLink\" href=\"/closeout~g~3281\" title=\"Closeout: - Closeout indicates an item may be last year's model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.\">Closeout</a></strong>. Snuggle up under the stars with The North Face&#39;s 15&#176;F Hyper Kazoo down sleeping bag. It features toasty 800 <a class=\"glossaryTermLink\" href=\"/fill-power~g~1840\" title=\"Fill Power: - The number of cubic inches one ounce of down insulation occupies; also, a measurement of the down’s loft (fluffiness). The higher the fill power, the warmer it is. Choose the type of fill and use the fill power as a guideline to how warm or lofty you like your bedding.  Lightweight warmth has a 500-550 fill power. 550-600 fill power offers medium warmth and 600+ fill power is very warm.\">fill power</a> ProDown goose down insulation with Thermobaffle technology to trap heat in the seamless baffles for unprecedented warmth.",
+    "SuggestedRetailPrice": 270,
+    "Brand": {
+      "Id": "1440",
+      "Url": "/brand/1440/",
+      "ProductsUrl": "/products?Brand=1440",
+      "LogoSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/brands/the-north-face~b~1440~160x100.jpg",
+      "Name": "The North Face"
+    },
+    "ListPrice": 229.99,
+    "FinalPrice": 229.99
+  },
+  {
+    "Id": "20GAW",
+    "IsClearance": false,
+    "Category": "sleeping-bags",
+    "IsNew": false,
+    "Url": "/product/20gaw/",
+    "Reviews": {
+      "ReviewsUrl": "/reviewsbyproduct/20gaw/",
+      "ReviewCount": 0,
+      "AverageRating": 0
+    },
+    "NameWithoutBrand": "20°F Campforter Long Down Sleeping Bag - 700 Fill Power, Mummy",
+    "Name": "The North Face 20°F Campforter Long Down Sleeping Bag - 700 Fill Power, Mummy",
+    "Images": {
+      "PrimarySmall": "https://wdd330-backend.onrender.com/images/sleepoutside/the-north-face-20-f-campforter-long-down-sleeping-bag-700-fill-power-mummy-in-blue-wing-teal-asphalt-grey~p~20gaw_01~80.jpg",
+      "PrimaryMedium": "https://wdd330-backend.onrender.com/images/sleepoutside/the-north-face-20-f-campforter-long-down-sleeping-bag-700-fill-power-mummy-in-blue-wing-teal-asphalt-grey~p~20gaw_01~160.jpg",
+      "PrimaryLarge": "https://wdd330-backend.onrender.com/images/sleepoutside/the-north-face-20-f-campforter-long-down-sleeping-bag-700-fill-power-mummy-in-blue-wing-teal-asphalt-grey~p~20gaw_01~320.jpg",
+      "PrimaryExtraLarge": "https://wdd330-backend.onrender.com/images/sleepoutside/the-north-face-20-f-campforter-long-down-sleeping-bag-700-fill-power-mummy-in-blue-wing-teal-asphalt-grey~p~20gaw_01~600.jpg",
+      "ExtraImages": [
+        {
+          "Title": "Alternate View",
+          "Src": "https://wdd330-backend.onrender.com/images/sleepoutside/the-north-face-20-f-campforter-long-down-sleeping-bag-700-fill-power-mummy~a~20gaw_2~600.1.jpg"
+        }
+      ]
+    },
+    "SizesAvailable": { "ZIPPER": ["LH/RH"] },
+    "Colors": [
+      {
+        "ColorCode": "01",
+        "ColorName": "Blue Wing Teal/Asphalt Grey",
+        "ColorChipImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/colorchip/20gaw-01.jpg",
+        "ColorPreviewImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/the-north-face-20-f-campforter-long-down-sleeping-bag-700-fill-power-mummy-in-blue-wing-teal-asphalt-grey~p~20gaw_01~160.jpg"
+      }
+    ],
+    "DescriptionHtmlSimple": "<strong><a class=\"glossaryTermLink\" href=\"/closeout~g~3281\" title=\"Closeout: - Closeout indicates an item may be last year's model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.\">Closeout</a></strong>. Snuggle up under the stars with The North Face&#39;s 20&#176;F Campforter long down sleeping bag. It features toasty 700 <a class=\"glossaryTermLink\" href=\"/fill-power~g~1840\" title=\"Fill Power: - The number of cubic inches one ounce of down insulation occupies; also, a measurement of the down’s loft (fluffiness). The higher the fill power, the warmer it is. Choose the type of fill and use the fill power as a guideline to how warm or lofty you like your bedding.  Lightweight warmth has a 500-550 fill power. 550-600 fill power offers medium warmth and 600+ fill power is very warm.\">fill power</a> ProDown goose down insulation, an anti-compression bottom filled with HeatSeeker&#174; Pro synthetic insulation and a wraparound zipper that offers easy venting and converts the bag into a quilt.",
+    "SuggestedRetailPrice": 190,
+    "Brand": {
+      "Id": "1440",
+      "Url": "/brand/1440/",
+      "ProductsUrl": "/products?Brand=1440",
+      "LogoSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/brands/the-north-face~b~1440~160x100.jpg",
+      "Name": "The North Face"
+    },
+    "ListPrice": 149.99,
+    "FinalPrice": 149.99
+  },
+  {
+    "Id": "19RKY",
+    "IsClearance": false,
+    "Category": "sleeping-bags",
+    "IsNew": false,
+    "Url": "/product/19rky/",
+    "Reviews": {
+      "ReviewsUrl": "/reviewsbyproduct/19rky/",
+      "ReviewCount": 0,
+      "AverageRating": 0
+    },
+    "NameWithoutBrand": "2-Person Air Bed with Pump",
+    "Name": "Sierra Designs 2-Person Air Bed with Pump",
+    "Images": {
+      "PrimarySmall": "https://wdd330-backend.onrender.com/images/sleepoutside/sierra-designs-2-person-air-bed-with-pump-in-blue~p~19rky_01~80.jpg",
+      "PrimaryMedium": "https://wdd330-backend.onrender.com/images/sleepoutside/sierra-designs-2-person-air-bed-with-pump-in-blue~p~19rky_01~160.jpg",
+      "PrimaryLarge": "https://wdd330-backend.onrender.com/images/sleepoutside/sierra-designs-2-person-air-bed-with-pump-in-blue~p~19rky_01~320.jpg",
+      "PrimaryExtraLarge": "https://wdd330-backend.onrender.com/images/sleepoutside/sierra-designs-2-person-air-bed-with-pump-in-blue~p~19rky_01~600.jpg",
+      "ExtraImages": null
+    },
+    "SizesAvailable": {},
+    "Colors": [
+      {
+        "ColorCode": "01",
+        "ColorName": "Blue",
+        "ColorChipImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/colorchip/19rky-01.jpg",
+        "ColorPreviewImageSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/sierra-designs-2-person-air-bed-with-pump-in-blue~p~19rky_01~160.jpg"
+      }
+    ],
+    "DescriptionHtmlSimple": "<strong><a class=\"glossaryTermLink\" href=\"/closeout~g~3281\" title=\"Closeout: - Closeout indicates an item may be last year's model or color. While closeout items are often offered at discounted prices, the products themselves are always high quality. Closeout items can include anything from shoes, underwear and apparel, to rugs, tents and outdoor equipment. Closeouts are often a high percentage off the retail price.\">Closeout</a></strong>. Nod off effortlessly in the tent on this Sierra Designs two-person air bed, with a flocked top for added comfort.",
+    "SuggestedRetailPrice": 35,
+    "Brand": {
+      "Id": "1915",
+      "Url": "/brand/1915/",
+      "ProductsUrl": "/products?Brand=1915",
+      "LogoSrc": "https://wdd330-backend.onrender.com/images/sleepoutside/brands/sierra-designs~b~1915~160x100.jpg",
+      "Name": "Sierra Designs"
+    },
+    "ListPrice": 24.99,
+    "FinalPrice": 24.99
+  }
+]
